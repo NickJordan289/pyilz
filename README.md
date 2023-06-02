@@ -13,6 +13,13 @@ This library **CAN** be used while you have the game running as it uses your loc
 
 *Currently only supports Windows as replicating the **[get_device_id](/pyilz/get_device_id.py)** implementation from the Unity game engine requires WMI.*
 
+# Installation
+
+Install using `pip`...
+
+    pip install pyilz
+
+
 # Requirements
 
 * Python 3.7+
@@ -34,12 +41,6 @@ At the time of writing this there is no way of generating application scoped acc
 
 ### Example of tokens in Chromium Local Storage
 ![access_tokens.png](/images/access_tokens.png)
-
-# Installation
-
-Install using `pip`...
-
-    pip install pyilz
 
 
 # Example
