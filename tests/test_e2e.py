@@ -3,7 +3,7 @@ from pyilz.parse_land import parse_land
 from pyilz.get_timers import get_timers
 
 # Get list of plots
-with open('example_game_state.json', 'r') as f:
+with open('./tests/example_game_state.json', 'r') as f:
     plots = json.load(f)['data']
 
 # Get Current, Automatic and Completed Actions
