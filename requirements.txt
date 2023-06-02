@@ -1,4 +1,4 @@
-xmltodict==0.13.0
-WMI==1.5.1
-requests==2.28.1
-pandas==1.5.2
+WMI
+xmltodict
+requests
+pandas
