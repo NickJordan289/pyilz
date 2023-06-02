@@ -1,15 +1,40 @@
-# pyilz
+# Pyilz - An Illuvium Zero Python library
 
 [![build-status-image]][build-status]
-[![coverage-status-image]][codecov]
 [![pypi-version]][pypi]
-
-**Illuvium Zero python library**
+[![coverage-status-image]][codecov]
 
 # Overview
+This package hopes to make automation and management of Illuvium Zero Land a little easier by allowing you to interact with the gamestate APIs.
+
+As the current Alpha version has no server-side authority the methods implemented only perform reads as to not break your gamestate.
+
+This library **CAN** be used while you have the game running as it uses your local machines **[device_id](/pyilz/get_device_id.py)**, without this your game client would log-out due to different devices running the same plot.
+
+*Currently only supports Windows as replicating the **[get_device_id](/pyilz/get_device_id.py)** implementation from the Unity game engine requires WMI.*
+
 # Requirements
 
 * Python 3.7+
+* Your Cognito access_token or refresh_token [*See below*](#acquiring-a-cognito-access_token)
+
+Tokens can either be passed into the [**get_game_state**](/pyilz/get_game_state.py) function or pulled from the environment variables if available.
+
+## Environment Variables
+```
+REFRESH_TOKEN=...
+ACCESS_TOKEN=...
+```
+
+### Acquiring your Cognito tokens
+---
+At the time of writing this there is no way of generating application scoped access tokens so the only way to authenticate against the gamestate APIs is by logging into https://play.illuvium.io/ and retrieving the tokens from local storage.
+
+**DO NOT** share your refresh_token or access_token, the refresh_token can generate new access_tokens for up to 30 days.
+
+### Example of tokens in Chromium Local Storage
+![access_tokens.png](/images/access_tokens.png)
+
 # Installation
 
 Install using `pip`...
