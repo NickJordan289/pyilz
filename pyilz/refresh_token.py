@@ -27,9 +27,9 @@ def refresh_token(ref_token=None):
             f'Failed to refresh token. {response.status_code} {response.text}')
 
     authentication_result = response.json()['AuthenticationResult']
-    access_token = authentication_result['AccessToken']
-    expires_in = authentication_result['ExpiresIn']
+    #access_token = authentication_result['AccessToken']
+    #expires_in = authentication_result['ExpiresIn']
     id_token = authentication_result['IdToken']
-    token_type = authentication_result['TokenType']
+    #token_type = authentication_result['TokenType']
 
     return id_token
