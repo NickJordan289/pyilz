@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyilz"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="Nick Jordan", email="nickjordan289@gmail.com" },
 ]
-description = "pyilz"
+description = "A Python Library for Illuvium Zero Land Management"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
