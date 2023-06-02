@@ -19,6 +19,4 @@ def get_game_state(api_key=None, device_id=None):
                                               'Bearer ' + API_KEY})
         os.environ['API_KEY'] = API_KEY
 
-    response_json = response.json()
-    plots = response_json['data']
-    return plots
+    return response.json()
