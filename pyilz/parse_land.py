@@ -67,9 +67,9 @@ def parse_land(data):
         aa['autoActivity.EndTime'] = pd.to_datetime(aa['autoActivity.EndTime'])
         # remove _{number} from autoActivity.Type and put into column autoActivity.Level
         aa['autoActivity.Level'] = buildings['buildingTypeString'].str.extract(
-            '(\d+)$', expand=False).fillna(0).astype(int)
+            r'(\d+)$', expand=False).fillna(0).astype(int)
         aa['autoActivity.Type'] = buildings['buildingTypeString'].str.extract(
-            '(.+?)\d+$', expand=False).str.rstrip('_') + '_AUTOMATIC'
+            r'(.+?)\d+$', expand=False).str.rstrip('_') + '_AUTOMATIC'
         # aa['autoActivity.GeneratedResources'] = buildings['fractionalGeneratedResources']
     else:
         aa = None
@@ -91,9 +91,9 @@ def parse_land(data):
             completed['completedActivity.EndTime'])
         # remove _{number} from completedActivity.Type and put into column completedActivity.Level
         completed['completedActivity.Level'] = buildings['buildingTypeString'].str.extract(
-            '(\d+)$', expand=False).fillna(0).astype(int)
+            r'(\d+)$', expand=False).fillna(0).astype(int)
         completed['completedActivity.Type'] = buildings['buildingTypeString'].str.extract(
-            '(.+?)\d+$', expand=False).str.rstrip('_') + '_AUTOMATIC'
+            r'(.+?)\d+$', expand=False).str.rstrip('_') + '_AUTOMATIC'
         # completed['completedActivity.GeneratedResources'] = buildings['fractionalGeneratedResources']
     else:
         completed = None
@@ -109,11 +109,11 @@ def parse_land(data):
             int)
 
     # create column that is the last number of the buildingTypeString
-    buildings['level'] = buildings['buildingTypeString'].str.extract('(\d+)$',
+    buildings['level'] = buildings['buildingTypeString'].str.extract(r'(\d+)$',
                                                                      expand=False)
 
     buildings['name'] = buildings['buildingTypeString'].str.extract(
-        '(.+?)\d+$', expand=False).str.rstrip('_')
+        r'(.+?)\d+$', expand=False).str.rstrip('_')
 
     # if name is nan set name to buildingTypeString
     buildings['name'] = buildings['name'].fillna(
