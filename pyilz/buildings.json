@@ -9,7 +9,7 @@
         {
           "level": 1,
           "time": "15s",
-          "image": "https://illuvihub.gg/images/buildings/nexus-1.webp",
+          "image": "nexus-1.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -26,7 +26,7 @@
         {
           "level": 2,
           "time": "10m",
-          "image": "https://illuvihub.gg/images/buildings/nexus-1.webp",
+          "image": "nexus-1.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -43,7 +43,7 @@
         {
           "level": 3,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/nexus-1.webp",
+          "image": "nexus-1.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -60,7 +60,7 @@
         {
           "level": 4,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/nexus-2.webp",
+          "image": "nexus-2.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -77,7 +77,7 @@
         {
           "level": 5,
           "time": "6h",
-          "image": "https://illuvihub.gg/images/buildings/nexus-2.webp",
+          "image": "nexus-2.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -98,7 +98,7 @@
         {
           "level": 6,
           "time": "12h",
-          "image": "https://illuvihub.gg/images/buildings/nexus-2.webp",
+          "image": "nexus-2.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -119,7 +119,7 @@
         {
           "level": 7,
           "time": "1d",
-          "image": "https://illuvihub.gg/images/buildings/nexus-3.webp",
+          "image": "nexus-3.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -140,7 +140,7 @@
         {
           "level": 8,
           "time": "2d",
-          "image": "https://illuvihub.gg/images/buildings/nexus-3.webp",
+          "image": "nexus-3.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -161,7 +161,7 @@
         {
           "level": 9,
           "time": "5d",
-          "image": "https://illuvihub.gg/images/buildings/nexus-3.webp",
+          "image": "nexus-3.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -184,14 +184,13 @@
     {
       "name": "Engineering Workshop",
       "nameId": "engineeringworkshop",
-
       "category": "Basics",
       "description": "Provides the infrastructure of construct basic structure types.",
       "details": [
         {
           "level": 1,
           "time": "30s",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-1.webp",
+          "image": "engineering-workshop-1.webp",
           "requires": "Nexus 1",
           "activities": {},
           "cost": [
@@ -208,7 +207,7 @@
         {
           "level": 2,
           "time": "5m",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-1.webp",
+          "image": "engineering-workshop-1.webp",
           "requires": "Nexus 2",
           "activities": {},
           "cost": [
@@ -225,7 +224,7 @@
         {
           "level": 3,
           "time": "30min",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-1.webp",
+          "image": "engineering-workshop-1.webp",
           "requires": "Nexus 3",
           "activities": {},
           "cost": [
@@ -242,7 +241,7 @@
         {
           "level": 4,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-2.webp",
+          "image": "engineering-workshop-2.webp",
           "requires": "Nexus 4",
           "activities": {},
           "cost": [
@@ -259,7 +258,7 @@
         {
           "level": 5,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-2.webp",
+          "image": "engineering-workshop-2.webp",
           "requires": "Nexus 5",
           "activities": {},
           "cost": [
@@ -280,7 +279,7 @@
         {
           "level": 6,
           "time": "6h",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-2.webp",
+          "image": "engineering-workshop-2.webp",
           "requires": "Nexus 6",
           "activities": {},
           "cost": [
@@ -301,7 +300,7 @@
         {
           "level": 7,
           "time": "12h",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-3.webp",
+          "image": "engineering-workshop-3.webp",
           "requires": "Nexus 7",
           "activities": {},
           "cost": [
@@ -322,7 +321,7 @@
         {
           "level": 8,
           "time": "1d",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-3.webp",
+          "image": "engineering-workshop-3.webp",
           "requires": "Nexus 8",
           "activities": {},
           "cost": [
@@ -343,7 +342,7 @@
         {
           "level": 9,
           "time": "2d",
-          "image": "https://illuvihub.gg/images/buildings/engineering-workshop-3.webp",
+          "image": "engineering-workshop-3.webp",
           "requires": "Nexus 9",
           "activities": {},
           "cost": [
@@ -366,14 +365,13 @@
     {
       "name": "Quantum Fabricant",
       "nameId": "quantumfabricant",
-
       "category": "Basics",
       "description": "Provides the infrastructure required to construct advanced science and resource related structures.",
       "details": [
         {
           "level": 1,
           "time": "45m",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-1.webp",
+          "image": "quantum-fabricant-1.webp",
           "requires": "Engineering Workshop 4",
           "activities": {},
           "cost": [
@@ -386,7 +384,7 @@
         {
           "level": 2,
           "time": "2.5h",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-1.webp",
+          "image": "quantum-fabricant-1.webp",
           "requires": "Engineering Workshop 4",
           "activities": {},
           "cost": [
@@ -399,7 +397,7 @@
         {
           "level": 3,
           "time": "5h",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-2.webp",
+          "image": "quantum-fabricant-2.webp",
           "requires": "Engineering Workshop 4",
           "activities": {},
           "cost": [
@@ -420,7 +418,7 @@
         {
           "level": 4,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-2.webp",
+          "image": "quantum-fabricant-2.webp",
           "requires": "Engineering Workshop 4",
           "activities": {},
           "cost": [
@@ -441,7 +439,7 @@
         {
           "level": 5,
           "time": "20h",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-3.webp",
+          "image": "quantum-fabricant-3.webp",
           "requires": "Engineering Workshop 5",
           "activities": {},
           "cost": [
@@ -462,7 +460,7 @@
         {
           "level": 6,
           "time": "1.5d",
-          "image": "https://illuvihub.gg/images/buildings/quantum-fabricant-3.webp",
+          "image": "quantum-fabricant-3.webp",
           "requires": "Engineering Workshop 6",
           "activities": {},
           "cost": [
@@ -485,14 +483,13 @@
     {
       "name": "Power Station",
       "nameId": "powerstation",
-
       "category": "Basics",
       "description": "Provides power to structures to ensure they operate with increased efficiency.",
       "details": [
         {
           "level": 1,
           "time": "10m",
-          "image": "https://illuvihub.gg/images/buildings/power-station-1.webp",
+          "image": "power-station-1.webp",
           "requires": null,
           "activities": {},
           "cost": [
@@ -511,15 +508,22 @@
     {
       "name": "Sediment Excavator",
       "nameId": "sedimentexcavator",
-
       "category": "Extractors",
       "description": "Excavates sediment from Outcrops and mechanically separates it into pure Carbon.",
       "details": [
         {
           "level": 1,
           "time": "1m",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-1.webp",
+          "image": "sediment-excavator-1.webp",
           "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "333",
+              "time": "1m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -530,8 +534,16 @@
         {
           "level": 2,
           "time": "5m",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-1.webp",
+          "image": "sediment-excavator-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "2000",
+              "time": "5m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -542,8 +554,16 @@
         {
           "level": 3,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-1.webp",
+          "image": "sediment-excavator-1.webp",
           "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "6333",
+              "time": "12m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -554,8 +574,16 @@
         {
           "level": 4,
           "time": "45m",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-2.webp",
+          "image": "sediment-excavator-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "18667",
+              "time": "30m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -570,8 +598,16 @@
         {
           "level": 5,
           "time": "1.5h",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-2.webp",
+          "image": "sediment-excavator-2.webp",
           "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "45333",
+              "time": "1h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -590,8 +626,16 @@
         {
           "level": 6,
           "time": "3h",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-2.webp",
+          "image": "sediment-excavator-2.webp",
           "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "160000",
+              "time": "3h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -610,8 +654,16 @@
         {
           "level": 7,
           "time": "5h",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-3.webp",
+          "image": "sediment-excavator-3.webp",
           "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "346667",
+              "time": "6h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -630,7 +682,7 @@
         {
           "level": 8,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-3.webp",
+          "image": "sediment-excavator-3.webp",
           "requires": "Engineering Workshop 8",
           "cost": [
             {
@@ -650,7 +702,7 @@
         {
           "level": 9,
           "time": "20h",
-          "image": "https://illuvihub.gg/images/buildings/sediment-excavator-3.webp",
+          "image": "sediment-excavator-3.webp",
           "requires": "Engineering Workshop 9",
           "cost": [
             {
@@ -672,15 +724,22 @@
     {
       "name": "Mine",
       "nameId": "mine",
-
       "category": "Extractors",
       "description": "Extracts crystals from a Crystal Deposit and smelts them into pure Silicon.",
       "details": [
         {
           "level": 1,
           "time": "1m",
-          "image": "https://illuvihub.gg/images/buildings/mine-1.webp",
+          "image": "mine-1.webp",
           "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "333",
+              "time": "1m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -691,8 +750,16 @@
         {
           "level": 2,
           "time": "5m",
-          "image": "https://illuvihub.gg/images/buildings/mine-1.webp",
+          "image": "mine-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "2000",
+              "time": "5m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -703,8 +770,16 @@
         {
           "level": 3,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/mine-1.webp",
+          "image": "mine-1.webp",
           "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "6333",
+              "time": "12m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -715,8 +790,16 @@
         {
           "level": 4,
           "time": "45m",
-          "image": "https://illuvihub.gg/images/buildings/mine-2.webp",
+          "image": "mine-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "18667",
+              "time": "30m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -731,7 +814,7 @@
         {
           "level": 5,
           "time": "1.5h",
-          "image": "https://illuvihub.gg/images/buildings/mine-2.webp",
+          "image": "mine-2.webp",
           "requires": "Engineering Workshop 5",
           "activities": {
             "active": {
@@ -759,7 +842,7 @@
         {
           "level": 6,
           "time": "3h",
-          "image": "https://illuvihub.gg/images/buildings/mine-2.webp",
+          "image": "mine-2.webp",
           "requires": "Engineering Workshop 6",
           "activities": {
             "active": {
@@ -787,7 +870,7 @@
         {
           "level": 7,
           "time": "5h",
-          "image": "https://illuvihub.gg/images/buildings/mine-3.webp",
+          "image": "mine-3.webp",
           "requires": "Engineering Workshop 7",
           "activities": {
             "active": {
@@ -815,7 +898,7 @@
         {
           "level": 8,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/mine-3.webp",
+          "image": "mine-3.webp",
           "requires": "Engineering Workshop 8",
           "cost": [
             {
@@ -835,7 +918,7 @@
         {
           "level": 9,
           "time": "20h",
-          "image": "https://illuvihub.gg/images/buildings/mine-3.webp",
+          "image": "mine-3.webp",
           "requires": "Engineering Workshop 9",
           "cost": [
             {
@@ -857,15 +940,22 @@
     {
       "name": "Hydrogen Pump",
       "nameId": "hydrogenpump",
-
       "category": "Extractors",
       "description": "Pumps water from Lakes and converts it to liquid Hydrogen.",
       "details": [
         {
           "level": 1,
           "time": "1m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-1.webp",
+          "image": "hydrogen-pump-1.webp",
           "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "333",
+              "time": "1m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -876,8 +966,16 @@
         {
           "level": 2,
           "time": "5m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-1.webp",
+          "image": "hydrogen-pump-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "2000",
+              "time": "5m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -888,8 +986,16 @@
         {
           "level": 3,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-1.webp",
+          "image": "hydrogen-pump-1.webp",
           "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "6333",
+              "time": "12m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -900,8 +1006,16 @@
         {
           "level": 4,
           "time": "45m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-2.webp",
+          "image": "hydrogen-pump-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "18667",
+              "time": "30m"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -916,8 +1030,16 @@
         {
           "level": 5,
           "time": "1.5h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-2.webp",
+          "image": "hydrogen-pump-2.webp",
           "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "45333",
+              "time": "1h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -936,8 +1058,16 @@
         {
           "level": 6,
           "time": "3h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-2.webp",
+          "image": "hydrogen-pump-2.webp",
           "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "160000",
+              "time": "3h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -956,8 +1086,16 @@
         {
           "level": 7,
           "time": "5h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-3.webp",
+          "image": "hydrogen-pump-3.webp",
           "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "346667",
+              "time": "6h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -976,7 +1114,7 @@
         {
           "level": 8,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-3.webp",
+          "image": "hydrogen-pump-3.webp",
           "requires": "Engineering Workshop 8",
           "cost": [
             {
@@ -996,7 +1134,7 @@
         {
           "level": 9,
           "time": "20h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-pump-3.webp",
+          "image": "hydrogen-pump-3.webp",
           "requires": "Engineering Workshop 9",
           "cost": [
             {
@@ -1018,15 +1156,22 @@
     {
       "name": "Crypton Gate",
       "nameId": "cryptongate",
-
       "category": "Extractors",
       "description": "Intercepts spontaneous vacuum fluctuations in Crypton Rifts to capture Cryptons.",
       "details": [
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-1.webp",
+          "image": "crypton-gate-1.webp",
           "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "1",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1041,8 +1186,16 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-1.webp",
+          "image": "crypton-gate-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "3",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1061,8 +1214,16 @@
         {
           "level": 3,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-2.webp",
+          "image": "crypton-gate-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "4",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1081,8 +1242,16 @@
         {
           "level": 4,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-2.webp",
+          "image": "crypton-gate-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "5",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1101,8 +1270,16 @@
         {
           "level": 5,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-3.webp",
+          "image": "crypton-gate-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "7",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1121,8 +1298,16 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/crypton-gate-3.webp",
+          "image": "crypton-gate-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "8",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1143,15 +1328,22 @@
     {
       "name": "Hyperion Extractor",
       "nameId": "hyperionextractor",
-
       "category": "Extractors",
       "description": "Stimulates the permeability of Hyperion Reservoirs to draw out Hyperions.",
       "details": [
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-1.webp",
+          "image": "hyperion-extractor-1.webp",
           "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "1",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1166,8 +1358,16 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-1.webp",
+          "image": "hyperion-extractor-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "3",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1186,8 +1386,16 @@
         {
           "level": 3,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-2.webp",
+          "image": "hyperion-extractor-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "4",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1206,8 +1414,16 @@
         {
           "level": 4,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-2.webp",
+          "image": "hyperion-extractor-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "5",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1226,8 +1442,16 @@
         {
           "level": 5,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-3.webp",
+          "image": "hyperion-extractor-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "7",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1246,8 +1470,16 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-extractor-3.webp",
+          "image": "hyperion-extractor-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "8",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1268,15 +1500,22 @@
     {
       "name": "Solon Dredge",
       "nameId": "solondredge",
-
       "category": "Extractors",
       "description": "Uses high-energy radiation to excite Solon Trenches into releasing pure Solons.",
       "details": [
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-1.webp",
+          "image": "solon-dredge-1.webp",
           "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "1",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1291,8 +1530,16 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-1.webp",
+          "image": "solon-dredge-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "3",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1311,8 +1558,16 @@
         {
           "level": 3,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-2.webp",
+          "image": "solon-dredge-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "4",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1331,8 +1586,16 @@
         {
           "level": 4,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-2.webp",
+          "image": "solon-dredge-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "5",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1351,8 +1614,16 @@
         {
           "level": 5,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-3.webp",
+          "image": "solon-dredge-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "7",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1371,8 +1642,16 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/solon-dredge-3.webp",
+          "image": "solon-dredge-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "8",
+              "time": "24h"
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1393,15 +1672,27 @@
     {
       "name": "Sequestrian Plant",
       "nameId": "sequestrianplant",
-
       "category": "Converters",
       "description": "Passively converts CO2 in the atmosphere to Carbon and converts other Elements in to Carbon.",
       "details": [
         {
           "level": 1,
           "time": "1.5m",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-1.webp",
+          "image": "sequestrian-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "200",
+              "storage": "400"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1412,8 +1703,21 @@
         {
           "level": 2,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-1.webp",
+          "image": "sequestrian-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "2000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "240",
+              "storage": "2400"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1424,7 +1728,7 @@
         {
           "level": 3,
           "time": "30m",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-1.webp",
+          "image": "sequestrian-plant-1.webp",
           "requires": "Engineering Workshop 3",
           "activities": {
             "active": {
@@ -1449,8 +1753,21 @@
         {
           "level": 4,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-2.webp",
+          "image": "sequestrian-plant-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "18666"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "373",
+              "storage": "7467"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1461,7 +1778,7 @@
         {
           "level": 5,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-2.webp",
+          "image": "sequestrian-plant-2.webp",
           "requires": "Engineering Workshop 5",
           "activities": {
             "active": {
@@ -1490,8 +1807,21 @@
         {
           "level": 6,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-2.webp",
+          "image": "sequestrian-plant-2.webp",
           "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "93333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "533",
+              "storage": "64000"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1510,8 +1840,21 @@
         {
           "level": 7,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-3.webp",
+          "image": "sequestrian-plant-3.webp",
           "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "285000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "580",
+              "storage": "139200"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1530,8 +1873,21 @@
         {
           "level": 8,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-3.webp",
+          "image": "sequestrian-plant-3.webp",
           "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1066667"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "713",
+              "storage": "428000"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1550,8 +1906,21 @@
         {
           "level": 9,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/sequestrian-plant-3.webp",
+          "image": "sequestrian-plant-3.webp",
           "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "2000000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "833",
+              "storage": "800000"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -1572,15 +1941,15 @@
     {
       "name": "Photodisintegration Plant",
       "nameId": "photodisintegrationplant",
-
       "category": "Converters",
       "description": "Passively converts oxygen in the atmosphere to Silicon and converts other Elements into Silicon.",
       "details": [
         {
           "level": 1,
           "time": "1.5m",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-1.webp",
+          "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          
           "cost": [
             {
               "resource": "hydrogen",
@@ -1591,7 +1960,7 @@
         {
           "level": 2,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-1.webp",
+          "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 2",
           "cost": [
             {
@@ -1603,7 +1972,7 @@
         {
           "level": 3,
           "time": "30m",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-1.webp",
+          "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 3",
           "cost": [
             {
@@ -1615,7 +1984,7 @@
         {
           "level": 4,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-2.webp",
+          "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 4",
           "cost": [
             {
@@ -1627,7 +1996,7 @@
         {
           "level": 5,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-2.webp",
+          "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 5",
           "cost": [
             {
@@ -1643,7 +2012,7 @@
         {
           "level": 6,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-2.webp",
+          "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 6",
           "cost": [
             {
@@ -1663,7 +2032,7 @@
         {
           "level": 7,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-3.webp",
+          "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 7",
           "cost": [
             {
@@ -1683,7 +2052,7 @@
         {
           "level": 8,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-3.webp",
+          "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 8",
           "cost": [
             {
@@ -1703,7 +2072,7 @@
         {
           "level": 9,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/photodisintegration-plant-3.webp",
+          "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 9",
           "cost": [
             {
@@ -1732,7 +2101,7 @@
         {
           "level": 1,
           "time": "1.5m",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-1.webp",
+          "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 2",
           "cost": [
             {
@@ -1744,7 +2113,7 @@
         {
           "level": 2,
           "time": "15m",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-1.webp",
+          "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 2",
           "cost": [
             {
@@ -1756,7 +2125,7 @@
         {
           "level": 3,
           "time": "30m",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-1.webp",
+          "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 3",
           "cost": [
             {
@@ -1768,7 +2137,7 @@
         {
           "level": 4,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-2.webp",
+          "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 4",
           "cost": [
             {
@@ -1780,7 +2149,7 @@
         {
           "level": 5,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-2.webp",
+          "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 5",
           "cost": [
             {
@@ -1796,7 +2165,7 @@
         {
           "level": 6,
           "time": "3.5h",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-2.webp",
+          "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 6",
           "cost": [
             {
@@ -1816,7 +2185,7 @@
         {
           "level": 7,
           "time": "7h",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-3.webp",
+          "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 7",
           "cost": [
             {
@@ -1836,7 +2205,7 @@
         {
           "level": 8,
           "time": "14h",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-3.webp",
+          "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 8",
           "cost": [
             {
@@ -1856,7 +2225,7 @@
         {
           "level": 9,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/condenser-plant-3.webp",
+          "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 9",
           "cost": [
             {
@@ -1885,7 +2254,7 @@
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-1.webp",
+          "image": "l-crypton-collider-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -1901,7 +2270,7 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-1.webp",
+          "image": "l-crypton-collider-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -1921,7 +2290,7 @@
         {
           "level": 3,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-2.webp",
+          "image": "l-crypton-collider-2.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -1941,7 +2310,7 @@
         {
           "level": 4,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-2.webp",
+          "image": "l-crypton-collider-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -1961,7 +2330,7 @@
         {
           "level": 5,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-3.webp",
+          "image": "l-crypton-collider-3.webp",
           "requires": "Quantum Fabricant 5",
           "cost": [
             {
@@ -1981,7 +2350,7 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/l-crypton-collider-3.webp",
+          "image": "l-crypton-collider-3.webp",
           "requires": "Quantum Fabricant 6",
           "cost": [
             {
@@ -2010,7 +2379,7 @@
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-1.webp",
+          "image": "hyperion-lathe-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -2026,7 +2395,7 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-1.webp",
+          "image": "hyperion-lathe-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -2046,7 +2415,7 @@
         {
           "level": 3,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-2.webp",
+          "image": "hyperion-lathe-2.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -2066,7 +2435,7 @@
         {
           "level": 4,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-2.webp",
+          "image": "hyperion-lathe-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -2086,7 +2455,7 @@
         {
           "level": 5,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-3.webp",
+          "image": "hyperion-lathe-3.webp",
           "requires": "Quantum Fabricant 5",
           "cost": [
             {
@@ -2106,7 +2475,7 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-lathe-3.webp",
+          "image": "hyperion-lathe-3.webp",
           "requires": "Quantum Fabricant 6",
           "cost": [
             {
@@ -2128,14 +2497,13 @@
     {
       "name": "Anti-Solon Inverter",
       "nameId": "antisoloninverter",
-
       "category": "Converters",
       "description": "Passively converts trace Ethereum in the material plane to Solons and converts other resources to Solon.",
       "details": [
         {
           "level": 1,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-1.webp",
+          "image": "anti-solon-inverter-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -2151,7 +2519,7 @@
         {
           "level": 2,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-1.webp",
+          "image": "anti-solon-inverter-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -2171,7 +2539,7 @@
         {
           "level": 3,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-2.webp",
+          "image": "anti-solon-inverter-2.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -2191,7 +2559,7 @@
         {
           "level": 4,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-2.webp",
+          "image": "anti-solon-inverter-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -2211,7 +2579,7 @@
         {
           "level": 5,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-3.webp",
+          "image": "anti-solon-inverter-3.webp",
           "requires": "Quantum Fabricant 5",
           "cost": [
             {
@@ -2231,7 +2599,7 @@
         {
           "level": 6,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/anti-solon-inverter-3.webp",
+          "image": "anti-solon-inverter-3.webp",
           "requires": "Quantum Fabricant 6",
           "cost": [
             {
@@ -2253,16 +2621,18 @@
     {
       "name": "Carbon Matter Silo",
       "nameId": "carbonmattersilo",
-
       "category": "Storage",
       "description": "Stores aggregated Carbon nanorods for later use.",
       "details": [
         {
           "level": 1,
           "time": "15s",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-1.webp",
+          "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2273,9 +2643,12 @@
         {
           "level": 2,
           "time": "2m",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-1.webp",
+          "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2286,9 +2659,12 @@
         {
           "level": 3,
           "time": "10m",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-1.webp",
+          "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2299,8 +2675,12 @@
         {
           "level": 4,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-2.webp",
+          "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2311,9 +2691,12 @@
         {
           "level": 5,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-2.webp",
+          "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2324,9 +2707,12 @@
         {
           "level": 6,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-2.webp",
+          "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2345,9 +2731,12 @@
         {
           "level": 7,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-3.webp",
+          "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2366,9 +2755,12 @@
         {
           "level": 8,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-3.webp",
+          "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2387,9 +2779,12 @@
         {
           "level": 9,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/carbon-matter-silo-3.webp",
+          "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2410,16 +2805,18 @@
     {
       "name": "Silicon Matter Silo",
       "nameId": "siliconmattersilo",
-
       "category": "Storage",
       "description": "Stores pure metallic Silicon for later use.",
       "details": [
         {
           "level": 1,
           "time": "15s",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-1.webp",
+          "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2430,9 +2827,12 @@
         {
           "level": 2,
           "time": "2m",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-1.webp",
+          "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2443,9 +2843,12 @@
         {
           "level": 3,
           "time": "10m",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-1.webp",
+          "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2456,9 +2859,12 @@
         {
           "level": 4,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-2.webp",
+          "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2469,9 +2875,12 @@
         {
           "level": 5,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-2.webp",
+          "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2482,9 +2891,12 @@
         {
           "level": 6,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-2.webp",
+          "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2503,9 +2915,12 @@
         {
           "level": 7,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-3.webp",
+          "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2524,9 +2939,12 @@
         {
           "level": 8,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-3.webp",
+          "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2545,9 +2963,12 @@
         {
           "level": 9,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/silicon-matter-silo-3.webp",
+          "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2568,16 +2989,18 @@
     {
       "name": "Hydrogen Matter Silo",
       "nameId": "hydrogenmattersilo",
-
       "category": "Storage",
       "description": "Safely stores liquid Hydrogen for later use.",
       "details": [
         {
           "level": 1,
           "time": "15s",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-1.webp",
+          "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2588,9 +3011,12 @@
         {
           "level": 2,
           "time": "2m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-1.webp",
+          "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2601,9 +3027,12 @@
         {
           "level": 3,
           "time": "10m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-1.webp",
+          "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2614,9 +3043,12 @@
         {
           "level": 4,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-2.webp",
+          "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2627,9 +3059,12 @@
         {
           "level": 5,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-2.webp",
+          "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2640,9 +3075,12 @@
         {
           "level": 6,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-2.webp",
+          "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2661,9 +3099,12 @@
         {
           "level": 7,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-3.webp",
+          "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2682,9 +3123,12 @@
         {
           "level": 8,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-3.webp",
+          "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2703,9 +3147,12 @@
         {
           "level": 9,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/hydrogen-matter-silo-3.webp",
+          "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2726,16 +3173,18 @@
     {
       "name": "Crypton Containment Unit",
       "nameId": "cryptoncontainmentunit",
-
       "category": "Storage",
       "description": "Stores stable Cryptons for later use.",
       "details": [
         {
           "level": 1,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-1.webp",
+          "image": "crypton-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2750,9 +3199,12 @@
         {
           "level": 2,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-1.webp",
+          "image": "crypton-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2767,9 +3219,12 @@
         {
           "level": 3,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-2.webp",
+          "image": "crypton-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2788,9 +3243,12 @@
         {
           "level": 4,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-2.webp",
+          "image": "crypton-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2809,9 +3267,12 @@
         {
           "level": 5,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-3.webp",
+          "image": "crypton-containment-unit-3.webp",
           "requires": "Quantum Fabricant 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2830,9 +3291,12 @@
         {
           "level": 6,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/crypton-containment-unit-3.webp",
+          "image": "crypton-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2853,16 +3317,18 @@
     {
       "name": "Hyperion Containment Unit",
       "nameId": "hyperioncontainmentunit",
-
       "category": "Storage",
       "description": "Stores stable Hyperions for later use.",
       "details": [
         {
           "level": 1,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-1.webp",
+          "image": "hyperion-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2877,9 +3343,12 @@
         {
           "level": 2,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-1.webp",
+          "image": "hyperion-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2894,9 +3363,12 @@
         {
           "level": 3,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-2.webp",
+          "image": "hyperion-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2915,9 +3387,12 @@
         {
           "level": 4,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-2.webp",
+          "image": "hyperion-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2936,9 +3411,12 @@
         {
           "level": 5,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-3.webp",
+          "image": "hyperion-containment-unit-3.webp",
           "requires": "Quantum Fabricant 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2957,9 +3435,12 @@
         {
           "level": 6,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/hyperion-containment-unit-3.webp",
+          "image": "hyperion-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2980,16 +3461,18 @@
     {
       "name": "Solon Containment Unit",
       "nameId": "soloncontainmentunit",
-
       "category": "Storage",
       "description": "Stores stable Solons for later use.",
       "details": [
         {
           "level": 1,
           "time": "20m",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-1.webp",
+          "image": "solon-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3004,9 +3487,12 @@
         {
           "level": 2,
           "time": "1h",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-1.webp",
+          "image": "solon-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3021,9 +3507,12 @@
         {
           "level": 3,
           "time": "2h",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-2.webp",
+          "image": "solon-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3042,9 +3531,12 @@
         {
           "level": 4,
           "time": "4h",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-2.webp",
+          "image": "solon-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3063,9 +3555,12 @@
         {
           "level": 5,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-3.webp",
+          "image": "solon-containment-unit-3.webp",
           "requires": "Quantum Fabricant 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3084,9 +3579,12 @@
         {
           "level": 6,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/solon-containment-unit-3.webp",
+          "image": "solon-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3107,14 +3605,13 @@
     {
       "name": "Materials Lab",
       "nameId": "materialslab",
-
       "category": "Science",
       "description": "Provides the requisite facilities to research Illuvial Biodata, Blueprints, and exotic materials found on Illuvium.",
       "details": [
         {
           "level": 1,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/materials-lab-1.webp",
+          "image": "materials-lab-1.webp",
           "requires": null,
           "cost": [
             {
@@ -3134,7 +3631,7 @@
         {
           "level": 2,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/materials-lab-1.webp",
+          "image": "materials-lab-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -3154,7 +3651,7 @@
         {
           "level": 3,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/materials-lab-2.webp",
+          "image": "materials-lab-2.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -3174,7 +3671,7 @@
         {
           "level": 4,
           "time": "3d",
-          "image": "https://illuvihub.gg/images/buildings/materials-lab-2.webp",
+          "image": "materials-lab-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -3194,7 +3691,7 @@
         {
           "level": 5,
           "time": "6d",
-          "image": "https://illuvihub.gg/images/buildings/materials-lab-3.webp",
+          "image": "materials-lab-3.webp",
           "requires": "Quantum Fabricant 5",
           "cost": [
             {
@@ -3223,7 +3720,7 @@
         {
           "level": 1,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/zero-point-transducer-1.webp",
+          "image": "zero-point-transducer-1.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -3243,7 +3740,7 @@
         {
           "level": 2,
           "time": "20h",
-          "image": "https://illuvihub.gg/images/buildings/zero-point-transducer-2.webp",
+          "image": "zero-point-transducer-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -3263,7 +3760,7 @@
         {
           "level": 3,
           "time": "1.5d",
-          "image": "https://illuvihub.gg/images/buildings/zero-point-transducer-3.webp",
+          "image": "zero-point-transducer-3.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -3292,7 +3789,7 @@
         {
           "level": 1,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/singularity-scanner-1.webp",
+          "image": "singularity-scanner-1.webp",
           "requires": "Quantum Fabricant 1",
           "cost": [
             {
@@ -3312,7 +3809,7 @@
         {
           "level": 2,
           "time": "16h",
-          "image": "https://illuvihub.gg/images/buildings/singularity-scanner-1.webp",
+          "image": "singularity-scanner-1.webp",
           "requires": "Quantum Fabricant 2",
           "cost": [
             {
@@ -3332,7 +3829,7 @@
         {
           "level": 3,
           "time": "1.3d",
-          "image": "https://illuvihub.gg/images/buildings/singularity-scanner-2.webp",
+          "image": "singularity-scanner-2.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -3352,7 +3849,7 @@
         {
           "level": 4,
           "time": "3d",
-          "image": "https://illuvihub.gg/images/buildings/singularity-scanner-2.webp",
+          "image": "singularity-scanner-2.webp",
           "requires": "Quantum Fabricant 4",
           "cost": [
             {
@@ -3372,7 +3869,7 @@
         {
           "level": 5,
           "time": "6d",
-          "image": "https://illuvihub.gg/images/buildings/singularity-scanner-3.webp",
+          "image": "singularity-scanner-3.webp",
           "requires": "Quantum Fabricant 5",
           "cost": [
             {
@@ -3394,14 +3891,13 @@
     {
       "name": "Data Bank",
       "nameId": "databank",
-
       "category": "Science",
       "description": "Stores uncompressed data such as Illuvial Biodata and Blueprints, and improves research efficiency.",
       "details": [
         {
           "level": 1,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/data-bank-1.webp",
+          "image": "data-bank-1.webp",
           "requires": "Singularity Scanner 1",
           "activities": {},
           "cost": [
@@ -3424,14 +3920,13 @@
     {
       "name": "Holographic Statue",
       "nameId": "holographicstatue",
-
       "category": "Others",
       "description": "Displays a 3D Hologram of your scanned Illuvial Biodata.",
       "details": [
         {
           "level": 1,
           "time": "2.5h",
-          "image": "https://illuvihub.gg/images/buildings/holographic-statue-1.webp",
+          "image": "holographic-statue-1.webp",
           "requires": "Quantum Fabricant 1",
           "activities": {},
           "cost": [
@@ -3452,7 +3947,7 @@
         {
           "level": 2,
           "time": "5h",
-          "image": "https://illuvihub.gg/images/buildings/holographic-statue-2.webp",
+          "image": "holographic-statue-2.webp",
           "requires": "Quantum Fabricant 2",
           "activities": {},
           "cost": [
@@ -3473,7 +3968,7 @@
         {
           "level": 3,
           "time": "10h",
-          "image": "https://illuvihub.gg/images/buildings/holographic-statue-3.webp",
+          "image": "holographic-statue-3.webp",
           "requires": "Quantum Fabricant 3",
           "cost": [
             {
@@ -3495,14 +3990,13 @@
     {
       "name": "Marketplace",
       "nameId": "marketplace",
-
       "category": "Others",
       "description": "Creates an uplink to the Marketplace, allowing the purchase and sale of Resources.",
       "details": [
         {
           "level": 1,
           "time": "8h",
-          "image": "https://illuvihub.gg/images/buildings/marketplace-1.webp",
+          "image": "marketplace-1.webp",
           "requires": "Zero Point Transducer 1",
           "activities": {},
           "cost": [
