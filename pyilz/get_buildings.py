@@ -11,10 +11,15 @@ def list_buildings():
             image = detail['image']
             requires = detail['requires']
             activities = detail['activities'] if 'activities' in detail else {}
+            if 'passive' not in activities:
+                print(building['name'],level,'NO PASSIVE')
+            if 'active' not in activities:
+                print(building['name'],level,'NO ACTIVE')
             cost = detail['cost']
             for c in cost:
                 resource = c['resource']
                 amount = c['amount']
 
-
-import code; code.interact(local=dict(globals(), **locals()))
+if __name__ == '__main__':
+    list_buildings()
+#import code; code.interact(local=dict(globals(), **locals()))

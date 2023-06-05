@@ -11,7 +11,10 @@
           "time": "15s",
           "image": "nexus-1.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -28,7 +31,10 @@
           "time": "10m",
           "image": "nexus-1.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -45,7 +51,10 @@
           "time": "1h",
           "image": "nexus-1.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -62,7 +71,10 @@
           "time": "2h",
           "image": "nexus-2.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -79,7 +91,10 @@
           "time": "6h",
           "image": "nexus-2.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -100,7 +115,10 @@
           "time": "12h",
           "image": "nexus-2.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -121,7 +139,10 @@
           "time": "1d",
           "image": "nexus-3.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -142,7 +163,10 @@
           "time": "2d",
           "image": "nexus-3.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -163,7 +187,10 @@
           "time": "5d",
           "image": "nexus-3.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -192,7 +219,10 @@
           "time": "30s",
           "image": "engineering-workshop-1.webp",
           "requires": "Nexus 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -209,7 +239,10 @@
           "time": "5m",
           "image": "engineering-workshop-1.webp",
           "requires": "Nexus 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -226,7 +259,10 @@
           "time": "30min",
           "image": "engineering-workshop-1.webp",
           "requires": "Nexus 3",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -243,7 +279,10 @@
           "time": "1h",
           "image": "engineering-workshop-2.webp",
           "requires": "Nexus 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -260,7 +299,10 @@
           "time": "2h",
           "image": "engineering-workshop-2.webp",
           "requires": "Nexus 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -281,7 +323,10 @@
           "time": "6h",
           "image": "engineering-workshop-2.webp",
           "requires": "Nexus 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -302,7 +347,10 @@
           "time": "12h",
           "image": "engineering-workshop-3.webp",
           "requires": "Nexus 7",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -323,7 +371,10 @@
           "time": "1d",
           "image": "engineering-workshop-3.webp",
           "requires": "Nexus 8",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -344,7 +395,10 @@
           "time": "2d",
           "image": "engineering-workshop-3.webp",
           "requires": "Nexus 9",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -373,7 +427,10 @@
           "time": "45m",
           "image": "quantum-fabricant-1.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -386,7 +443,10 @@
           "time": "2.5h",
           "image": "quantum-fabricant-1.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -399,7 +459,10 @@
           "time": "5h",
           "image": "quantum-fabricant-2.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -420,7 +483,10 @@
           "time": "10h",
           "image": "quantum-fabricant-2.webp",
           "requires": "Engineering Workshop 4",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -441,7 +507,10 @@
           "time": "20h",
           "image": "quantum-fabricant-3.webp",
           "requires": "Engineering Workshop 5",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -462,7 +531,10 @@
           "time": "1.5d",
           "image": "quantum-fabricant-3.webp",
           "requires": "Engineering Workshop 6",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -491,7 +563,10 @@
           "time": "10m",
           "image": "power-station-1.webp",
           "requires": null,
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -1949,7 +2024,19 @@
           "time": "1.5m",
           "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 2",
-          
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "200",
+              "storage": "400"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -1962,6 +2049,19 @@
           "time": "15m",
           "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "2000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "240",
+              "storage": "2400"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -1974,6 +2074,19 @@
           "time": "30m",
           "image": "photodisintegration-plant-1.webp",
           "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "time": "12m",
+              "resource": "carbon",
+              "amount": "6333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "320",
+              "storage": "4800"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -1986,6 +2099,19 @@
           "time": "1h",
           "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "18666"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "373",
+              "storage": "7467"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -1998,6 +2124,19 @@
           "time": "2h",
           "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "time": "1h",
+              "resource": "carbon",
+              "amount": "45333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "453",
+              "storage": "18133"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2014,6 +2153,19 @@
           "time": "3.5h",
           "image": "photodisintegration-plant-2.webp",
           "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "93333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "533",
+              "storage": "64000"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2034,6 +2186,19 @@
           "time": "7h",
           "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "285000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "580",
+              "storage": "139200"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2054,6 +2219,19 @@
           "time": "14h",
           "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1066667"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "713",
+              "storage": "428000"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2074,6 +2252,19 @@
           "time": "1.3d",
           "image": "photodisintegration-plant-3.webp",
           "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "2000000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "833",
+              "storage": "800000"
+            }
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -2094,7 +2285,6 @@
     {
       "name": "Condenser Plant",
       "nameId": "condenserplant",
-
       "category": "Converters",
       "description": "Passively converts water in the atmosphere to Hydrogen and converts other Elements in to Hydrogen.",
       "details": [
@@ -2103,6 +2293,19 @@
           "time": "1.5m",
           "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "200",
+              "storage": "400"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2115,6 +2318,19 @@
           "time": "15m",
           "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "2000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "240",
+              "storage": "2400"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2127,6 +2343,19 @@
           "time": "30m",
           "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "time": "12m",
+              "resource": "carbon",
+              "amount": "6333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "320",
+              "storage": "4800"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2139,6 +2368,19 @@
           "time": "1h",
           "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "18666"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "373",
+              "storage": "7467"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2151,6 +2393,19 @@
           "time": "2h",
           "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "time": "1h",
+              "resource": "carbon",
+              "amount": "45333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "453",
+              "storage": "18133"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2167,6 +2422,19 @@
           "time": "3.5h",
           "image": "condenser-plant-2.webp",
           "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "93333"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "533",
+              "storage": "64000"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2187,6 +2455,19 @@
           "time": "7h",
           "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "285000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "580",
+              "storage": "139200"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2207,6 +2488,19 @@
           "time": "14h",
           "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1066667"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "713",
+              "storage": "428000"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2227,6 +2521,19 @@
           "time": "1.3d",
           "image": "condenser-plant-3.webp",
           "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "2000000"
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "833",
+              "storage": "800000"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2247,7 +2554,6 @@
     {
       "name": "L-Crypton Collider",
       "nameId": "lcryptoncollider",
-
       "category": "Converters",
       "description": "Passively converts trace Ethereum in the material plane to Cryptons and converts other resources to Crypton.",
       "details": [
@@ -2256,6 +2562,19 @@
           "time": "1h",
           "image": "l-crypton-collider-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "7"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2272,6 +2591,19 @@
           "time": "2h",
           "image": "l-crypton-collider-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "2"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "13"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2292,6 +2624,19 @@
           "time": "4h",
           "image": "l-crypton-collider-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "4"
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "crypton",
+              "amount": "3",
+              "storage": "20"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2312,6 +2657,19 @@
           "time": "8h",
           "image": "l-crypton-collider-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "5"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "27"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2332,6 +2690,19 @@
           "time": "16h",
           "image": "l-crypton-collider-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "7"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "3",
+              "storage": "33"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2352,6 +2723,19 @@
           "time": "1.3d",
           "image": "l-crypton-collider-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "8"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "4",
+              "storage": "67"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2381,6 +2765,19 @@
           "time": "1h",
           "image": "hyperion-lathe-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "7"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2397,6 +2794,19 @@
           "time": "2h",
           "image": "hyperion-lathe-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "2"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "7"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2417,6 +2827,19 @@
           "time": "4h",
           "image": "hyperion-lathe-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "4"
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "hyperion",
+              "amount": "3",
+              "storage": "20"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2437,6 +2860,19 @@
           "time": "8h",
           "image": "hyperion-lathe-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "5"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "27"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2457,6 +2893,19 @@
           "time": "16h",
           "image": "hyperion-lathe-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "7"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "3",
+              "storage": "33"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2477,6 +2926,19 @@
           "time": "1.3d",
           "image": "hyperion-lathe-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "8"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "4",
+              "storage": "20"
+            }
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -2505,6 +2967,19 @@
           "time": "1h",
           "image": "anti-solon-inverter-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "7"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2521,6 +2996,19 @@
           "time": "2h",
           "image": "anti-solon-inverter-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "2"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "13"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2541,6 +3029,19 @@
           "time": "4h",
           "image": "anti-solon-inverter-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "4"
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "solon",
+              "amount": "3",
+              "storage": "20"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2561,6 +3062,19 @@
           "time": "8h",
           "image": "anti-solon-inverter-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "5"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "27"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2581,6 +3095,19 @@
           "time": "16h",
           "image": "anti-solon-inverter-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "7"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "3",
+              "storage": "33"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -2601,6 +3128,19 @@
           "time": "1.3d",
           "image": "anti-solon-inverter-3.webp",
           "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "8"
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "4",
+              "storage": "67"
+            }
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3613,6 +4153,15 @@
           "time": "8h",
           "image": "materials-lab-1.webp",
           "requires": null,
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 1
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3633,6 +4182,15 @@
           "time": "16h",
           "image": "materials-lab-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 2
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3653,6 +4211,15 @@
           "time": "1.3d",
           "image": "materials-lab-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 3
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3673,6 +4240,15 @@
           "time": "3d",
           "image": "materials-lab-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 4
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3693,6 +4269,15 @@
           "time": "6d",
           "image": "materials-lab-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 5
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3713,7 +4298,6 @@
     {
       "name": "Zero Point Transducer",
       "nameId": "zeropointtransducer",
-
       "category": "Science",
       "description": "Creates a singularity capable of teleporting matter across large distances.",
       "details": [
@@ -3722,6 +4306,10 @@
           "time": "10h",
           "image": "zero-point-transducer-1.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3742,6 +4330,10 @@
           "time": "20h",
           "image": "zero-point-transducer-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3762,6 +4354,10 @@
           "time": "1.5d",
           "image": "zero-point-transducer-3.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3782,7 +4378,6 @@
     {
       "name": "Singularity Scanner",
       "nameId": "singularityscanner",
-
       "category": "Science",
       "description": "Scans Illuvials in the surrounding area and records their Biodata.",
       "details": [
@@ -3791,6 +4386,15 @@
           "time": "8h",
           "image": "singularity-scanner-1.webp",
           "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 1
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -3811,6 +4415,15 @@
           "time": "16h",
           "image": "singularity-scanner-1.webp",
           "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 2
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -3831,6 +4444,15 @@
           "time": "1.3d",
           "image": "singularity-scanner-2.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 3
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -3851,6 +4473,15 @@
           "time": "3d",
           "image": "singularity-scanner-2.webp",
           "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 4
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -3871,6 +4502,15 @@
           "time": "6d",
           "image": "singularity-scanner-3.webp",
           "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 5
+            },
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
@@ -3899,7 +4539,10 @@
           "time": "8h",
           "image": "data-bank-1.webp",
           "requires": "Singularity Scanner 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "carbon",
@@ -3928,7 +4571,10 @@
           "time": "2.5h",
           "image": "holographic-statue-1.webp",
           "requires": "Quantum Fabricant 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3949,7 +4595,10 @@
           "time": "5h",
           "image": "holographic-statue-2.webp",
           "requires": "Quantum Fabricant 2",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3970,6 +4619,10 @@
           "time": "10h",
           "image": "holographic-statue-3.webp",
           "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "silicon",
@@ -3998,7 +4651,10 @@
           "time": "8h",
           "image": "marketplace-1.webp",
           "requires": "Zero Point Transducer 1",
-          "activities": {},
+          "activities": {
+            "active": null,
+            "passive": null
+          },
           "cost": [
             {
               "resource": "hydrogen",
