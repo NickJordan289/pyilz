@@ -594,7 +594,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "333",
+              "amount": "250",
               "time": "1m"
             },
             "passive": null
@@ -614,7 +614,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "2000",
+              "amount": "1500",
               "time": "5m"
             },
             "passive": null
@@ -634,7 +634,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "6333",
+              "amount": "4750",
               "time": "12m"
             },
             "passive": null
@@ -654,7 +654,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "18667",
+              "amount": "14000",
               "time": "30m"
             },
             "passive": null
@@ -678,7 +678,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "45333",
+              "amount": "34000",
               "time": "1h"
             },
             "passive": null
@@ -706,7 +706,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "160000",
+              "amount": "120000",
               "time": "3h"
             },
             "passive": null
@@ -734,7 +734,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "346667",
+              "amount": "260000",
               "time": "6h"
             },
             "passive": null
@@ -810,7 +810,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "333",
+              "amount": "250",
               "time": "1m"
             },
             "passive": null
@@ -830,7 +830,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "2000",
+              "amount": "1500",
               "time": "5m"
             },
             "passive": null
@@ -850,7 +850,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "6333",
+              "amount": "4750",
               "time": "12m"
             },
             "passive": null
@@ -870,7 +870,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "18667",
+              "amount": "14000",
               "time": "30m"
             },
             "passive": null
@@ -894,7 +894,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "45333",
+              "amount": "34000",
               "time": "1h"
             },
             "passive": null
@@ -922,7 +922,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "160000",
+              "amount": "120000",
               "time": "3h"
             },
             "passive": null
@@ -950,7 +950,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "346667",
+              "amount": "260000",
               "time": "6h"
             },
             "passive": null
@@ -1026,7 +1026,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "333",
+              "amount": "250",
               "time": "1m"
             },
             "passive": null
@@ -1046,7 +1046,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "2000",
+              "amount": "1500",
               "time": "5m"
             },
             "passive": null
@@ -1066,7 +1066,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "6333",
+              "amount": "4750",
               "time": "12m"
             },
             "passive": null
@@ -1086,7 +1086,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "18667",
+              "amount": "14000",
               "time": "30m"
             },
             "passive": null
@@ -1110,7 +1110,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "45333",
+              "amount": "34000",
               "time": "1h"
             },
             "passive": null
@@ -1138,7 +1138,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "160000",
+              "amount": "120000",
               "time": "3h"
             },
             "passive": null
@@ -1166,7 +1166,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "346667",
+              "amount": "260000",
               "time": "6h"
             },
             "passive": null
@@ -1759,7 +1759,7 @@
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "333"
+              "amount": "250"
             },
             "passive": {
               "time": "3m",
@@ -1784,7 +1784,7 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "2000"
+              "amount": "1500"
             },
             "passive": {
               "time": "3m",
@@ -1809,7 +1809,7 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "6333"
+              "amount": "4750"
             },
             "passive": {
               "time": "3m",
@@ -1859,13 +1859,13 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "45333"
+              "amount": "34000"
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
               "amount": "453",
-              "storage": "18133"
+              "storage": "13600"
             }
           },
           "cost": [
@@ -1888,7 +1888,7 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "93333"
+              "amount": "120000"
             },
             "passive": {
               "time": "3m",
@@ -1921,7 +1921,7 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "285000"
+              "amount": "260000"
             },
             "passive": {
               "time": "3m",
@@ -1954,7 +1954,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1066667"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
@@ -1987,7 +1987,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "2000000"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
@@ -2028,7 +2028,7 @@
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "333"
+              "amount": "250"
             },
             "passive": {
               "time": "3m",
@@ -2053,7 +2053,7 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "2000"
+              "amount": "1500"
             },
             "passive": {
               "time": "3m",
@@ -2078,7 +2078,7 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "6333"
+              "amount": "4750"
             },
             "passive": {
               "time": "3m",
@@ -2128,13 +2128,13 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "45333"
+              "amount": "34000"
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
               "amount": "453",
-              "storage": "18133"
+              "storage": "13600"
             }
           },
           "cost": [
@@ -2157,7 +2157,7 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "93333"
+              "amount": "120000"
             },
             "passive": {
               "time": "3m",
@@ -2190,7 +2190,7 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "285000"
+              "amount": "260000"
             },
             "passive": {
               "time": "3m",
@@ -2223,7 +2223,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1066667"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
@@ -2256,7 +2256,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "2000000"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
@@ -2297,7 +2297,7 @@
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "333"
+              "amount": "250"
             },
             "passive": {
               "time": "3m",
@@ -2322,7 +2322,7 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "2000"
+              "amount": "1500"
             },
             "passive": {
               "time": "3m",
@@ -2347,7 +2347,7 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "6333"
+              "amount": "4750"
             },
             "passive": {
               "time": "3m",
@@ -2397,13 +2397,13 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "45333"
+              "amount": "34000"
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
               "amount": "453",
-              "storage": "18133"
+              "storage": "13600"
             }
           },
           "cost": [
@@ -2426,7 +2426,7 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "93333"
+              "amount": "120000"
             },
             "passive": {
               "time": "3m",
@@ -2459,7 +2459,7 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "285000"
+              "amount": "260000"
             },
             "passive": {
               "time": "3m",
@@ -2492,7 +2492,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1066667"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
@@ -2525,7 +2525,7 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "2000000"
+              "amount": ""
             },
             "passive": {
               "time": "3m",
