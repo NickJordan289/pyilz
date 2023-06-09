@@ -1,0 +1,5111 @@
+{
+  "buildings": [
+    {
+      "name": "Nexus",
+      "nameId": "nexus",
+      "category": "Basics",
+      "description": "The nerve centre of the industrial complex that must be built to enable all other construction.",
+      "details": [
+        {
+          "level": 1,
+          "time": "15s",
+          "image": "nexus-1.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "350"
+            },
+            {
+              "resource": "silicon",
+              "amount": "150"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "10m",
+          "image": "nexus-1.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1500"
+            },
+            {
+              "resource": "silicon",
+              "amount": "750"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "1h",
+          "image": "nexus-1.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2700"
+            },
+            {
+              "resource": "silicon",
+              "amount": "1300"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "2h",
+          "image": "nexus-2.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "10K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "5000"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "6h",
+          "image": "nexus-2.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "34K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "17K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "12h",
+          "image": "nexus-2.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "100K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "50K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "1d",
+          "image": "nexus-3.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "400K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "200K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "2d",
+          "image": "nexus-3.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "500K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "50"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "5d",
+          "image": "nexus-3.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "3.4M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "1.7M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engineering Workshop",
+      "nameId": "engineeringworkshop",
+      "category": "Basics",
+      "description": "Provides the infrastructure of construct basic structure types.",
+      "details": [
+        {
+          "level": 1,
+          "time": "30s",
+          "image": "engineering-workshop-1.webp",
+          "requires": "Nexus 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "100"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "250"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "5m",
+          "image": "engineering-workshop-1.webp",
+          "requires": "Nexus 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "900"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1900"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "30min",
+          "image": "engineering-workshop-1.webp",
+          "requires": "Nexus 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "3500"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "7100"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "1h",
+          "image": "engineering-workshop-2.webp",
+          "requires": "Nexus 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "12K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "23K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "2h",
+          "image": "engineering-workshop-2.webp",
+          "requires": "Nexus 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "35K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "70K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "6h",
+          "image": "engineering-workshop-2.webp",
+          "requires": "Nexus 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "140K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "280K"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "12h",
+          "image": "engineering-workshop-3.webp",
+          "requires": "Nexus 7",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "350K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "700K"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "1d",
+          "image": "engineering-workshop-3.webp",
+          "requires": "Nexus 8",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "solon",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "2d",
+          "image": "engineering-workshop-3.webp",
+          "requires": "Nexus 9",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "4.7M"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantum Fabricant",
+      "nameId": "quantumfabricant",
+      "category": "Basics",
+      "description": "Provides the infrastructure required to construct advanced science and resource related structures.",
+      "details": [
+        {
+          "level": 1,
+          "time": "45m",
+          "image": "quantum-fabricant-1.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "40K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2.5h",
+          "image": "quantum-fabricant-1.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "120K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "5h",
+          "image": "quantum-fabricant-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "480K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "10h",
+          "image": "quantum-fabricant-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "4"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "20h",
+          "image": "quantum-fabricant-3.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "4M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.5d",
+          "image": "quantum-fabricant-3.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "8M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "15"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Station",
+      "nameId": "powerstation",
+      "category": "Basics",
+      "description": "Provides power to structures to ensure they operate with increased efficiency.",
+      "details": [
+        {
+          "level": 1,
+          "time": "10m",
+          "image": "power-station-1.webp",
+          "requires": null,
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sediment Excavator",
+      "nameId": "sedimentexcavator",
+      "category": "Extractors",
+      "description": "Excavates sediment from Outcrops and mechanically separates it into pure Carbon.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1m",
+          "image": "sediment-excavator-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "250",
+              "time": "1m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "250"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "5m",
+          "image": "sediment-excavator-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "1500",
+              "time": "5m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.8K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "15m",
+          "image": "sediment-excavator-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "4750",
+              "time": "12m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "6.8K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "45m",
+          "image": "sediment-excavator-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "14000",
+              "time": "30m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "23K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1.5h",
+          "image": "sediment-excavator-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "34000",
+              "time": "1h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "68K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3h",
+          "image": "sediment-excavator-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "120000",
+              "time": "3h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "270K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "5h",
+          "image": "sediment-excavator-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "260000",
+              "time": "6h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "680K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "10h",
+          "image": "sediment-excavator-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "resource": "carbon",
+              "amount": "800000",
+              "time": "15h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "25"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "20h",
+          "image": "sediment-excavator-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active:": {
+              "resource": "carbon",
+              "amount": "1.5m",
+              "time": "1d"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "4.5M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "100"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mine",
+      "nameId": "mine",
+      "category": "Extractors",
+      "description": "Extracts crystals from a Crystal Deposit and smelts them into pure Silicon.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1m",
+          "image": "mine-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "250",
+              "time": "1m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "250"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "5m",
+          "image": "mine-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "1500",
+              "time": "5m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "1.8K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "15m",
+          "image": "mine-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "4750",
+              "time": "12m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "6.8K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "45m",
+          "image": "mine-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "14000",
+              "time": "30m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "23K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1.5h",
+          "image": "mine-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "34000",
+              "time": "1h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "68K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3h",
+          "image": "mine-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "120000",
+              "time": "3h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "270K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "5h",
+          "image": "mine-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "260000",
+              "time": "6h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "680K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "10h",
+          "image": "mine-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "resource": "silicon",
+              "amount": "800000",
+              "time": "15h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "20h",
+          "image": "mine-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active:": {
+              "resource": "silicon",
+              "amount": "1.5m",
+              "time": "1d"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "4.5M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "25"
+            },
+            {
+              "resource": "solon",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydrogen Pump",
+      "nameId": "hydrogenpump",
+      "category": "Extractors",
+      "description": "Pumps water from Lakes and converts it to liquid Hydrogen.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1m",
+          "image": "hydrogen-pump-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "250",
+              "time": "1m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "250"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "5m",
+          "image": "hydrogen-pump-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "1500",
+              "time": "5m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.8K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "15m",
+          "image": "hydrogen-pump-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "4750",
+              "time": "12m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "6.8K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "45m",
+          "image": "hydrogen-pump-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "14000",
+              "time": "30m"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "23K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1.5h",
+          "image": "hydrogen-pump-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "34000",
+              "time": "1h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "68K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3h",
+          "image": "hydrogen-pump-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "120000",
+              "time": "3h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "270K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "5h",
+          "image": "hydrogen-pump-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "260000",
+              "time": "6h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "680K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "10h",
+          "image": "hydrogen-pump-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "resource": "hydrogen",
+              "amount": "800000",
+              "time": "15h"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "25"
+            },
+            {
+              "resource": "solon",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "20h",
+          "image": "hydrogen-pump-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active:": {
+              "resource": "hydrogen",
+              "amount": "1.5m",
+              "time": "1d"
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "4.5M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "100"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crypton Gate",
+      "nameId": "cryptongate",
+      "category": "Extractors",
+      "description": "Intercepts spontaneous vacuum fluctuations in Crypton Rifts to capture Cryptons.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "crypton-gate-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "1",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "100000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "20K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "9.9K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "crypton-gate-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "2",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "200000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "60K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "30K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "3.5h",
+          "image": "crypton-gate-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "4",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "300000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "240K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "120K"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "7h",
+          "image": "crypton-gate-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "7",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "400000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "600K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "300K"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "14h",
+          "image": "crypton-gate-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "10",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "500000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "990K"
+            },
+            {
+              "resource": "solon",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "crypton-gate-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "crypton",
+              "amount": "15",
+              "time": "24h",
+              "cost": [{ "resource": "carbon", "amount": "600000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "4M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2M"
+            },
+            {
+              "resource": "solon",
+              "amount": "50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyperion Extractor",
+      "nameId": "hyperionextractor",
+      "category": "Extractors",
+      "description": "Stimulates the permeability of Hyperion Reservoirs to draw out Hyperions.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "hyperion-extractor-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "1",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "100000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "9.9K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "20K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "hyperion-extractor-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "2",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "200000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "30K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "60K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "3.5h",
+          "image": "hyperion-extractor-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "4",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "300000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "120K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "240K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "7h",
+          "image": "hyperion-extractor-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "7",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "400000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "300K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "600K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "14h",
+          "image": "hyperion-extractor-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "10",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "500000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "990K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "hyperion-extractor-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "hyperion",
+              "amount": "15",
+              "time": "24h",
+              "cost": [{ "resource": "hydrogen", "amount": "600000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "4M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solon Dredge",
+      "nameId": "solondredge",
+      "category": "Extractors",
+      "description": "Uses high-energy radiation to excite Solon Trenches into releasing pure Solons.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "solon-dredge-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "1",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "100000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "9.9K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "20K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "solon-dredge-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "2",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "200000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "30K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "60K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "3.5h",
+          "image": "solon-dredge-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "4",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "300000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "120K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "240K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "7h",
+          "image": "solon-dredge-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "7",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "400000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "300K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "600K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "14h",
+          "image": "solon-dredge-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "10",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "500000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "990K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "solon-dredge-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "resource": "solon",
+              "amount": "15",
+              "time": "24h",
+              "cost": [{ "resource": "silicon", "amount": "600000" }]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "4M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sequestrian Plant",
+      "nameId": "sequestrianplant",
+      "category": "Converters",
+      "description": "Passively converts CO2 in the atmosphere to Carbon and converts other Elements in to Carbon.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1.5m",
+          "image": "sequestrian-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "250",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "250"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "150",
+              "storage": "300"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "300"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "15m",
+          "image": "sequestrian-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "1500",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1500"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "1800"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "30m",
+          "image": "sequestrian-plant-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "time": "12m",
+              "resource": "carbon",
+              "amount": "4750",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "4750"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "3600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "9K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "1h",
+          "image": "sequestrian-plant-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "14000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "14000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "280",
+              "storage": "5600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "30K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "2h",
+          "image": "sequestrian-plant-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "time": "1h",
+              "resource": "carbon",
+              "amount": "34000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "34000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "340",
+              "storage": "10200"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "90K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3.5h",
+          "image": "sequestrian-plant-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "120000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "120000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "400",
+              "storage": "48000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "360K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "7h",
+          "image": "sequestrian-plant-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "260000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "260000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "435",
+              "storage": "104400"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "900K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "14h",
+          "image": "sequestrian-plant-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "800000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "800000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "535",
+              "storage": "321000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "3M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "1.3d",
+          "image": "sequestrian-plant-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1.5M",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1.5M"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "625",
+              "storage": "600000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "6M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "25"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Photodisintegration Plant",
+      "nameId": "photodisintegrationplant",
+      "category": "Converters",
+      "description": "Passively converts oxygen in the atmosphere to Silicon and converts other Elements into Silicon.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1.5m",
+          "image": "photodisintegration-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "250",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "250"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "150",
+              "storage": "300"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "300"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "15m",
+          "image": "photodisintegration-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "1500",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1500"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "1800"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "2.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "30m",
+          "image": "photodisintegration-plant-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "time": "12m",
+              "resource": "carbon",
+              "amount": "4750",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "4750"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "3600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "9K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "1h",
+          "image": "photodisintegration-plant-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "14000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "14000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "280",
+              "storage": "5600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "30K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "2h",
+          "image": "photodisintegration-plant-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "time": "1h",
+              "resource": "carbon",
+              "amount": "34000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "34000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "340",
+              "storage": "10200"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "90K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3.5h",
+          "image": "photodisintegration-plant-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "120000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "120000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "400",
+              "storage": "48000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "360K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "7h",
+          "image": "photodisintegration-plant-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "260000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "260000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "435",
+              "storage": "104400"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "900K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "14h",
+          "image": "photodisintegration-plant-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "800000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "800000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "535",
+              "storage": "321000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "3M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "10"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "1.3d",
+          "image": "photodisintegration-plant-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1.5M",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1.5M"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "625",
+              "storage": "600000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "6M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "10"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Condenser Plant",
+      "nameId": "condenserplant",
+      "category": "Converters",
+      "description": "Passively converts water in the atmosphere to Hydrogen and converts other Elements in to Hydrogen.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1.5m",
+          "image": "condenser-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "1m",
+              "resource": "carbon",
+              "amount": "250",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "250"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "150",
+              "storage": "300"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "300"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "15m",
+          "image": "condenser-plant-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": {
+              "time": "5m",
+              "resource": "carbon",
+              "amount": "1500",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1500"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "1800"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "30m",
+          "image": "condenser-plant-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": {
+              "time": "12m",
+              "resource": "carbon",
+              "amount": "4750",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "4750"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "180",
+              "storage": "3600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "9K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "1h",
+          "image": "condenser-plant-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": {
+              "time": "30m",
+              "resource": "carbon",
+              "amount": "14000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "14000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "280",
+              "storage": "5600"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "30K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "2h",
+          "image": "condenser-plant-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": {
+              "time": "1h",
+              "resource": "carbon",
+              "amount": "34000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "34000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "340",
+              "storage": "10200"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "90K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "3.5h",
+          "image": "condenser-plant-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": {
+              "time": "3h",
+              "resource": "carbon",
+              "amount": "120000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "120000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "400",
+              "storage": "48000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "360K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "7h",
+          "image": "condenser-plant-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": {
+              "time": "6h",
+              "resource": "carbon",
+              "amount": "260000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "260000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "435",
+              "storage": "104400"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "900K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "14h",
+          "image": "condenser-plant-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "800000",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "800000"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "535",
+              "storage": "321000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "3M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "1.3d",
+          "image": "condenser-plant-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": {
+              "time": "15h",
+              "resource": "carbon",
+              "amount": "1.5M",
+              "cost": [
+                {
+                  "resource": "element",
+                  "amount": "1.5M"
+                }
+              ]
+            },
+            "passive": {
+              "time": "3m",
+              "resource": "carbon",
+              "amount": "625",
+              "storage": "600000"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "6M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "25"
+            },
+            {
+              "resource": "solon",
+              "amount": "10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "L-Crypton Collider",
+      "nameId": "lcryptoncollider",
+      "category": "Converters",
+      "description": "Passively converts trace Ethereum in the material plane to Cryptons and converts other resources to Crypton.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "l-crypton-collider-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "1"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "5"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "22K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "11K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "l-crypton-collider-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "2",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "2"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "10"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "65K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "32K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "4h",
+          "image": "l-crypton-collider-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "3",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "3"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "crypton",
+              "amount": "2",
+              "storage": "15"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "260K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "130K"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "8h",
+          "image": "l-crypton-collider-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "4",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "4"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "1",
+              "storage": "20"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "650K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "320K"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "16h",
+          "image": "l-crypton-collider-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "5",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "5"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "2",
+              "storage": "25"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1.1M"
+            },
+            {
+              "resource": "solon",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "l-crypton-collider-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "6",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "6"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "crypton",
+              "amount": "3",
+              "storage": "50"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "4.4M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2.1M"
+            },
+            {
+              "resource": "solon",
+              "amount": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyperion Lathe",
+      "nameId": "hyperionlathe",
+      "category": "Converters",
+      "description": "Passively converts trace Ethereum in the material plane to Hyperions and converts other resources to Hyperion.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "hyperion-lathe-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "1"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "5"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "11K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "22K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "hyperion-lathe-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "2",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "2"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "10"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "32K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "65K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "4h",
+          "image": "hyperion-lathe-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "3",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "3"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "hyperion",
+              "amount": "2",
+              "storage": "15"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "130K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "260K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "8h",
+          "image": "hyperion-lathe-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "4",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "4"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "1",
+              "storage": "20"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "320K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "650K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "16h",
+          "image": "hyperion-lathe-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "5",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "5"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "2",
+              "storage": "20"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.1M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2.2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "hyperion-lathe-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "6",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "6"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "hyperion",
+              "amount": "3",
+              "storage": "25"
+            }
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2.1M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "4.4M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anti-Solon Inverter",
+      "nameId": "antisoloninverter",
+      "category": "Converters",
+      "description": "Passively converts trace Ethereum in the material plane to Solons and converts other resources to Solon.",
+      "details": [
+        {
+          "level": 1,
+          "time": "1h",
+          "image": "anti-solon-inverter-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "1"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "5"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "11K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "22K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2h",
+          "image": "anti-solon-inverter-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "2",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "2"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "10"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "32K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "65K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "4h",
+          "image": "anti-solon-inverter-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "3",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "3"
+                }
+              ]
+            },
+            "passive": {
+              "time": "2d",
+              "resource": "solon",
+              "amount": "2",
+              "storage": "15"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "130K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "260K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "8h",
+          "image": "anti-solon-inverter-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "4",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "4"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "1",
+              "storage": "20"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "320K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "650K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "16h",
+          "image": "anti-solon-inverter-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "5",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "5"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "2",
+              "storage": "20"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.1M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "2.2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "1.3d",
+          "image": "anti-solon-inverter-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "6",
+              "cost": [
+                {
+                  "resource": "fuel",
+                  "amount": "6"
+                }
+              ]
+            },
+            "passive": {
+              "time": "24h",
+              "resource": "solon",
+              "amount": "3",
+              "storage": "25"
+            }
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.1M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "4.4M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carbon Matter Silo",
+      "nameId": "carbonmattersilo",
+      "category": "Storage",
+      "description": "Stores aggregated Carbon nanorods for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "15s",
+          "image": "carbon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "200"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2m",
+          "image": "carbon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "10m",
+          "image": "carbon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "5.3K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "20m",
+          "image": "carbon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "18K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1h",
+          "image": "carbon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "53K"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "2h",
+          "image": "carbon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "210K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "4h",
+          "image": "carbon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "530K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "8h",
+          "image": "carbon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.8M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "25"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "25"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "16h",
+          "image": "carbon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "3.5M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "100"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silicon Matter Silo",
+      "nameId": "siliconmattersilo",
+      "category": "Storage",
+      "description": "Stores pure metallic Silicon for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "15s",
+          "image": "silicon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "200"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2m",
+          "image": "silicon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "1.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "10m",
+          "image": "silicon-matter-silo-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "5.3K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "20m",
+          "image": "silicon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "18K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1h",
+          "image": "silicon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "53K"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "2h",
+          "image": "silicon-matter-silo-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "210K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "4h",
+          "image": "silicon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "530K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "8h",
+          "image": "silicon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "1.8M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "25"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "16h",
+          "image": "silicon-matter-silo-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "3.5M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "100"
+            },
+            {
+              "resource": "solon",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hydrogen Matter Silo",
+      "nameId": "hydrogenmattersilo",
+      "category": "Storage",
+      "description": "Safely stores liquid Hydrogen for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "15s",
+          "image": "hydrogen-matter-silo-1.webp",
+          "requires": "Engineering Workshop 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "200"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "2m",
+          "image": "hydrogen-matter-silo-1.webp",
+          "requires": "Engineering Workshop 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.4K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "10m",
+          "image": "hydrogen-matter-silo-1.webp",
+          "requires": "Engineering Workshop 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "5.3K"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "20m",
+          "image": "hydrogen-matter-silo-2.webp",
+          "requires": "Engineering Workshop 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "18K"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "1h",
+          "image": "hydrogen-matter-silo-2.webp",
+          "requires": "Engineering Workshop 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "53K"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "2h",
+          "image": "hydrogen-matter-silo-2.webp",
+          "requires": "Engineering Workshop 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "210K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "time": "4h",
+          "image": "hydrogen-matter-silo-3.webp",
+          "requires": "Engineering Workshop 7",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "530K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "time": "8h",
+          "image": "hydrogen-matter-silo-3.webp",
+          "requires": "Engineering Workshop 8",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.8M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "25"
+            },
+            {
+              "resource": "solon",
+              "amount": "25"
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "time": "16h",
+          "image": "hydrogen-matter-silo-3.webp",
+          "requires": "Engineering Workshop 9",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "3.5M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "100"
+            },
+            {
+              "resource": "solon",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crypton Containment Unit",
+      "nameId": "cryptoncontainmentunit",
+      "category": "Storage",
+      "description": "Stores stable Cryptons for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "20m",
+          "image": "crypton-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "12K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "5.8K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "1h",
+          "image": "crypton-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "35K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "17K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "2h",
+          "image": "crypton-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "140K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "69K"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "4h",
+          "image": "crypton-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "350K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "170K"
+            },
+            {
+              "resource": "solon",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "8h",
+          "image": "crypton-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "580K"
+            },
+            {
+              "resource": "solon",
+              "amount": "9"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "16h",
+          "image": "crypton-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "solon",
+              "amount": "18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hyperion Containment Unit",
+      "nameId": "hyperioncontainmentunit",
+      "category": "Storage",
+      "description": "Stores stable Hyperions for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "20m",
+          "image": "hyperion-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "5.8K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "12K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "1h",
+          "image": "hyperion-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "17K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "35K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "2h",
+          "image": "hyperion-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "69K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "140K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "4h",
+          "image": "hyperion-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "170K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "350K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "8h",
+          "image": "hyperion-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "580K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "9"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "16h",
+          "image": "hyperion-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solon Containment Unit",
+      "nameId": "soloncontainmentunit",
+      "category": "Storage",
+      "description": "Stores stable Solons for later use.",
+      "details": [
+        {
+          "level": 1,
+          "time": "20m",
+          "image": "solon-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "5.8K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "12K"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "1h",
+          "image": "solon-containment-unit-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "17K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "35K"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "2h",
+          "image": "solon-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "69K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "140K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "4h",
+          "image": "solon-containment-unit-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "170K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "350K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "3"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "8h",
+          "image": "solon-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "580K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "9"
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "time": "16h",
+          "image": "solon-containment-unit-3.webp",
+          "requires": "Quantum Fabricant 6",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "silicon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Materials Lab",
+      "nameId": "materialslab",
+      "category": "Science",
+      "description": "Provides the requisite facilities to research Illuvial Biodata, Blueprints, and exotic materials found on Illuvium.",
+      "details": [
+        {
+          "level": 1,
+          "time": "8h",
+          "image": "materials-lab-1.webp",
+          "requires": null,
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 1,
+              "cost": [
+                {
+                  "resource": "silicon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "700K"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "350K"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "5"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "16h",
+          "image": "materials-lab-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 2,
+              "cost": [
+                {
+                  "resource": "silicon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "15"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "1.3d",
+          "image": "materials-lab-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 3,
+              "cost": [
+                {
+                  "resource": "silicon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "4.7M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "2.3M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "30"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "3d",
+          "image": "materials-lab-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 4,
+              "cost": [
+                {
+                  "resource": "silicon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "9400000"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "4600000"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "50"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "6d",
+          "image": "materials-lab-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "blueprint",
+              "amount": "1",
+              "maxTier": 5,
+              "cost": [
+                {
+                  "resource": "silicon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "18.8M"
+            },
+            {
+              "resource": "hydrogen",
+              "amount": "10M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zero Point Transducer",
+      "nameId": "zeropointtransducer",
+      "category": "Science",
+      "description": "Creates a singularity capable of teleporting matter across large distances.",
+      "details": [
+        {
+          "level": 1,
+          "time": "10h",
+          "image": "zero-point-transducer-1.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1.2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "4"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "20h",
+          "image": "zero-point-transducer-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "4M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "6"
+            },
+            {
+              "resource": "solon",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "1.5d",
+          "image": "zero-point-transducer-3.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "8M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "12"
+            },
+            {
+              "resource": "solon",
+              "amount": "28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singularity Scanner",
+      "nameId": "singularityscanner",
+      "category": "Science",
+      "description": "Scans Illuvials in the surrounding area and records their Biodata.",
+      "details": [
+        {
+          "level": 1,
+          "time": "8h",
+          "image": "singularity-scanner-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 1,
+              "cost": [
+                {
+                  "resource": "carbon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "1.1M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "3"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "16h",
+          "image": "singularity-scanner-1.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 2,
+              "cost": [
+                {
+                  "resource": "carbon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "3.5M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "12"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "6"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "1.3d",
+          "image": "singularity-scanner-2.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 3,
+              "cost": [
+                {
+                  "resource": "carbon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "7M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "24"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "12"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "time": "3d",
+          "image": "singularity-scanner-2.webp",
+          "requires": "Quantum Fabricant 4",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 4,
+              "cost": [
+                {
+                  "resource": "carbon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "14M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "48"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "24"
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "time": "6d",
+          "image": "singularity-scanner-3.webp",
+          "requires": "Quantum Fabricant 5",
+          "activities": {
+            "active": {
+              "time": "24h",
+              "resource": "biodata",
+              "amount": "1",
+              "maxTier": 5,
+              "cost": [
+                {
+                  "resource": "carbon",
+                  "amount": "175000"
+                },
+                {
+                  "resource": "hydrogen",
+                  "amount": "85000"
+                }
+              ]
+            },
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "28M"
+            },
+            {
+              "resource": "crypton",
+              "amount": "96"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Bank",
+      "nameId": "databank",
+      "category": "Science",
+      "description": "Stores uncompressed data such as Illuvial Biodata and Blueprints, and improves research efficiency.",
+      "details": [
+        {
+          "level": 1,
+          "time": "8h",
+          "image": "data-bank-1.webp",
+          "requires": "Singularity Scanner 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "carbon",
+              "amount": "320K"
+            },
+            {
+              "resource": "silicon",
+              "amount": "650K"
+            },
+            {
+              "resource": "crypton",
+              "amount": "5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Holographic Statue",
+      "nameId": "holographicstatue",
+      "category": "Others",
+      "description": "Displays a 3D Hologram of your scanned Illuvial Biodata.",
+      "details": [
+        {
+          "level": 1,
+          "time": "2.5h",
+          "image": "holographic-statue-1.webp",
+          "requires": "Quantum Fabricant 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "300"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "1"
+            },
+            {
+              "resource": "solon",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "time": "5h",
+          "image": "holographic-statue-2.webp",
+          "requires": "Quantum Fabricant 2",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "1M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "2"
+            },
+            {
+              "resource": "solon",
+              "amount": "2"
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "time": "10h",
+          "image": "holographic-statue-3.webp",
+          "requires": "Quantum Fabricant 3",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "silicon",
+              "amount": "2M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "4"
+            },
+            {
+              "resource": "solon",
+              "amount": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketplace",
+      "nameId": "marketplace",
+      "category": "Others",
+      "description": "Creates an uplink to the Marketplace, allowing the purchase and sale of Resources.",
+      "details": [
+        {
+          "level": 1,
+          "time": "8h",
+          "image": "marketplace-1.webp",
+          "requires": "Zero Point Transducer 1",
+          "activities": {
+            "active": null,
+            "passive": null
+          },
+          "cost": [
+            {
+              "resource": "hydrogen",
+              "amount": "1.1M"
+            },
+            {
+              "resource": "hyperion",
+              "amount": "10"
+            },
+            {
+              "resource": "solon",
+              "amount": "5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
