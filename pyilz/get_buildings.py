@@ -1,7 +1,10 @@
 import json
 import math
-with open('./pyilz/buildings.json', 'r') as f:
-    buildings = json.load(f)['buildings']
+import importlib.resources
+import json
+
+with importlib.resources.open_text("pyilz", "buildings.json") as file:
+    buildings = json.load(file)['buildings']
 
 
 def get_active_output(name, level, tier, efficiency=100):
