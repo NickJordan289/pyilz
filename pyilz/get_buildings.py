@@ -8,6 +8,7 @@ with importlib.resources.open_text("pyilz", "buildings.json") as file:
 
 
 def get_active_output(name, level, tier, efficiency=100):
+    '''Returns the active output of the specified building at the specified level and tier. Efficiency is a percentage.'''
     name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
     land_tier_bonus_multiplier_percent = [0, 0, 33.33333333333, 100, 300, 900]
     for building in buildings:  # This should probably be a dict
@@ -24,6 +25,7 @@ def get_active_output(name, level, tier, efficiency=100):
 
 
 def get_passive_output(name, level, tier, efficiency=100):
+    '''Returns the passive output of the specified building at the specified level and tier. Efficiency is a percentage.'''
     name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
     land_tier_bonus_multiplier_percent = [0, 0, 33.33333333333, 100, 300, 900]
     for building in buildings:  # This should probably be a dict

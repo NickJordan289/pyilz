@@ -4,11 +4,13 @@ import pyilz.parse_land as parse_land
 
 
 def get_timers_from_state(gamestate):
+    '''Returns the active, passive, and completed activities from the gamestate.'''
     _, _, ca, aa, completed = parse_land.parse_land(gamestate)
     return get_timers(ca, aa, completed)
 
 
 def get_timers(ca, aa, completed, init=False):
+    '''Returns a dictionary of timers for the specified activities. If init is True, then all timers will be marked as notified.'''
     timers = {}
     if ca is not None:
         for i, row in ca.iterrows():

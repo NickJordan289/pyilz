@@ -4,6 +4,10 @@ import xmltodict
 
 
 def parse_land(data):
+    '''Returns a tuple of paths, buildings, current activities, auto activities, and completed activities.
+    
+    These are all pandas dataframes.
+    '''
     data = xmltodict.parse(data)
 
     building_data = data['SaveGameData']['Buildings']['BuildingData']
