@@ -7,8 +7,8 @@ def parse_land(data):
     '''Returns a pandas dataframe of the land.'''
     data = xmltodict.parse(data)
     building_data = data['SaveGameData']['Buildings']['BuildingData']
-    df = pd.DataFrame(building_data)
-    return df
+    building_data = pd.DataFrame(building_data)
+    return building_data
 
 
 def get_buildings_and_activities(df):

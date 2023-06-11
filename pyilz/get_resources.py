@@ -1,5 +1,3 @@
-from pyilz.get_game_state import get_game_state
-from pyilz.parse_land import parse_land
 from pyilz.get_buildings import get_building_storage
 
 
@@ -16,10 +14,8 @@ def _get_storage_buildings(df):
     return df
 
 
-def get_storage(tier=1):
-    state = get_game_state()
-    parse = parse_land(state['data'][2]['data'])
-    storage_buildings = _get_storage_buildings(parse)
+def get_storage(parsed_land, tier=1):
+    storage_buildings = _get_storage_buildings(parsed_land)
     storage = {
         'hydrogen': 0,
         'silicon': 0,
