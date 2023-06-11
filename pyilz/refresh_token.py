@@ -3,6 +3,7 @@ import os
 
 
 def refresh_token(ref_token=None):
+    '''Returns a new API_KEY. If the refresh token is not provided, it will be retrieved from the environment.'''
     REFRESH_TOKEN = os.getenv(
         'REFRESH_TOKEN') if ref_token is None else ref_token
     if REFRESH_TOKEN is None:

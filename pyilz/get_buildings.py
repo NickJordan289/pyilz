@@ -2,12 +2,31 @@ import json
 import math
 import importlib.resources
 import json
-
 with importlib.resources.open_text("pyilz", "buildings.json") as file:
     buildings = json.load(file)['buildings']
 
 
+def get_building_storage(name, level, tier):
+    '''Returns the storage capacity of the specified building at the specified level and tier.'''
+    name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
+    land_tier_bonus_multiplier_percent = [0, 0, 33.33333333333, 100, 300, 900]
+    for building in buildings:  # This should probably be a dict
+        if building['nameId'] == name:
+            details = building['details']
+            for detail in details:
+                if detail['level'] == level:
+                    if 'storage' not in detail:
+                        return 0, None
+                    storage = detail['storage']
+                    if storage is None:
+                        return 0, None
+                    amount = int(storage['amount'])
+                    resource = storage['resource']
+                    return math.ceil(amount * (1 + (land_tier_bonus_multiplier_percent[tier] / 100))), resource
+
+
 def get_active_output(name, level, tier, efficiency=100):
+    '''Returns the active output of the specified building at the specified level and tier. Efficiency is a percentage.'''
     name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
     land_tier_bonus_multiplier_percent = [0, 0, 33.33333333333, 100, 300, 900]
     for building in buildings:  # This should probably be a dict
@@ -24,6 +43,7 @@ def get_active_output(name, level, tier, efficiency=100):
 
 
 def get_passive_output(name, level, tier, efficiency=100):
+    '''Returns the passive output of the specified building at the specified level and tier. Efficiency is a percentage.'''
     name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
     land_tier_bonus_multiplier_percent = [0, 0, 33.33333333333, 100, 300, 900]
     for building in buildings:  # This should probably be a dict

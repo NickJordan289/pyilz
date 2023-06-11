@@ -18,11 +18,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "350"
+              "amount": 350
             },
             {
               "resource": "silicon",
-              "amount": "150"
+              "amount": 150
             }
           ]
         },
@@ -38,11 +38,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1500"
+              "amount": 1500
             },
             {
               "resource": "silicon",
-              "amount": "750"
+              "amount": 750
             }
           ]
         },
@@ -58,11 +58,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2700"
+              "amount": 2700
             },
             {
               "resource": "silicon",
-              "amount": "1300"
+              "amount": 1300
             }
           ]
         },
@@ -78,11 +78,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "10K"
+              "amount": 10000
             },
             {
               "resource": "silicon",
-              "amount": "5000"
+              "amount": 5000
             }
           ]
         },
@@ -98,15 +98,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "34K"
+              "amount": 34000
             },
             {
               "resource": "silicon",
-              "amount": "17K"
+              "amount": 17000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -122,15 +122,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "100K"
+              "amount": 100000
             },
             {
               "resource": "silicon",
-              "amount": "50K"
+              "amount": 50000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -146,15 +146,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "400K"
+              "amount": 400000
             },
             {
               "resource": "silicon",
-              "amount": "200K"
+              "amount": 200000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -170,15 +170,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1M"
+              "amount": 1000000
             },
             {
               "resource": "silicon",
-              "amount": "500K"
+              "amount": 500000
             },
             {
               "resource": "crypton",
-              "amount": "50"
+              "amount": 50
             }
           ]
         },
@@ -194,15 +194,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "3.4M"
+              "amount": 3400000
             },
             {
               "resource": "silicon",
-              "amount": "1.7M"
+              "amount": 1700000
             },
             {
               "resource": "crypton",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -226,11 +226,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "hydrogen",
-              "amount": "250"
+              "amount": 250
             }
           ]
         },
@@ -246,11 +246,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "900"
+              "amount": 900
             },
             {
               "resource": "hydrogen",
-              "amount": "1900"
+              "amount": 1900
             }
           ]
         },
@@ -266,7 +266,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "3500"
+              "amount": 3500
             },
             {
               "resource": "hydrogen",
@@ -286,11 +286,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "12K"
+              "amount": 12000
             },
             {
               "resource": "hydrogen",
-              "amount": "23K"
+              "amount": 23000
             }
           ]
         },
@@ -306,7 +306,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "35K"
+              "amount": 35000
             },
             {
               "resource": "hydrogen",
@@ -314,7 +314,7 @@
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -330,7 +330,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "140K"
+              "amount": 140000
             },
             {
               "resource": "hydrogen",
@@ -338,7 +338,7 @@
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -354,15 +354,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "350K"
+              "amount": 350000
             },
             {
               "resource": "hydrogen",
-              "amount": "700K"
+              "amount": 700000
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -378,15 +378,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hydrogen",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "solon",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -402,15 +402,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hydrogen",
-              "amount": "4.7M"
+              "amount": 4700000
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         }
@@ -470,11 +470,11 @@
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -490,15 +490,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "crypton",
-              "amount": "4"
+              "amount": 4
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -514,15 +514,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "4M"
+              "amount": 4000000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -538,15 +538,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "8M"
+              "amount": 8000000
             },
             {
               "resource": "crypton",
-              "amount": "15"
+              "amount": 15
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             }
           ]
         }
@@ -570,11 +570,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1K"
+              "amount": 1000
             },
             {
               "resource": "hydrogen",
-              "amount": "1K"
+              "amount": 1000
             }
           ]
         }
@@ -594,7 +594,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "250",
+              "amount": 250,
               "time": "1m"
             },
             "passive": null
@@ -602,7 +602,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "250"
+              "amount": 250
             }
           ]
         },
@@ -614,7 +614,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "1500",
+              "amount": 1500,
               "time": "5m"
             },
             "passive": null
@@ -622,7 +622,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.8K"
+              "amount": 1800
             }
           ]
         },
@@ -634,7 +634,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "4750",
+              "amount": 4750,
               "time": "12m"
             },
             "passive": null
@@ -642,7 +642,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "6.8K"
+              "amount": 6800
             }
           ]
         },
@@ -654,7 +654,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "14000",
+              "amount": 14000,
               "time": "30m"
             },
             "passive": null
@@ -662,11 +662,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "23K"
+              "amount": 23000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -678,7 +678,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "34000",
+              "amount": 34000,
               "time": "1h"
             },
             "passive": null
@@ -686,15 +686,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "68K"
+              "amount": 68000
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -706,7 +706,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "120000",
+              "amount": 120000,
               "time": "3h"
             },
             "passive": null
@@ -714,15 +714,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "270K"
+              "amount": 270000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -734,7 +734,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "260000",
+              "amount": 260000,
               "time": "6h"
             },
             "passive": null
@@ -742,15 +742,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "680K"
+              "amount": 680000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -762,7 +762,7 @@
           "activities": {
             "active": {
               "resource": "carbon",
-              "amount": "800000",
+              "amount": 800000,
               "time": "15h"
             },
             "passive": null
@@ -770,15 +770,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "crypton",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -790,7 +790,7 @@
           "activities": {
             "active:": {
               "resource": "carbon",
-              "amount": "1.5m",
+              "amount": 1500000,
               "time": "1d"
             },
             "passive": null
@@ -798,15 +798,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "4.5M"
+              "amount": 4500000
             },
             {
               "resource": "crypton",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "hyperion",
-              "amount": "25"
+              "amount": 25
             }
           ]
         }
@@ -826,7 +826,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "250",
+              "amount": 250,
               "time": "1m"
             },
             "passive": null
@@ -834,7 +834,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "250"
+              "amount": 250
             }
           ]
         },
@@ -846,7 +846,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "1500",
+              "amount": 1500,
               "time": "5m"
             },
             "passive": null
@@ -854,7 +854,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "1.8K"
+              "amount": 1800
             }
           ]
         },
@@ -866,7 +866,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "4750",
+              "amount": 4750,
               "time": "12m"
             },
             "passive": null
@@ -874,7 +874,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "6.8K"
+              "amount": 6800
             }
           ]
         },
@@ -886,7 +886,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "14000",
+              "amount": 14000,
               "time": "30m"
             },
             "passive": null
@@ -894,11 +894,11 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "23K"
+              "amount": 23000
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -910,7 +910,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "34000",
+              "amount": 34000,
               "time": "1h"
             },
             "passive": null
@@ -918,15 +918,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "68K"
+              "amount": 68000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -938,7 +938,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "120000",
+              "amount": 120000,
               "time": "3h"
             },
             "passive": null
@@ -946,15 +946,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "270K"
+              "amount": 270000
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -966,7 +966,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "260000",
+              "amount": 260000,
               "time": "6h"
             },
             "passive": null
@@ -974,15 +974,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "680K"
+              "amount": 680000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -994,7 +994,7 @@
           "activities": {
             "active": {
               "resource": "silicon",
-              "amount": "800000",
+              "amount": 800000,
               "time": "15h"
             },
             "passive": null
@@ -1002,15 +1002,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         },
@@ -1022,7 +1022,7 @@
           "activities": {
             "active:": {
               "resource": "silicon",
-              "amount": "1.5m",
+              "amount": 1500000,
               "time": "1d"
             },
             "passive": null
@@ -1030,15 +1030,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "4.5M"
+              "amount": 4500000
             },
             {
               "resource": "crypton",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "solon",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -1058,7 +1058,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "250",
+              "amount": 250,
               "time": "1m"
             },
             "passive": null
@@ -1066,7 +1066,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "250"
+              "amount": 250
             }
           ]
         },
@@ -1078,7 +1078,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "1500",
+              "amount": 1500,
               "time": "5m"
             },
             "passive": null
@@ -1086,7 +1086,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.8K"
+              "amount": 1800
             }
           ]
         },
@@ -1098,7 +1098,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "4750",
+              "amount": 4750,
               "time": "12m"
             },
             "passive": null
@@ -1106,7 +1106,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "6.8K"
+              "amount": 6800
             }
           ]
         },
@@ -1118,7 +1118,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "14000",
+              "amount": 14000,
               "time": "30m"
             },
             "passive": null
@@ -1126,11 +1126,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "23K"
+              "amount": 23000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1142,7 +1142,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "34000",
+              "amount": 34000,
               "time": "1h"
             },
             "passive": null
@@ -1150,15 +1150,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "68K"
+              "amount": 68000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1170,7 +1170,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "120000",
+              "amount": 120000,
               "time": "3h"
             },
             "passive": null
@@ -1178,15 +1178,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "270K"
+              "amount": 270000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -1198,7 +1198,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "260000",
+              "amount": 260000,
               "time": "6h"
             },
             "passive": null
@@ -1206,15 +1206,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "680K"
+              "amount": 680000
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -1226,7 +1226,7 @@
           "activities": {
             "active": {
               "resource": "hydrogen",
-              "amount": "800000",
+              "amount": 800000,
               "time": "15h"
             },
             "passive": null
@@ -1234,15 +1234,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hyperion",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "solon",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -1254,7 +1254,7 @@
           "activities": {
             "active:": {
               "resource": "hydrogen",
-              "amount": "1.5m",
+              "amount": 1500000,
               "time": "1d"
             },
             "passive": null
@@ -1262,15 +1262,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "4.5M"
+              "amount": 4500000
             },
             {
               "resource": "hyperion",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         }
@@ -1290,7 +1290,7 @@
           "activities": {
             "active": {
               "resource": "crypton",
-              "amount": "1",
+              "amount": 1,
               "time": "24h",
               "cost": [{ "resource": "carbon", "amount": "100000" }]
             },
@@ -1315,7 +1315,7 @@
           "activities": {
             "active": {
               "resource": "crypton",
-              "amount": "2",
+              "amount": 2,
               "time": "24h",
               "cost": [{ "resource": "carbon", "amount": "200000" }]
             },
@@ -1328,11 +1328,11 @@
             },
             {
               "resource": "hydrogen",
-              "amount": "30K"
+              "amount": 30000
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1344,7 +1344,7 @@
           "activities": {
             "active": {
               "resource": "crypton",
-              "amount": "4",
+              "amount": 4,
               "time": "24h",
               "cost": [{ "resource": "carbon", "amount": "300000" }]
             },
@@ -1361,7 +1361,7 @@
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -1390,7 +1390,7 @@
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -1402,16 +1402,16 @@
           "activities": {
             "active": {
               "resource": "crypton",
-              "amount": "10",
+              "amount": 10,
               "time": "24h",
-              "cost": [{ "resource": "carbon", "amount": "500000" }]
+              "cost": [{ "resource": "carbon", "amount": 500000 }]
             },
             "passive": null
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "hydrogen",
@@ -1419,7 +1419,7 @@
             },
             {
               "resource": "solon",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -1431,7 +1431,7 @@
           "activities": {
             "active": {
               "resource": "crypton",
-              "amount": "15",
+              "amount": 15,
               "time": "24h",
               "cost": [{ "resource": "carbon", "amount": "600000" }]
             },
@@ -1440,15 +1440,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "4M"
+              "amount": 4000000
             },
             {
               "resource": "hydrogen",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "solon",
-              "amount": "50"
+              "amount": 50
             }
           ]
         }
@@ -1468,7 +1468,7 @@
           "activities": {
             "active": {
               "resource": "hyperion",
-              "amount": "1",
+              "amount": 1,
               "time": "24h",
               "cost": [{ "resource": "hydrogen", "amount": "100000" }]
             },
@@ -1493,7 +1493,7 @@
           "activities": {
             "active": {
               "resource": "hyperion",
-              "amount": "2",
+              "amount": 2,
               "time": "24h",
               "cost": [{ "resource": "hydrogen", "amount": "200000" }]
             },
@@ -1502,7 +1502,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "30K"
+              "amount": 30000
             },
             {
               "resource": "hydrogen",
@@ -1510,7 +1510,7 @@
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1522,7 +1522,7 @@
           "activities": {
             "active": {
               "resource": "hyperion",
-              "amount": "4",
+              "amount": 4,
               "time": "24h",
               "cost": [{ "resource": "hydrogen", "amount": "300000" }]
             },
@@ -1539,7 +1539,7 @@
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -1568,7 +1568,7 @@
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -1580,9 +1580,9 @@
           "activities": {
             "active": {
               "resource": "hyperion",
-              "amount": "10",
+              "amount": 10,
               "time": "24h",
-              "cost": [{ "resource": "hydrogen", "amount": "500000" }]
+              "cost": [{ "resource": "hydrogen", "amount": 500000 }]
             },
             "passive": null
           },
@@ -1593,11 +1593,11 @@
             },
             {
               "resource": "hydrogen",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "crypton",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -1609,7 +1609,7 @@
           "activities": {
             "active": {
               "resource": "hyperion",
-              "amount": "15",
+              "amount": 15,
               "time": "24h",
               "cost": [{ "resource": "hydrogen", "amount": "600000" }]
             },
@@ -1618,15 +1618,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "hydrogen",
-              "amount": "4M"
+              "amount": 4000000
             },
             {
               "resource": "crypton",
-              "amount": "50"
+              "amount": 50
             }
           ]
         }
@@ -1646,7 +1646,7 @@
           "activities": {
             "active": {
               "resource": "solon",
-              "amount": "1",
+              "amount": 1,
               "time": "24h",
               "cost": [{ "resource": "silicon", "amount": "100000" }]
             },
@@ -1671,7 +1671,7 @@
           "activities": {
             "active": {
               "resource": "solon",
-              "amount": "2",
+              "amount": 2,
               "time": "24h",
               "cost": [{ "resource": "silicon", "amount": "200000" }]
             },
@@ -1680,7 +1680,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "30K"
+              "amount": 30000
             },
             {
               "resource": "silicon",
@@ -1688,7 +1688,7 @@
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1700,7 +1700,7 @@
           "activities": {
             "active": {
               "resource": "solon",
-              "amount": "4",
+              "amount": 4,
               "time": "24h",
               "cost": [{ "resource": "silicon", "amount": "300000" }]
             },
@@ -1717,7 +1717,7 @@
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -1746,7 +1746,7 @@
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -1758,9 +1758,9 @@
           "activities": {
             "active": {
               "resource": "solon",
-              "amount": "10",
+              "amount": 10,
               "time": "24h",
-              "cost": [{ "resource": "silicon", "amount": "500000" }]
+              "cost": [{ "resource": "silicon", "amount": 500000 }]
             },
             "passive": null
           },
@@ -1771,11 +1771,11 @@
             },
             {
               "resource": "silicon",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "hyperion",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -1787,7 +1787,7 @@
           "activities": {
             "active": {
               "resource": "solon",
-              "amount": "15",
+              "amount": 15,
               "time": "24h",
               "cost": [{ "resource": "silicon", "amount": "600000" }]
             },
@@ -1796,15 +1796,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "silicon",
-              "amount": "4M"
+              "amount": 4000000
             },
             {
               "resource": "hyperion",
-              "amount": "50"
+              "amount": 50
             }
           ]
         }
@@ -1825,25 +1825,25 @@
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "250",
+              "amount": 250,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "250"
+                  "amount": 250
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "150",
-              "storage": "300"
+              "amount": 150,
+              "storage": 300
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "300"
+              "amount": 300
             }
           ]
         },
@@ -1856,25 +1856,25 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "1500",
+              "amount": 1500,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1500"
+                  "amount": 1500
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "1800"
+              "amount": 180,
+              "storage": 1800
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2.4K"
+              "amount": 2400
             }
           ]
         },
@@ -1887,25 +1887,25 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "4750",
+              "amount": 4750,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "4750"
+                  "amount": 4750
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "3600"
+              "amount": 180,
+              "storage": 3600
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "9K"
+              "amount": 9000
             }
           ]
         },
@@ -1918,25 +1918,25 @@
             "active": {
               "time": "30m",
               "resource": "carbon",
-              "amount": "14000",
+              "amount": 14000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "14000"
+                  "amount": 14000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "280",
-              "storage": "5600"
+              "amount": 280,
+              "storage": 5600
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "30K"
+              "amount": 30000
             }
           ]
         },
@@ -1949,29 +1949,29 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "34000",
+              "amount": 34000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "34000"
+                  "amount": 34000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "340",
-              "storage": "10200"
+              "amount": 340,
+              "storage": 10200
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "90K"
+              "amount": 90000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -1984,33 +1984,33 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "120000",
+              "amount": 120000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "120000"
+                  "amount": 120000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "400",
-              "storage": "48000"
+              "amount": 400,
+              "storage": 48000
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "360K"
+              "amount": 360000
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -2023,33 +2023,33 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "260000",
+              "amount": 260000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "260000"
+                  "amount": 260000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "435",
-              "storage": "104400"
+              "amount": 435,
+              "storage": 104400
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "900K"
+              "amount": 900000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -2062,33 +2062,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "800000",
+              "amount": 800000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "800000"
+                  "amount": 800000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "535",
-              "storage": "321000"
+              "amount": 535,
+              "storage": 321000
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "3M"
+              "amount": 3000000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -2101,33 +2101,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1.5M",
+              "amount": 1500000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1.5M"
+                  "amount": 1500000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "625",
-              "storage": "600000"
+              "amount": 625,
+              "storage": 600000
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "6M"
+              "amount": 6000000
             },
             {
               "resource": "crypton",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             }
           ]
         }
@@ -2148,25 +2148,25 @@
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "250",
+              "amount": 250,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "250"
+                  "amount": 250
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "150",
-              "storage": "300"
+              "amount": 150,
+              "storage": 300
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "300"
+              "amount": 300
             }
           ]
         },
@@ -2179,25 +2179,25 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "1500",
+              "amount": 1500,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1500"
+                  "amount": 1500
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "1800"
+              "amount": 180,
+              "storage": 1800
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "2.4K"
+              "amount": 2400
             }
           ]
         },
@@ -2210,25 +2210,25 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "4750",
+              "amount": 4750,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "4750"
+                  "amount": 4750
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "3600"
+              "amount": 180,
+              "storage": 3600
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "9K"
+              "amount": 9000
             }
           ]
         },
@@ -2241,25 +2241,25 @@
             "active": {
               "time": "30m",
               "resource": "carbon",
-              "amount": "14000",
+              "amount": 14000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "14000"
+                  "amount": 14000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "280",
-              "storage": "5600"
+              "amount": 280,
+              "storage": 5600
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "30K"
+              "amount": 30000
             }
           ]
         },
@@ -2272,29 +2272,29 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "34000",
+              "amount": 34000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "34000"
+                  "amount": 34000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "340",
-              "storage": "10200"
+              "amount": 340,
+              "storage": 10200
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "90K"
+              "amount": 90000
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -2307,33 +2307,33 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "120000",
+              "amount": 120000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "120000"
+                  "amount": 120000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "400",
-              "storage": "48000"
+              "amount": 400,
+              "storage": 48000
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "360K"
+              "amount": 360000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -2346,33 +2346,33 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "260000",
+              "amount": 260000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "260000"
+                  "amount": 260000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "435",
-              "storage": "104400"
+              "amount": 435,
+              "storage": 104400
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "900K"
+              "amount": 900000
             },
             {
               "resource": "crypton",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -2385,33 +2385,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "800000",
+              "amount": 800000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "800000"
+                  "amount": 800000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "535",
-              "storage": "321000"
+              "amount": 535,
+              "storage": 321000
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "3M"
+              "amount": 3000000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "10"
+              "amount": 10
             }
           ]
         },
@@ -2424,33 +2424,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1.5M",
+              "amount": 1500000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1.5M"
+                  "amount": 1500000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "625",
-              "storage": "600000"
+              "amount": 625,
+              "storage": 600000
             }
           },
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "6M"
+              "amount": 6000000
             },
             {
               "resource": "crypton",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         }
@@ -2464,32 +2464,32 @@
       "details": [
         {
           "level": 1,
-          "time": "1.5m",
+          "time": 1500000,
           "image": "condenser-plant-1.webp",
           "requires": "Engineering Workshop 2",
           "activities": {
             "active": {
               "time": "1m",
               "resource": "carbon",
-              "amount": "250",
+              "amount": 250,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "250"
+                  "amount": 250
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "150",
-              "storage": "300"
+              "amount": 150,
+              "storage": 300
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "300"
+              "amount": 300
             }
           ]
         },
@@ -2502,25 +2502,25 @@
             "active": {
               "time": "5m",
               "resource": "carbon",
-              "amount": "1500",
+              "amount": 1500,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1500"
+                  "amount": 1500
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "1800"
+              "amount": 180,
+              "storage": 1800
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.4K"
+              "amount": 2400
             }
           ]
         },
@@ -2533,25 +2533,25 @@
             "active": {
               "time": "12m",
               "resource": "carbon",
-              "amount": "4750",
+              "amount": 4750,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "4750"
+                  "amount": 4750
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "180",
-              "storage": "3600"
+              "amount": 180,
+              "storage": 3600
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "9K"
+              "amount": 9000
             }
           ]
         },
@@ -2564,25 +2564,25 @@
             "active": {
               "time": "30m",
               "resource": "carbon",
-              "amount": "14000",
+              "amount": 14000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "14000"
+                  "amount": 14000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "280",
-              "storage": "5600"
+              "amount": 280,
+              "storage": 5600
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "30K"
+              "amount": 30000
             }
           ]
         },
@@ -2595,29 +2595,29 @@
             "active": {
               "time": "1h",
               "resource": "carbon",
-              "amount": "34000",
+              "amount": 34000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "34000"
+                  "amount": 34000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "340",
-              "storage": "10200"
+              "amount": 340,
+              "storage": 10200
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "90K"
+              "amount": 90000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -2630,33 +2630,33 @@
             "active": {
               "time": "3h",
               "resource": "carbon",
-              "amount": "120000",
+              "amount": 120000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "120000"
+                  "amount": 120000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "400",
-              "storage": "48000"
+              "amount": 400,
+              "storage": 48000
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "360K"
+              "amount": 360000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -2669,33 +2669,33 @@
             "active": {
               "time": "6h",
               "resource": "carbon",
-              "amount": "260000",
+              "amount": 260000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "260000"
+                  "amount": 260000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "435",
-              "storage": "104400"
+              "amount": 435,
+              "storage": 104400
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "900K"
+              "amount": 900000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -2708,33 +2708,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "800000",
+              "amount": 800000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "800000"
+                  "amount": 800000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "535",
-              "storage": "321000"
+              "amount": 535,
+              "storage": 321000
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "3M"
+              "amount": 3000000
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -2747,33 +2747,33 @@
             "active": {
               "time": "15h",
               "resource": "carbon",
-              "amount": "1.5M",
+              "amount": 1500000,
               "cost": [
                 {
                   "resource": "element",
-                  "amount": "1.5M"
+                  "amount": 1500000
                 }
               ]
             },
             "passive": {
               "time": "3m",
               "resource": "carbon",
-              "amount": "625",
-              "storage": "600000"
+              "amount": 625,
+              "storage": 600000
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "6M"
+              "amount": 6000000
             },
             {
               "resource": "hyperion",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "solon",
-              "amount": "10"
+              "amount": 10
             }
           ]
         }
@@ -2794,29 +2794,29 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "1",
+              "amount": 1,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "1"
+                  "amount": 1
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "crypton",
-              "amount": "1",
-              "storage": "5"
+              "amount": 1,
+              "storage": 5
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "22K"
+              "amount": 22000
             },
             {
               "resource": "hydrogen",
-              "amount": "11K"
+              "amount": 11000
             }
           ]
         },
@@ -2829,33 +2829,33 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "2",
+              "amount": 2,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "2"
+                  "amount": 2
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "crypton",
-              "amount": "1",
-              "storage": "10"
+              "amount": 1,
+              "storage": 10
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "65K"
+              "amount": 65000
             },
             {
               "resource": "hydrogen",
-              "amount": "32K"
+              "amount": 32000
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -2868,33 +2868,33 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "3",
+              "amount": 3,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "3"
+                  "amount": 3
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "crypton",
-              "amount": "2",
-              "storage": "15"
+              "amount": 2,
+              "storage": 15
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "260K"
+              "amount": 260000
             },
             {
               "resource": "hydrogen",
-              "amount": "130K"
+              "amount": 130000
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -2907,33 +2907,33 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "4",
+              "amount": 4,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "4"
+                  "amount": 4
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "1",
-              "storage": "20"
+              "amount": 1,
+              "storage": 20
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "650K"
+              "amount": 650000
             },
             {
               "resource": "hydrogen",
-              "amount": "320K"
+              "amount": 320000
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -2946,33 +2946,33 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "5",
+              "amount": 5,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "5"
+                  "amount": 5
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "2",
-              "storage": "25"
+              "amount": 2,
+              "storage": 25
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.2M"
+              "amount": 2200000
             },
             {
               "resource": "hydrogen",
-              "amount": "1.1M"
+              "amount": 1100000
             },
             {
               "resource": "solon",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -2985,33 +2985,33 @@
             "active": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "6",
+              "amount": 6,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "6"
+                  "amount": 6
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "crypton",
-              "amount": "3",
-              "storage": "50"
+              "amount": 3,
+              "storage": 50
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "4.4M"
+              "amount": 4400000
             },
             {
               "resource": "hydrogen",
-              "amount": "2.1M"
+              "amount": 2100000
             },
             {
               "resource": "solon",
-              "amount": "30"
+              "amount": 30
             }
           ]
         }
@@ -3032,29 +3032,29 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "1",
+              "amount": 1,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "1"
+                  "amount": 1
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "hyperion",
-              "amount": "1",
-              "storage": "5"
+              "amount": 1,
+              "storage": 5
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "11K"
+              "amount": 11000
             },
             {
               "resource": "hydrogen",
-              "amount": "22K"
+              "amount": 22000
             }
           ]
         },
@@ -3067,33 +3067,33 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "2",
+              "amount": 2,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "2"
+                  "amount": 2
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "hyperion",
-              "amount": "1",
-              "storage": "10"
+              "amount": 1,
+              "storage": 10
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "32K"
+              "amount": 32000
             },
             {
               "resource": "hydrogen",
-              "amount": "65K"
+              "amount": 65000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -3106,33 +3106,33 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "3",
+              "amount": 3,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "3"
+                  "amount": 3
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "hyperion",
-              "amount": "2",
-              "storage": "15"
+              "amount": 2,
+              "storage": 15
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "130K"
+              "amount": 130000
             },
             {
               "resource": "hydrogen",
-              "amount": "260K"
+              "amount": 260000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -3145,33 +3145,33 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "4",
+              "amount": 4,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "4"
+                  "amount": 4
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "1",
-              "storage": "20"
+              "amount": 1,
+              "storage": 20
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "320K"
+              "amount": 320000
             },
             {
               "resource": "hydrogen",
-              "amount": "650K"
+              "amount": 650000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -3184,33 +3184,33 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "5",
+              "amount": 5,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "5"
+                  "amount": 5
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "2",
-              "storage": "20"
+              "amount": 2,
+              "storage": 20
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.1M"
+              "amount": 1100000
             },
             {
               "resource": "hydrogen",
-              "amount": "2.2M"
+              "amount": 2200000
             },
             {
               "resource": "hyperion",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -3223,33 +3223,33 @@
             "active": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "6",
+              "amount": 6,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "6"
+                  "amount": 6
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "hyperion",
-              "amount": "3",
-              "storage": "25"
+              "amount": 3,
+              "storage": 25
             }
           },
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2.1M"
+              "amount": 2100000
             },
             {
               "resource": "hydrogen",
-              "amount": "4.4M"
+              "amount": 4400000
             },
             {
               "resource": "hyperion",
-              "amount": "30"
+              "amount": 30
             }
           ]
         }
@@ -3270,29 +3270,29 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "1",
+              "amount": 1,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "1"
+                  "amount": 1
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "solon",
-              "amount": "1",
-              "storage": "5"
+              "amount": 1,
+              "storage": 5
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "11K"
+              "amount": 11000
             },
             {
               "resource": "silicon",
-              "amount": "22K"
+              "amount": 22000
             }
           ]
         },
@@ -3305,33 +3305,33 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "2",
+              "amount": 2,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "2"
+                  "amount": 2
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "solon",
-              "amount": "1",
-              "storage": "10"
+              "amount": 1,
+              "storage": 10
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "32K"
+              "amount": 32000
             },
             {
               "resource": "silicon",
-              "amount": "65K"
+              "amount": 65000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -3344,33 +3344,33 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "3",
+              "amount": 3,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "3"
+                  "amount": 3
                 }
               ]
             },
             "passive": {
               "time": "2d",
               "resource": "solon",
-              "amount": "2",
-              "storage": "15"
+              "amount": 2,
+              "storage": 15
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "130K"
+              "amount": 130000
             },
             {
               "resource": "silicon",
-              "amount": "260K"
+              "amount": 260000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -3383,33 +3383,33 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "4",
+              "amount": 4,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "4"
+                  "amount": 4
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "solon",
-              "amount": "1",
-              "storage": "20"
+              "amount": 1,
+              "storage": 20
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "320K"
+              "amount": 320000
             },
             {
               "resource": "silicon",
-              "amount": "650K"
+              "amount": 650000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -3422,33 +3422,33 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "5",
+              "amount": 5,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "5"
+                  "amount": 5
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "solon",
-              "amount": "2",
-              "storage": "20"
+              "amount": 2,
+              "storage": 20
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.1M"
+              "amount": 1100000
             },
             {
               "resource": "silicon",
-              "amount": "2.2M"
+              "amount": 2200000
             },
             {
               "resource": "hyperion",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -3461,33 +3461,33 @@
             "active": {
               "time": "24h",
               "resource": "solon",
-              "amount": "6",
+              "amount": 6,
               "cost": [
                 {
                   "resource": "fuel",
-                  "amount": "6"
+                  "amount": 6
                 }
               ]
             },
             "passive": {
               "time": "24h",
               "resource": "solon",
-              "amount": "3",
-              "storage": "25"
+              "amount": 3,
+              "storage": 25
             }
           },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.1M"
+              "amount": 2100000
             },
             {
               "resource": "silicon",
-              "amount": "4.4M"
+              "amount": 4400000
             },
             {
               "resource": "hyperion",
-              "amount": "30"
+              "amount": 30
             }
           ]
         }
@@ -3504,6 +3504,10 @@
           "time": "15s",
           "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
+          "storage": {
+            "resource": "carbon",
+            "amount": 1000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3511,7 +3515,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "200"
+              "amount": 200
             }
           ]
         },
@@ -3520,6 +3524,10 @@
           "time": "2m",
           "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
+          "storage": {
+            "resource": "carbon",
+            "amount": 6000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3527,7 +3535,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.4K"
+              "amount": 1400
             }
           ]
         },
@@ -3536,6 +3544,10 @@
           "time": "10m",
           "image": "carbon-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
+          "storage": {
+            "resource": "carbon",
+            "amount": 25000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3543,7 +3555,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "5.3K"
+              "amount": 5300
             }
           ]
         },
@@ -3552,6 +3564,10 @@
           "time": "20m",
           "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
+          "storage": {
+            "resource": "carbon",
+            "amount": 50000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3559,7 +3575,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "18K"
+              "amount": 18000
             }
           ]
         },
@@ -3568,6 +3584,10 @@
           "time": "1h",
           "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
+          "storage": {
+            "resource": "carbon",
+            "amount": 150000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3575,7 +3595,7 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "53K"
+              "amount": 53000
             }
           ]
         },
@@ -3584,6 +3604,10 @@
           "time": "2h",
           "image": "carbon-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
+          "storage": {
+            "resource": "carbon",
+            "amount": 350000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3591,15 +3615,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "210K"
+              "amount": 210000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -3608,6 +3632,10 @@
           "time": "4h",
           "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
+          "storage": {
+            "resource": "carbon",
+            "amount": 750000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3615,15 +3643,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "530K"
+              "amount": 530000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -3632,6 +3660,10 @@
           "time": "8h",
           "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
+          "storage": {
+            "resource": "carbon",
+            "amount": 2000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3639,15 +3671,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.8M"
+              "amount": 1800000
             },
             {
               "resource": "crypton",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "hyperion",
-              "amount": "25"
+              "amount": 25
             }
           ]
         },
@@ -3656,6 +3688,10 @@
           "time": "16h",
           "image": "carbon-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
+          "storage": {
+            "resource": "carbon",
+            "amount": 4000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3663,15 +3699,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "3.5M"
+              "amount": 3500000
             },
             {
               "resource": "crypton",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "hyperion",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -3688,6 +3724,10 @@
           "time": "15s",
           "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
+          "storage": {
+            "resource": "silicon",
+            "amount": 1000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3695,7 +3735,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "200"
+              "amount": 200
             }
           ]
         },
@@ -3704,6 +3744,10 @@
           "time": "2m",
           "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
+          "storage": {
+            "resource": "silicon",
+            "amount": 6000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3711,7 +3755,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "1.4K"
+              "amount": 1400
             }
           ]
         },
@@ -3720,6 +3764,10 @@
           "time": "10m",
           "image": "silicon-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
+          "storage": {
+            "resource": "silicon",
+            "amount": 25000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3727,7 +3775,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "5.3K"
+              "amount": 5300
             }
           ]
         },
@@ -3736,6 +3784,10 @@
           "time": "20m",
           "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
+          "storage": {
+            "resource": "silicon",
+            "amount": 50000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3743,7 +3795,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "18K"
+              "amount": 18000
             }
           ]
         },
@@ -3752,6 +3804,10 @@
           "time": "1h",
           "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
+          "storage": {
+            "resource": "silicon",
+            "amount": 150000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3759,7 +3815,7 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "53K"
+              "amount": 53000
             }
           ]
         },
@@ -3768,6 +3824,10 @@
           "time": "2h",
           "image": "silicon-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
+          "storage": {
+            "resource": "silicon",
+            "amount": 350000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3775,15 +3835,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "210K"
+              "amount": 210000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -3792,6 +3852,10 @@
           "time": "4h",
           "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
+          "storage": {
+            "resource": "silicon",
+            "amount": 750000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3799,15 +3863,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "530K"
+              "amount": 530000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -3816,6 +3880,10 @@
           "time": "8h",
           "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
+          "storage": {
+            "resource": "silicon",
+            "amount": 2000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3823,15 +3891,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "1.8M"
+              "amount": 1800000
             },
             {
               "resource": "crypton",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         },
@@ -3840,6 +3908,10 @@
           "time": "16h",
           "image": "silicon-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
+          "storage": {
+            "resource": "silicon",
+            "amount": 4000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3847,15 +3919,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "3.5M"
+              "amount": 3500000
             },
             {
               "resource": "crypton",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "solon",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -3872,6 +3944,10 @@
           "time": "15s",
           "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 1",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 1000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3879,15 +3955,19 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "200"
+              "amount": 200
             }
           ]
         },
         {
           "level": 2,
-          "time": "2m",
+          "time": 2000000,
           "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 2",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 6000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3895,7 +3975,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.4K"
+              "amount": 1400
             }
           ]
         },
@@ -3904,6 +3984,10 @@
           "time": "10m",
           "image": "hydrogen-matter-silo-1.webp",
           "requires": "Engineering Workshop 3",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 25000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3911,7 +3995,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "5.3K"
+              "amount": 5300
             }
           ]
         },
@@ -3920,6 +4004,10 @@
           "time": "20m",
           "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 4",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 50000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3927,7 +4015,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "18K"
+              "amount": 18000
             }
           ]
         },
@@ -3936,6 +4024,10 @@
           "time": "1h",
           "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 5",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 150000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3943,7 +4035,7 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "53K"
+              "amount": 53000
             }
           ]
         },
@@ -3952,6 +4044,10 @@
           "time": "2h",
           "image": "hydrogen-matter-silo-2.webp",
           "requires": "Engineering Workshop 6",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 350000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3959,15 +4055,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "210K"
+              "amount": 210000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -3976,6 +4072,10 @@
           "time": "4h",
           "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 7",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 750000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -3983,15 +4083,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "530K"
+              "amount": 530000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -4000,6 +4100,10 @@
           "time": "8h",
           "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 8",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 2000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4007,15 +4111,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.8M"
+              "amount": 1800000
             },
             {
               "resource": "hyperion",
-              "amount": "25"
+              "amount": 25
             },
             {
               "resource": "solon",
-              "amount": "25"
+              "amount": 25
             }
           ]
         },
@@ -4024,6 +4128,10 @@
           "time": "16h",
           "image": "hydrogen-matter-silo-3.webp",
           "requires": "Engineering Workshop 9",
+          "storage": {
+            "resource": "hydrogen",
+            "amount": 4000000
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4031,15 +4139,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "3.5M"
+              "amount": 3500000
             },
             {
               "resource": "hyperion",
-              "amount": "100"
+              "amount": 100
             },
             {
               "resource": "solon",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -4056,6 +4164,10 @@
           "time": "20m",
           "image": "crypton-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
+          "storage": {
+            "resource": "crypton",
+            "amount": 10
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4063,11 +4175,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "12K"
+              "amount": 12000
             },
             {
               "resource": "hydrogen",
-              "amount": "5.8K"
+              "amount": 5800
             }
           ]
         },
@@ -4076,6 +4188,10 @@
           "time": "1h",
           "image": "crypton-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
+          "storage": {
+            "resource": "crypton",
+            "amount": 20
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4083,11 +4199,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "35K"
+              "amount": 35000
             },
             {
               "resource": "hydrogen",
-              "amount": "17K"
+              "amount": 17000
             }
           ]
         },
@@ -4096,6 +4212,10 @@
           "time": "2h",
           "image": "crypton-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
+          "storage": {
+            "resource": "crypton",
+            "amount": 50
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4103,15 +4223,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "140K"
+              "amount": 140000
             },
             {
               "resource": "hydrogen",
-              "amount": "69K"
+              "amount": 69000
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -4120,6 +4240,10 @@
           "time": "4h",
           "image": "crypton-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
+          "storage": {
+            "resource": "crypton",
+            "amount": 100
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4127,15 +4251,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "350K"
+              "amount": 350000
             },
             {
               "resource": "hydrogen",
-              "amount": "170K"
+              "amount": 170000
             },
             {
               "resource": "solon",
-              "amount": "3"
+              "amount": 3
             }
           ]
         },
@@ -4148,18 +4272,22 @@
             "active": null,
             "passive": null
           },
+          "storage": {
+            "resource": "crypton",
+            "amount": 200
+          },
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hydrogen",
-              "amount": "580K"
+              "amount": 580000
             },
             {
               "resource": "solon",
-              "amount": "9"
+              "amount": 9
             }
           ]
         },
@@ -4168,6 +4296,10 @@
           "time": "16h",
           "image": "crypton-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
+          "storage": {
+            "resource": "crypton",
+            "amount": 500
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4175,15 +4307,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hydrogen",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "solon",
-              "amount": "18"
+              "amount": 18
             }
           ]
         }
@@ -4200,6 +4332,10 @@
           "time": "20m",
           "image": "hyperion-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 10
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4207,11 +4343,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "5.8K"
+              "amount": 5800
             },
             {
               "resource": "hydrogen",
-              "amount": "12K"
+              "amount": 12000
             }
           ]
         },
@@ -4220,6 +4356,10 @@
           "time": "1h",
           "image": "hyperion-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 20
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4227,11 +4367,11 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "17K"
+              "amount": 17000
             },
             {
               "resource": "hydrogen",
-              "amount": "35K"
+              "amount": 35000
             }
           ]
         },
@@ -4240,6 +4380,10 @@
           "time": "2h",
           "image": "hyperion-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 50
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4247,15 +4391,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "69K"
+              "amount": 69000
             },
             {
               "resource": "hydrogen",
-              "amount": "140K"
+              "amount": 140000
             },
             {
               "resource": "crypton",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -4264,6 +4408,10 @@
           "time": "4h",
           "image": "hyperion-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 100
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4271,15 +4419,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "170K"
+              "amount": 170000
             },
             {
               "resource": "hydrogen",
-              "amount": "350K"
+              "amount": 350000
             },
             {
               "resource": "crypton",
-              "amount": "3"
+              "amount": 3
             }
           ]
         },
@@ -4288,6 +4436,10 @@
           "time": "8h",
           "image": "hyperion-containment-unit-3.webp",
           "requires": "Quantum Fabricant 5",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 200
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4295,15 +4447,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "580K"
+              "amount": 580000
             },
             {
               "resource": "hydrogen",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "crypton",
-              "amount": "9"
+              "amount": 9
             }
           ]
         },
@@ -4312,6 +4464,10 @@
           "time": "16h",
           "image": "hyperion-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
+          "storage": {
+            "resource": "hyperion",
+            "amount": 500
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4319,15 +4475,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hydrogen",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "crypton",
-              "amount": "18"
+              "amount": 18
             }
           ]
         }
@@ -4344,6 +4500,10 @@
           "time": "20m",
           "image": "solon-containment-unit-1.webp",
           "requires": "Quantum Fabricant 1",
+          "storage": {
+            "resource": "solon",
+            "amount": 10
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4351,11 +4511,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "5.8K"
+              "amount": 5800
             },
             {
               "resource": "silicon",
-              "amount": "12K"
+              "amount": 12000
             }
           ]
         },
@@ -4364,6 +4524,10 @@
           "time": "1h",
           "image": "solon-containment-unit-1.webp",
           "requires": "Quantum Fabricant 2",
+          "storage": {
+            "resource": "solon",
+            "amount": 20
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4371,11 +4535,11 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "17K"
+              "amount": 17000
             },
             {
               "resource": "silicon",
-              "amount": "35K"
+              "amount": 35000
             }
           ]
         },
@@ -4384,6 +4548,10 @@
           "time": "2h",
           "image": "solon-containment-unit-2.webp",
           "requires": "Quantum Fabricant 3",
+          "storage": {
+            "resource": "solon",
+            "amount": 50
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4391,15 +4559,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "69K"
+              "amount": 69000
             },
             {
               "resource": "silicon",
-              "amount": "140K"
+              "amount": 140000
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -4408,6 +4576,10 @@
           "time": "4h",
           "image": "solon-containment-unit-2.webp",
           "requires": "Quantum Fabricant 4",
+          "storage": {
+            "resource": "solon",
+            "amount": 100
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4415,15 +4587,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "170K"
+              "amount": 170000
             },
             {
               "resource": "silicon",
-              "amount": "350K"
+              "amount": 350000
             },
             {
               "resource": "hyperion",
-              "amount": "3"
+              "amount": 3
             }
           ]
         },
@@ -4432,6 +4604,10 @@
           "time": "8h",
           "image": "solon-containment-unit-3.webp",
           "requires": "Quantum Fabricant 5",
+          "storage": {
+            "resource": "solon",
+            "amount": 200
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4439,15 +4615,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "580K"
+              "amount": 580000
             },
             {
               "resource": "silicon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hyperion",
-              "amount": "9"
+              "amount": 9
             }
           ]
         },
@@ -4456,6 +4632,10 @@
           "time": "16h",
           "image": "solon-containment-unit-3.webp",
           "requires": "Quantum Fabricant 6",
+          "storage": {
+            "resource": "solon",
+            "amount": 500
+          },
           "activities": {
             "active": null,
             "passive": null
@@ -4463,15 +4643,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "silicon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hyperion",
-              "amount": "18"
+              "amount": 18
             }
           ]
         }
@@ -4492,16 +4672,16 @@
             "active": {
               "time": "24h",
               "resource": "blueprint",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 1,
               "cost": [
                 {
                   "resource": "silicon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4510,15 +4690,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "700K"
+              "amount": 700000
             },
             {
               "resource": "hydrogen",
-              "amount": "350K"
+              "amount": 350000
             },
             {
               "resource": "hyperion",
-              "amount": "5"
+              "amount": 5
             }
           ]
         },
@@ -4531,16 +4711,16 @@
             "active": {
               "time": "24h",
               "resource": "blueprint",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 2,
               "cost": [
                 {
                   "resource": "silicon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4549,15 +4729,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hydrogen",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hyperion",
-              "amount": "15"
+              "amount": 15
             }
           ]
         },
@@ -4570,16 +4750,16 @@
             "active": {
               "time": "24h",
               "resource": "blueprint",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 3,
               "cost": [
                 {
                   "resource": "silicon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4588,15 +4768,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "4.7M"
+              "amount": 4700000
             },
             {
               "resource": "hydrogen",
-              "amount": "2.3M"
+              "amount": 2300000
             },
             {
               "resource": "hyperion",
-              "amount": "30"
+              "amount": 30
             }
           ]
         },
@@ -4609,16 +4789,16 @@
             "active": {
               "time": "24h",
               "resource": "blueprint",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 4,
               "cost": [
                 {
                   "resource": "silicon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4627,15 +4807,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "9400000"
+              "amount": 9400000
             },
             {
               "resource": "hydrogen",
-              "amount": "4600000"
+              "amount": 4600000
             },
             {
               "resource": "hyperion",
-              "amount": "50"
+              "amount": 50
             }
           ]
         },
@@ -4648,16 +4828,16 @@
             "active": {
               "time": "24h",
               "resource": "blueprint",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 5,
               "cost": [
                 {
                   "resource": "silicon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4666,15 +4846,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "18.8M"
+              "amount": 18800000
             },
             {
               "resource": "hydrogen",
-              "amount": "10M"
+              "amount": 10000000
             },
             {
               "resource": "hyperion",
-              "amount": "100"
+              "amount": 100
             }
           ]
         }
@@ -4698,15 +4878,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1.2M"
+              "amount": 1200000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "4"
+              "amount": 4
             }
           ]
         },
@@ -4722,15 +4902,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "4M"
+              "amount": 4000000
             },
             {
               "resource": "hyperion",
-              "amount": "6"
+              "amount": 6
             },
             {
               "resource": "solon",
-              "amount": "12"
+              "amount": 12
             }
           ]
         },
@@ -4746,15 +4926,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "8M"
+              "amount": 8000000
             },
             {
               "resource": "hyperion",
-              "amount": "12"
+              "amount": 12
             },
             {
               "resource": "solon",
-              "amount": "28"
+              "amount": 28
             }
           ]
         }
@@ -4775,16 +4955,16 @@
             "active": {
               "time": "24h",
               "resource": "biodata",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 1,
               "cost": [
                 {
                   "resource": "carbon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4793,15 +4973,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "1.1M"
+              "amount": 1100000
             },
             {
               "resource": "crypton",
-              "amount": "3"
+              "amount": 3
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -4814,16 +4994,16 @@
             "active": {
               "time": "24h",
               "resource": "biodata",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 2,
               "cost": [
                 {
                   "resource": "carbon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4832,15 +5012,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "3.5M"
+              "amount": 3500000
             },
             {
               "resource": "crypton",
-              "amount": "12"
+              "amount": 12
             },
             {
               "resource": "hyperion",
-              "amount": "6"
+              "amount": 6
             }
           ]
         },
@@ -4853,16 +5033,16 @@
             "active": {
               "time": "24h",
               "resource": "biodata",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 3,
               "cost": [
                 {
                   "resource": "carbon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4871,15 +5051,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "7M"
+              "amount": 7000000
             },
             {
               "resource": "crypton",
-              "amount": "24"
+              "amount": 24
             },
             {
               "resource": "hyperion",
-              "amount": "12"
+              "amount": 12
             }
           ]
         },
@@ -4892,16 +5072,16 @@
             "active": {
               "time": "24h",
               "resource": "biodata",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 4,
               "cost": [
                 {
                   "resource": "carbon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4910,15 +5090,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "14M"
+              "amount": 14000000
             },
             {
               "resource": "crypton",
-              "amount": "48"
+              "amount": 48
             },
             {
               "resource": "hyperion",
-              "amount": "24"
+              "amount": 24
             }
           ]
         },
@@ -4931,16 +5111,16 @@
             "active": {
               "time": "24h",
               "resource": "biodata",
-              "amount": "1",
+              "amount": 1,
               "maxTier": 5,
               "cost": [
                 {
                   "resource": "carbon",
-                  "amount": "175000"
+                  "amount": 175000
                 },
                 {
                   "resource": "hydrogen",
-                  "amount": "85000"
+                  "amount": 85000
                 }
               ]
             },
@@ -4949,15 +5129,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "28M"
+              "amount": 28000000
             },
             {
               "resource": "crypton",
-              "amount": "96"
+              "amount": 96
             },
             {
               "resource": "hyperion",
-              "amount": "48"
+              "amount": 48
             }
           ]
         }
@@ -4981,15 +5161,15 @@
           "cost": [
             {
               "resource": "carbon",
-              "amount": "320K"
+              "amount": 320000
             },
             {
               "resource": "silicon",
-              "amount": "650K"
+              "amount": 650000
             },
             {
               "resource": "crypton",
-              "amount": "5"
+              "amount": 5
             }
           ]
         }
@@ -5013,15 +5193,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "300"
+              "amount": 300
             },
             {
               "resource": "hyperion",
-              "amount": "1"
+              "amount": 1
             },
             {
               "resource": "solon",
-              "amount": "1"
+              "amount": 1
             }
           ]
         },
@@ -5037,15 +5217,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "1M"
+              "amount": 1000000
             },
             {
               "resource": "hyperion",
-              "amount": "2"
+              "amount": 2
             },
             {
               "resource": "solon",
-              "amount": "2"
+              "amount": 2
             }
           ]
         },
@@ -5061,15 +5241,15 @@
           "cost": [
             {
               "resource": "silicon",
-              "amount": "2M"
+              "amount": 2000000
             },
             {
               "resource": "hyperion",
-              "amount": "4"
+              "amount": 4
             },
             {
               "resource": "solon",
-              "amount": "4"
+              "amount": 4
             }
           ]
         }
@@ -5093,15 +5273,15 @@
           "cost": [
             {
               "resource": "hydrogen",
-              "amount": "1.1M"
+              "amount": 1100000
             },
             {
               "resource": "hyperion",
-              "amount": "10"
+              "amount": 10
             },
             {
               "resource": "solon",
-              "amount": "5"
+              "amount": 5
             }
           ]
         }
