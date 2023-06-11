@@ -83,7 +83,7 @@ storage = get_storage(building_data, tier)
 
 # Get the output from active and passive actions
 hydrogen_pump_5_active = get_active_output("Hydrogen Pump", level=5, tier=tier, efficiency=150)
-hydrogen_pump_5_passive = get_passive_output("Hydrogen Pump", level=5, tier=tier, efficiency=150)
+sequestrian_plant_5_passive = get_passive_output("Sequestrian Plant", level=5, tier=tier, efficiency=150)
 ```
 
 # Package management
