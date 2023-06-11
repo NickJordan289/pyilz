@@ -47,8 +47,10 @@ At the time of writing this there is no way of generating application scoped acc
 ```py
 from pyilz.get_token import get_token
 from pyilz.get_game_state import get_game_state
-from pyilz.parse_land import parse_land
+from pyilz.parse_land import parse_land, get_buildings_and_activities
 from pyilz.get_timers import get_timers
+from pyilz.get_buildings import get_building_storage, get_active_output, get_passive_output
+from pyilz.get_plots import get_plot_metadata
 
 # Load ACCESS_TOKEN and REFRESH_TOKEN env vars
 import dotenv
@@ -60,13 +62,28 @@ token = get_token()
 # Get list of plots
 plots = get_game_state(token)['data']
 
-# Get Current, Automatic and Completed Actions
-land = plots[2]['data']
-_, _, ca, aa, completed = parse_land(land)
+# Get the second plot in game state
+plot = plots[2]['data']
+landId = plots[2]['landId']
+
+# Look up metadata to get region and tier
+metadata = get_plot_metadata(landId)
+tier = metadata['tier']
+region = metadata['region']
+
+# Get Paths, Buildings, Current, Automatic and Completed Actions
+building_data = parse_land(plot)
+paths, buildings, ca, aa, completed = get_buildings_and_activities(building_data)
 
 # Get timers from actions
 timers = get_timers(ca, aa, completed)
-print(timers)
+
+# Get total storage
+storage = get_storage(building_data, tier)
+
+# Get the output from active and passive actions
+hydrogen_pump_5_active = get_active_output("Hydrogen Pump", level=5, tier=tier, efficiency=150)
+hydrogen_pump_5_passive = get_passive_output("Hydrogen Pump", level=5, tier=tier, efficiency=150)
 ```
 
 # Package management
