@@ -1,14 +1,18 @@
+from itertools import product
 import math
+import time
 
 
 def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, building_b_wxh, base_efficiency=80, power=20, radius=7, debuff=False):
+    if power < 0:
+        debuff = True
     building_a_shape = [(i, j) for i in range(building_a_wxh[0])
                         for j in range(building_a_wxh[1])]
     building_b_shape = [(i, j) for i in range(building_b_wxh[0])
                         for j in range(building_b_wxh[1])]
     dist_min = get_minimum_distance_between_buildings(
         building_a_pos, building_a_shape, building_b_pos, building_b_shape, radius)
-    
+
     if dist_min is None:
         return base_efficiency
 
@@ -16,11 +20,14 @@ def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, buildin
     dist_factor = power / radius_diagonal
 
     efficiency = power - (dist_min - 1) * dist_factor
+    if not debuff and efficiency > power:
+        efficiency = power
     efficiency += base_efficiency
 
     if not debuff and efficiency < base_efficiency:
         return base_efficiency
     return efficiency
+
 
 def get_minimum_distance_between_buildings(building_a_pos, building_a_shape, building_b_pos, building_b_shape, radius=6):
     # Pre-calculate shape positions
@@ -40,15 +47,18 @@ def get_minimum_distance_between_buildings(building_a_pos, building_a_shape, bui
     for a in a_positions:
         for b in b_positions:
             distance = math.dist(a, b)
-            if distance < min_distance:
+            if distance < min_distance and a != b:
                 min_distance = distance
                 min_a = a
                 min_b = b
-    
+
+    # print(f'\t\t{min_distance} {min_a} {min_b}')
     # Check if minimum points are within radius of building_a
-    if min_a in p_a and min_b in p_b:
+    if min_a in p_a and min_b in p_b and min_b in p_a:
         return min_distance
     return None
+
+
 def get_points_in_radius(origin, shape, radius=6):
     x0, y0 = origin
     points = set()
@@ -58,53 +68,6 @@ def get_points_in_radius(origin, shape, radius=6):
                 point = (x0 + x + dx, y0 + y + dy)
                 points.add(point)
     return list(points)
-#def get_minimum_distance_between_buildings(building_a_pos, building_a_shape, building_b_pos, building_b_shape, radius=6):
-#    # pre-calculate shape positions
-#    a_positions = [(building_a_pos[0] + x, building_a_pos[1] + y)
-#                   for (x, y) in building_a_shape]
-#    b_positions = [(building_b_pos[0] + x, building_b_pos[1] + y)
-#                   for (x, y) in building_b_shape]
-#
-#    # sort the shapes by x-coordinate
-#    a_positions.sort(key=lambda pos: pos[0])
-#    b_positions.sort(key=lambda pos: pos[0])
-#
-#    # initialize variables
-#    min_distance = float('inf')
-#    min_a = (0, 0)
-#    min_b = (0, 0)
-#
-#    # loop over the shapes
-#    a_idx = 0
-#    b_idx = 0
-#    while a_idx < len(a_positions) and b_idx < len(b_positions):
-#        # check x-coordinate difference
-#        x_diff = b_positions[b_idx][0] - a_positions[a_idx][0]
-#        if x_diff >= min_distance:
-#            break
-#
-#        # calculate distance
-#        distance = math.dist(a_positions[a_idx], b_positions[b_idx])
-#
-#        # update minimum distance and points
-#        if distance < min_distance:
-#            min_distance = distance
-#            min_a = a_positions[a_idx]
-#            min_b = b_positions[b_idx]
-#
-#        # move to next shape
-#        if a_positions[a_idx][0] < b_positions[b_idx][0]:
-#            a_idx += 1
-#        else:
-#            b_idx += 1
-#
-#    # check if minimum points are within radius of building_a
-#    p = get_points_in_radius(building_a_pos, building_a_shape, radius)
-#    import pdb;pdb.set_trace()
-#    if min_a in p and min_b in p:
-#        return min_distance
-#    return None
-
 
 
 def get_building_points(building_pos, building_shape):
@@ -139,8 +102,10 @@ influence_values = {
     ('CONDENSER_PLANT', 'PHOTODISINTEGRATION_PLANT'): -10,  # OTHER CONVERTER
     ('CONDENSER_PLANT', 'LAKE'): 30,  # MATCHING RESOURCE
     ('CONDENSER_PLANT', 'HYDROGEN_PUMP'): 30,  # MATCHING RESOURCE
-    
+
     ('HYDROGEN_PUMP', 'POWER_STATION'): 20,  # POWER
+    ('SEDIMENT_EXCAVATOR', 'POWER_STATION'): 20,  # POWER
+    ('MINE', 'POWER_STATION'): 20,  # POWER
 }
 
 # get the other building's influence on this building
@@ -151,59 +116,62 @@ def get_power_influence(this, other):
                       other['buildingTypeString'][:-2])
     return influence_values.get(building_types, 0)
 
-def import_string_to_array(string):
-    s = string.replace('[','').replace(']','').replace('"','').replace(' ','').split(',')
-    return [{'buildingTypeString':s[i],'X':int(s[i+1]),'Y':int(s[i+2])} for i in range(0,len(s),3)]
-    
 
-if __name__ == '__main__':
-    import_string = import_string_to_array('[["HYDROGEN_PUMP_2",6,23],["CONDENSER_PLANT_1",7,26],["POWER_STATION_1",9,23],["POWER_STATION_1",4,26]]')
+def import_string_to_array(string):
+    s = string.replace('[', '').replace(']', '').replace(
+        '"', '').replace(' ', '').split(',')
+    return [{'buildingTypeString': s[i], 'X':int(s[i+1]), 'Y':int(s[i+2])} for i in range(0, len(s), 3)]
+
+
+def compute(import_string, printing=False):
+    IGNORE_LIST = ['POWER_STATION', 'HYDROGEN_MATTER_SILO', 'ENGINEERING_WORKSHOP',
+                   'NEXUS', 'SILICON_MATTER_SILO', 'QUANTUM_FABRICANT', 'CARBON_MATTER_SILO']
+    IGNORE_LIST_2 = ['HYDROGEN_MATTER_SILO', 'ENGINEERING_WORKSHOP',
+                     'NEXUS', 'SILICON_MATTER_SILO', 'QUANTUM_FABRICANT', 'CARBON_MATTER_SILO']
+    output = []
     for building in import_string:
         name = building['buildingTypeString']
+        if name[:-2] in IGNORE_LIST:
+            continue
         default_efficiency = 80
-        wxh = (2,2)
+        wxh = (2, 2)
         radius = 6
-        if name == 'HYDROGEN_PUMP_2':
+        if 'HYDROGEN_PUMP' in name or 'MINE' in name or 'SEDIMENT_EXCAVATOR' in name:
             default_efficiency = 100
-        if name == 'CONDENSER_PLANT_1':
-            wxh = (3,3)
+        if name == 'CONDENSER_PLANT_1' or name == 'PHOTODISINTEGRATION_PLANT_1' or name == 'SEQUESTRIAN_PLANT_1':
+            wxh = (3, 3)
             radius = 7
         eff = default_efficiency
+        if printing and name != 'POWER_STATION_1':
+            print(f'--- {name} - {eff} ---')
         for building2 in import_string:
             name2 = building2['buildingTypeString']
-            wxh2 = (2,2)
-            if name == 'CONDENSER_PLANT_1':
-                wxh = (3,3)
+            if name2[:-2] in IGNORE_LIST_2:
+                continue
+            wxh2 = (2, 2)
+            if name2 == 'CONDENSER_PLANT_1' or name == 'PHOTODISINTEGRATION_PLANT_1' or name == 'SEQUESTRIAN_PLANT_1':
+                wxh2 = (3, 3)
             if building != building2:
                 infl = get_power_influence(building, building2)
                 diff = calculate_efficiency((building['X'], building['Y']), wxh,
-                                             (building2['X'], building2['Y']), (2, 2),base_efficiency=default_efficiency,power=infl,radius=radius)-default_efficiency
+                                            (building2['X'], building2['Y']), wxh2, base_efficiency=default_efficiency, power=infl, radius=radius)-default_efficiency
                 eff += diff
-                #code.interact(local=dict(globals(), **locals()))
-                #code.interact(local=dict(globals(), **locals()))
-                #print(name,name2,diff)
-                #print(diff)
-        if name != 'POWER_STATION_1':
-            print(name,eff, default_efficiency)
-    
-    # print('Running tests')
-    # assert math.floor(calculate_efficiency((42, 19), (2, 2),
-    #                  (33, 10), (3, 3))) == 82  # Furthest Diagonal
-    # assert math.floor(calculate_efficiency((33, 19), (2, 2),
-    #                  (33, 10), (3, 3))) == 87  # Furthest Vertical
-    # assert math.floor(calculate_efficiency((33, 20), (2, 2),
-    #                  (33, 10), (3, 3))) == 80  # Out of range Vertical
-    # assert math.floor(calculate_efficiency((33, 13), (2, 2),
-    #                  (33, 10), (3, 3))) == 100  # Adjacent Vertical
-    # assert math.floor(calculate_efficiency((31, 8), (2, 2),
-    #                  (33, 10), (3, 3))) == 99  # Adjacent Diagonal
-    # assert math.floor(calculate_efficiency((43, 20), (2, 2),
-    #                  (33, 10), (3, 3))) == 80  # Out of range Diagonal
-    # Multi Power Station Test
-    # power_stations = [(34, 13), (34, 15)]
-    # target = (33, 10)
-    # power = 80
-    # for ps in power_stations:
-    #    power = calculate_efficiency(ps, (2, 2), target, (3, 3), power)
-    # assert math.floor(power) == 115
-    # print('All tests passed')
+                if printing and diff > 0:
+                    print(f'\t{diff} from {name2}')
+        if eff > 150:
+            eff = 150
+        output.append({
+            'name': name,
+            'efficiency': eff
+        })
+        if printing and name != 'POWER_STATION_1':
+            print(f'Final Efficiency: {eff:.0f}\n')
+    return output
+
+
+if __name__ == '__main__':
+    import_string = import_string_to_array(
+        '[["CRYSTAL_LUMITERN_1",2,24],["HYDROGEN_MATTER_SILO_5",14,13],["HYPERION_EXTRACTOR_1",9,25],["HYDROGEN_PUMP_4",31,31],["MINE_3",35,27],["SEDIMENT_EXCAVATOR_3",35,31],["NEXUS_5",27,9],["ENGINEERING_WORKSHOP_5",23,12],["HYDROGEN_MATTER_SILO_5",17,13],["SILICON_MATTER_SILO_4",20,13],["HYDROGEN_MATTER_SILO_5",18,16],["PHOTODISINTEGRATION_PLANT_4",34,23],["HYDROGEN_MATTER_SILO_5",21,16],["HYDROGEN_MATTER_SILO_5",15,16],["SILICON_MATTER_SILO_4",24,16],["SEQUESTRIAN_PLANT_4",8,28],["CONDENSER_PLANT_4",27,33],["QUANTUM_FABRICANT_2",24,8],["POWER_STATION_1",32,28],["POWER_STATION_1",9,22],["ANTI-SOLON_INVERTER_1",15,29],["CARBON_MATTER_SILO_5",24,19],["POWER_STATION_1",6,25],["SILICON_MATTER_SILO_4",21,19],["SEQUESTRIAN_PLANT_4",34,34],["POWER_STATION_1",31,34],["POWER_STATION_1",12,29],["L-CRYPTON_COLLIDER_1",9,19],["CONDENSER_PLANT_4",5,21],["PHOTODISINTEGRATION_PLANT_4",12,25],["POWER_STATION_1",6,18],["POWER_STATION_1",31,26],["POWER_STATION_1",13,22],["POWER_STATION_1",31,36],["POWER_STATION_1",11,22],["HYDROGEN_MATTER_SILO_5",18,19],["HYDROGEN_MATTER_SILO_3",15,19]]')
+    import timeit
+    print('Original Method Finished:', timeit.timeit('compute(import_string, printing=False)',
+                                                     setup='from __main__ import compute, import_string', number=1))
