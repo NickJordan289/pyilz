@@ -7,6 +7,7 @@
       "description": "The nerve centre of the industrial complex that must be built to enable all other construction.",
       "width": 4,
       "height": 6,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -217,6 +218,7 @@
       "description": "Provides the infrastructure of construct basic structure types.",
       "width": 3,
       "height": 3,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -427,6 +429,7 @@
       "description": "Provides the infrastructure required to construct advanced science and resource related structures.",
       "width": 2,
       "height": 3,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -565,6 +568,7 @@
       "description": "Provides power to structures to ensure they operate with increased efficiency.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -595,6 +599,7 @@
       "description": "Excavates sediment from Outcrops and mechanically separates it into pure Carbon.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -829,6 +834,7 @@
       "description": "Extracts crystals from a Crystal Deposit and smelts them into pure Silicon.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -1063,6 +1069,7 @@
       "description": "Pumps water from Lakes and converts it to liquid Hydrogen.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -1297,6 +1304,7 @@
       "description": "Intercepts spontaneous vacuum fluctuations in Crypton Rifts to capture Cryptons.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -1477,6 +1485,7 @@
       "description": "Stimulates the permeability of Hyperion Reservoirs to draw out Hyperions.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -1657,6 +1666,7 @@
       "description": "Uses high-energy radiation to excite Solon Trenches into releasing pure Solons.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -2162,6 +2172,7 @@
       "description": "Passively converts oxygen in the atmosphere to Silicon and converts other Elements into Silicon.",
       "width": 3,
       "height": 3,
+      "efficiency": 80,
       "details": [
         {
           "level": 1,
@@ -2487,6 +2498,7 @@
       "description": "Passively converts water in the atmosphere to Hydrogen and converts other Elements in to Hydrogen.",
       "width": 3,
       "height": 3,
+      "efficiency": 80,
       "details": [
         {
           "level": 1,
@@ -2812,6 +2824,7 @@
       "description": "Passively converts trace Ethereum in the material plane to Cryptons and converts other resources to Crypton.",
       "width": 3,
       "height": 2,
+      "efficiency": 70,
       "details": [
         {
           "level": 1,
@@ -3052,6 +3065,7 @@
       "description": "Passively converts trace Ethereum in the material plane to Hyperions and converts other resources to Hyperion.",
       "width": 2,
       "height": 3,
+      "efficiency": 70,
       "details": [
         {
           "level": 1,
@@ -3292,6 +3306,7 @@
       "description": "Passively converts trace Ethereum in the material plane to Solons and converts other resources to Solon.",
       "width": 2,
       "height": 3,
+      "efficiency": 70,
       "details": [
         {
           "level": 1,
@@ -3532,6 +3547,7 @@
       "description": "Stores aggregated Carbon nanorods for later use.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -3754,6 +3770,7 @@
       "description": "Stores pure metallic Silicon for later use.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -3976,6 +3993,7 @@
       "description": "Safely stores liquid Hydrogen for later use.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4198,6 +4216,7 @@
       "description": "Stores stable Cryptons for later use.",
       "width": 3,
       "height": 3,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4368,6 +4387,7 @@
       "description": "Stores stable Hyperions for later use.",
       "width": 3,
       "height": 3,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4538,6 +4558,7 @@
       "description": "Stores stable Solons for later use.",
       "width": 3,
       "height": 3,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4708,6 +4729,7 @@
       "description": "Provides the requisite facilities to research Illuvial Biodata, Blueprints, and exotic materials found on Illuvium.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4913,6 +4935,7 @@
       "description": "Creates a singularity capable of teleporting matter across large distances.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -4995,6 +5018,7 @@
       "description": "Scans Illuvials in the surrounding area and records their Biodata.",
       "width": 4,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -5200,6 +5224,7 @@
       "description": "Stores uncompressed data such as Illuvial Biodata and Blueprints, and improves research efficiency.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -5234,6 +5259,7 @@
       "description": "Displays a 3D Hologram of your scanned Illuvial Biodata.",
       "width": 2,
       "height": 2,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,
@@ -5316,6 +5342,7 @@
       "description": "Creates an uplink to the Marketplace, allowing the purchase and sale of Resources.",
       "width": 4,
       "height": 4,
+      "efficiency": 100,
       "details": [
         {
           "level": 1,

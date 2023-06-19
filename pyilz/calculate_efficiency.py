@@ -1,6 +1,7 @@
 from itertools import product
 import math
 import time
+from get_buildings import get_building_dimensions, get_building_starting_efficiency, get_building_radius
 
 
 def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, building_b_wxh, base_efficiency=80, power=20, radius=7, debuff=False):
@@ -133,24 +134,18 @@ def compute(import_string, printing=False):
         name = building['buildingTypeString']
         if name[:-2] in IGNORE_LIST:
             continue
-        default_efficiency = 80
-        wxh = (2, 2)
-        radius = 6
-        if 'HYDROGEN_PUMP' in name or 'MINE' in name or 'SEDIMENT_EXCAVATOR' in name:
-            default_efficiency = 100
-        if name == 'CONDENSER_PLANT_1' or name == 'PHOTODISINTEGRATION_PLANT_1' or name == 'SEQUESTRIAN_PLANT_1':
-            wxh = (3, 3)
-            radius = 7
-        eff = default_efficiency
+        w, h = get_building_dimensions(name[:-2])
+        wxh = (w, h)
+        eff = default_efficiency = get_building_starting_efficiency(name[:-2])
+        radius = get_building_radius(name[:-2])
         if printing and name != 'POWER_STATION_1':
-            print(f'--- {name} - {eff} ---')
+            print(f'--- {name} - {eff} -{w}x{h}---')
         for building2 in import_string:
             name2 = building2['buildingTypeString']
             if name2[:-2] in IGNORE_LIST_2:
                 continue
-            wxh2 = (2, 2)
-            if name2 == 'CONDENSER_PLANT_1' or name == 'PHOTODISINTEGRATION_PLANT_1' or name == 'SEQUESTRIAN_PLANT_1':
-                wxh2 = (3, 3)
+            w2, h2 = get_building_dimensions(name2[:-2])
+            wxh2 = (w2, h2)
             if building != building2:
                 infl = get_power_influence(building, building2)
                 diff = calculate_efficiency((building['X'], building['Y']), wxh,
@@ -171,7 +166,8 @@ def compute(import_string, printing=False):
 
 if __name__ == '__main__':
     import_string = import_string_to_array(
-        '[["CRYSTAL_LUMITERN_1",2,24],["HYDROGEN_MATTER_SILO_5",14,13],["HYPERION_EXTRACTOR_1",9,25],["HYDROGEN_PUMP_4",31,31],["MINE_3",35,27],["SEDIMENT_EXCAVATOR_3",35,31],["NEXUS_5",27,9],["ENGINEERING_WORKSHOP_5",23,12],["HYDROGEN_MATTER_SILO_5",17,13],["SILICON_MATTER_SILO_4",20,13],["HYDROGEN_MATTER_SILO_5",18,16],["PHOTODISINTEGRATION_PLANT_4",34,23],["HYDROGEN_MATTER_SILO_5",21,16],["HYDROGEN_MATTER_SILO_5",15,16],["SILICON_MATTER_SILO_4",24,16],["SEQUESTRIAN_PLANT_4",8,28],["CONDENSER_PLANT_4",27,33],["QUANTUM_FABRICANT_2",24,8],["POWER_STATION_1",32,28],["POWER_STATION_1",9,22],["ANTI-SOLON_INVERTER_1",15,29],["CARBON_MATTER_SILO_5",24,19],["POWER_STATION_1",6,25],["SILICON_MATTER_SILO_4",21,19],["SEQUESTRIAN_PLANT_4",34,34],["POWER_STATION_1",31,34],["POWER_STATION_1",12,29],["L-CRYPTON_COLLIDER_1",9,19],["CONDENSER_PLANT_4",5,21],["PHOTODISINTEGRATION_PLANT_4",12,25],["POWER_STATION_1",6,18],["POWER_STATION_1",31,26],["POWER_STATION_1",13,22],["POWER_STATION_1",31,36],["POWER_STATION_1",11,22],["HYDROGEN_MATTER_SILO_5",18,19],["HYDROGEN_MATTER_SILO_3",15,19]]')
-    import timeit
-    print('Original Method Finished:', timeit.timeit('compute(import_string, printing=False)',
-                                                     setup='from __main__ import compute, import_string', number=1))
+        '[["HYDROGEN_MATTER_SILO_5",14,13],["HYPERION_EXTRACTOR_1",9,25],["HYDROGEN_PUMP_4",31,31],["MINE_3",35,27],["SEDIMENT_EXCAVATOR_3",35,31],["NEXUS_5",27,9],["ENGINEERING_WORKSHOP_5",23,12],["HYDROGEN_MATTER_SILO_5",17,13],["SILICON_MATTER_SILO_4",20,13],["HYDROGEN_MATTER_SILO_5",18,16],["PHOTODISINTEGRATION_PLANT_4",34,23],["HYDROGEN_MATTER_SILO_5",21,16],["HYDROGEN_MATTER_SILO_5",15,16],["SILICON_MATTER_SILO_4",24,16],["SEQUESTRIAN_PLANT_4",8,28],["CONDENSER_PLANT_4",27,33],["QUANTUM_FABRICANT_2",24,8],["POWER_STATION_1",32,28],["POWER_STATION_1",9,22],["ANTI-SOLON_INVERTER_1",15,29],["CARBON_MATTER_SILO_5",24,19],["POWER_STATION_1",6,25],["SILICON_MATTER_SILO_4",21,19],["SEQUESTRIAN_PLANT_4",34,34],["POWER_STATION_1",31,34],["POWER_STATION_1",12,29],["L-CRYPTON_COLLIDER_1",9,19],["CONDENSER_PLANT_4",5,21],["PHOTODISINTEGRATION_PLANT_4",12,25],["POWER_STATION_1",6,18],["POWER_STATION_1",31,26],["POWER_STATION_1",13,22],["POWER_STATION_1",31,36],["POWER_STATION_1",11,22],["HYDROGEN_MATTER_SILO_5",18,19],["HYDROGEN_MATTER_SILO_3",15,19]]')
+    compute(import_string, printing=True)
+    # import timeit
+    # print('Original Method Finished:', timeit.timeit('compute(import_string, printing=True)',
+    #                                                 setup='from __main__ import compute, import_string', number=1))
