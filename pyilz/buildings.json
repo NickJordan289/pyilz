@@ -5,6 +5,8 @@
       "nameId": "nexus",
       "category": "Basics",
       "description": "The nerve centre of the industrial complex that must be built to enable all other construction.",
+      "width": 4,
+      "height": 6,
       "details": [
         {
           "level": 1,
@@ -213,6 +215,8 @@
       "nameId": "engineeringworkshop",
       "category": "Basics",
       "description": "Provides the infrastructure of construct basic structure types.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -421,6 +425,8 @@
       "nameId": "quantumfabricant",
       "category": "Basics",
       "description": "Provides the infrastructure required to construct advanced science and resource related structures.",
+      "width": 2,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -557,6 +563,8 @@
       "nameId": "powerstation",
       "category": "Basics",
       "description": "Provides power to structures to ensure they operate with increased efficiency.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -585,6 +593,8 @@
       "nameId": "sedimentexcavator",
       "category": "Extractors",
       "description": "Excavates sediment from Outcrops and mechanically separates it into pure Carbon.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -817,6 +827,8 @@
       "nameId": "mine",
       "category": "Extractors",
       "description": "Extracts crystals from a Crystal Deposit and smelts them into pure Silicon.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -1049,6 +1061,8 @@
       "nameId": "hydrogenpump",
       "category": "Extractors",
       "description": "Pumps water from Lakes and converts it to liquid Hydrogen.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -1281,6 +1295,8 @@
       "nameId": "cryptongate",
       "category": "Extractors",
       "description": "Intercepts spontaneous vacuum fluctuations in Crypton Rifts to capture Cryptons.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -1459,6 +1475,8 @@
       "nameId": "hyperionextractor",
       "category": "Extractors",
       "description": "Stimulates the permeability of Hyperion Reservoirs to draw out Hyperions.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -1637,6 +1655,8 @@
       "nameId": "solondredge",
       "category": "Extractors",
       "description": "Uses high-energy radiation to excite Solon Trenches into releasing pure Solons.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -1815,6 +1835,8 @@
       "nameId": "sequestrianplant",
       "category": "Converters",
       "description": "Passively converts CO2 in the atmosphere to Carbon and converts other Elements in to Carbon.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -2138,6 +2160,8 @@
       "nameId": "photodisintegrationplant",
       "category": "Converters",
       "description": "Passively converts oxygen in the atmosphere to Silicon and converts other Elements into Silicon.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -2461,6 +2485,8 @@
       "nameId": "condenserplant",
       "category": "Converters",
       "description": "Passively converts water in the atmosphere to Hydrogen and converts other Elements in to Hydrogen.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -2784,6 +2810,8 @@
       "nameId": "lcryptoncollider",
       "category": "Converters",
       "description": "Passively converts trace Ethereum in the material plane to Cryptons and converts other resources to Crypton.",
+      "width": 3,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -3022,6 +3050,8 @@
       "nameId": "hyperionlathe",
       "category": "Converters",
       "description": "Passively converts trace Ethereum in the material plane to Hyperions and converts other resources to Hyperion.",
+      "width": 2,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -3260,6 +3290,8 @@
       "nameId": "antisoloninverter",
       "category": "Converters",
       "description": "Passively converts trace Ethereum in the material plane to Solons and converts other resources to Solon.",
+      "width": 2,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -3498,6 +3530,8 @@
       "nameId": "carbonmattersilo",
       "category": "Storage",
       "description": "Stores aggregated Carbon nanorods for later use.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -3718,6 +3752,8 @@
       "nameId": "siliconmattersilo",
       "category": "Storage",
       "description": "Stores pure metallic Silicon for later use.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -3938,6 +3974,8 @@
       "nameId": "hydrogenmattersilo",
       "category": "Storage",
       "description": "Safely stores liquid Hydrogen for later use.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -4158,6 +4196,8 @@
       "nameId": "cryptoncontainmentunit",
       "category": "Storage",
       "description": "Stores stable Cryptons for later use.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -4326,6 +4366,8 @@
       "nameId": "hyperioncontainmentunit",
       "category": "Storage",
       "description": "Stores stable Hyperions for later use.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -4494,6 +4536,8 @@
       "nameId": "soloncontainmentunit",
       "category": "Storage",
       "description": "Stores stable Solons for later use.",
+      "width": 3,
+      "height": 3,
       "details": [
         {
           "level": 1,
@@ -4662,6 +4706,8 @@
       "nameId": "materialslab",
       "category": "Science",
       "description": "Provides the requisite facilities to research Illuvial Biodata, Blueprints, and exotic materials found on Illuvium.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -4865,6 +4911,8 @@
       "nameId": "zeropointtransducer",
       "category": "Science",
       "description": "Creates a singularity capable of teleporting matter across large distances.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -4945,6 +4993,8 @@
       "nameId": "singularityscanner",
       "category": "Science",
       "description": "Scans Illuvials in the surrounding area and records their Biodata.",
+      "width": 4,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -5148,6 +5198,8 @@
       "nameId": "databank",
       "category": "Science",
       "description": "Stores uncompressed data such as Illuvial Biodata and Blueprints, and improves research efficiency.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -5180,6 +5232,8 @@
       "nameId": "holographicstatue",
       "category": "Others",
       "description": "Displays a 3D Hologram of your scanned Illuvial Biodata.",
+      "width": 2,
+      "height": 2,
       "details": [
         {
           "level": 1,
@@ -5260,6 +5314,8 @@
       "nameId": "marketplace",
       "category": "Others",
       "description": "Creates an uplink to the Marketplace, allowing the purchase and sale of Resources.",
+      "width": 4,
+      "height": 4,
       "details": [
         {
           "level": 1,
