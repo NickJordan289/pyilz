@@ -6,6 +6,35 @@ with importlib.resources.open_text("pyilz", "buildings.json") as file:
     buildings = json.load(file)['buildings']
 
 
+def get_building_dimensions(name):
+    '''Returns the width and height of the specified building.'''
+    name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
+    for building in buildings:  # This should probably be a dict
+        if building['nameId'] == name:
+            return building['width'], building['height']
+    return 2, 2
+
+
+def get_building_starting_efficiency(name):
+    '''Returns the starting efficiency of the specified building.'''
+    name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
+    for building in buildings:  # This should probably be a dict
+        if building['nameId'] == name:
+            return building['efficiency'] if 'efficiency' in building else 100
+    return 100
+
+
+def get_building_radius(name):
+    radius = 6
+    if name == 'CONDENSER_PLANT' or name == 'PHOTODISINTEGRATION_PLANT' or name == 'SEQUESTRIAN_PLANT' or name == 'lcryptoncollider' or name == 'antisoloninverter' or name == 'hyperionlathe':
+        radius = 7
+    if name == 'MATERIALS_LAB':
+        radius = 8
+    if name == 'MARKETPLACE':
+        radius = 12
+    return radius
+
+
 def get_building_storage(name, level, tier):
     '''Returns the storage capacity of the specified building at the specified level and tier.'''
     name = name.lower().replace(' ', '').replace('_', '').replace('-', '')
