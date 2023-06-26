@@ -1847,6 +1847,7 @@
       "description": "Passively converts CO2 in the atmosphere to Carbon and converts other Elements in to Carbon.",
       "width": 3,
       "height": 3,
+      "efficiency": 80,
       "details": [
         {
           "level": 1,
