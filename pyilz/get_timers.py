@@ -4,13 +4,32 @@ import pyilz.parse_land as parse_land
 
 
 def get_timers_from_state(gamestate):
-    '''Returns the active, passive, and completed activities from the gamestate.'''
+    """
+    Returns the active, passive, and completed activities from the gamestate.
+
+    Args:
+        gamestate (str): The gamestate string.
+
+    Returns:
+        Tuple: A tuple containing three lists - active, passive, and completed activities.
+    """
     _, _, ca, aa, completed = parse_land.parse_land(gamestate)
     return get_timers(ca, aa, completed)
 
 
 def get_timers(ca, aa, completed, init=False):
-    '''Returns a dictionary of timers for the specified activities. If init is True, then all timers will be marked as notified.'''
+    """
+    Returns a dictionary of timers for the specified activities.
+
+    Args:
+        ca (pandas.DataFrame): A DataFrame containing information about current activities.
+        aa (pandas.DataFrame): A DataFrame containing information about auto activities.
+        completed (pandas.DataFrame): A DataFrame containing information about completed activities.
+        init (bool): A flag indicating whether all timers should be marked as notified.
+
+    Returns:
+        dict: A dictionary of timers for the specified activities.
+    """
     timers = {}
     if ca is not None:
         for i, row in ca.iterrows():

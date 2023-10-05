@@ -1,12 +1,24 @@
-from itertools import product
 import math
-import time
 from get_buildings import get_building_dimensions, get_building_starting_efficiency, get_building_radius
-import pandas as pd
-import random
 
 
 def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, building_b_wxh, base_efficiency=80, power=20, radius=7, debuff=False):
+    """
+    Calculates the efficiency of a building based on its position, size, and distance from another building.
+
+    Args:
+        building_a_pos (tuple): The position of the first building as a tuple of (x, y) coordinates.
+        building_a_wxh (tuple): The width and height of the first building as a tuple of (width, height).
+        building_b_pos (tuple): The position of the second building as a tuple of (x, y) coordinates.
+        building_b_wxh (tuple): The width and height of the second building as a tuple of (width, height).
+        base_efficiency (int, optional): The base efficiency of the building. Defaults to 80.
+        power (int, optional): The power of the building. Defaults to 20.
+        radius (int, optional): The radius of the building. Defaults to 7.
+        debuff (bool, optional): Whether the building has a debuff. Defaults to False.
+
+    Returns:
+        int: The efficiency of the building as an integer.
+    """
     if power < 0:
         debuff = True
     building_a_shape = [(i, j) for i in range(building_a_wxh[0])
@@ -33,6 +45,19 @@ def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, buildin
 
 
 def get_minimum_distance_between_buildings(building_a_pos, building_a_shape, building_b_pos, building_b_shape, radius=6):
+    """
+    Calculates the minimum distance between two buildings given their positions and shapes.
+
+    Args:
+        building_a_pos (tuple): The position of the first building as a tuple of (x, y) coordinates.
+        building_a_shape (list): A list of tuples representing the shape of the first building.
+        building_b_pos (tuple): The position of the second building as a tuple of (x, y) coordinates.
+        building_b_shape (list): A list of tuples representing the shape of the second building.
+        radius (int, optional): The radius within which to search for points. Defaults to 6.
+
+    Returns:
+        float: The minimum distance between the two buildings, or None if the minimum points are not within the radius of building_a.
+    """
     # Pre-calculate shape positions
     a_positions = get_building_points(building_a_pos, building_a_shape)
     b_positions = get_building_points(building_b_pos, building_b_shape)
@@ -63,6 +88,18 @@ def get_minimum_distance_between_buildings(building_a_pos, building_a_shape, bui
 
 
 def get_points_in_radius(origin, shape, radius=6):
+    """
+    Returns a list of unique points within a given radius of an origin point, 
+    taking into account the shape of the object being measured.
+
+    Args:
+    - origin (tuple): A tuple containing the x and y coordinates of the origin point.
+    - shape (list): A list of tuples containing the x and y coordinates of each point in the shape.
+    - radius (int): The radius within which to search for points. Default is 6.
+
+    Returns:
+    - list: A list of unique points within the given radius of the origin point.
+    """
     x0, y0 = origin
     points = set()
     for dx in range(-radius, radius+1):
@@ -74,6 +111,16 @@ def get_points_in_radius(origin, shape, radius=6):
 
 
 def get_building_points(building_pos, building_shape):
+    """
+    Returns a list of points representing the building's shape, given its position and shape.
+
+    Args:
+        building_pos (tuple): The (x, y) position of the building.
+        building_shape (list): A list of (x, y) tuples representing the shape of the building.
+
+    Returns:
+        list: A list of (x, y) tuples representing the points that make up the building's shape.
+    """
     x0, y0 = building_pos
     points = [(x0 + x, y0 + y) for x, y in building_shape]
     return points
@@ -142,6 +189,16 @@ influence_values = {
 
 
 def get_power_influence(this, other):
+    """
+    Calculates the power influence between two buildings based on their building types.
+
+    Args:
+        this (dict): A dictionary containing information about the first building.
+        other (dict): A dictionary containing information about the second building.
+
+    Returns:
+        float: The power influence between the two buildings.
+    """
     inf = influence_values.get(
         (this['buildingTypeString'][:-2], other['buildingTypeString'][:-2]), None)
     if not inf:
@@ -150,12 +207,34 @@ def get_power_influence(this, other):
 
 
 def import_string_to_array(string):
+    """
+    Converts a string representation of an array of building types and their coordinates
+    into a list of dictionaries, where each dictionary represents a building type and its coordinates.
+
+    Args:
+    string (str): A string representation of an array of building types and their coordinates.
+                  The string should be in the format '[buildingTypeString1, X1, Y1, buildingTypeString2, X2, Y2, ...]'
+
+    Returns:
+    list: A list of dictionaries, where each dictionary represents a building type and its coordinates.
+          Each dictionary has the keys 'buildingTypeString', 'X', and 'Y'.
+    """
     s = string.replace('[', '').replace(']', '').replace(
         '"', '').replace(' ', '').split(',')
     return [{'buildingTypeString': s[i], 'X':int(s[i+1]), 'Y':int(s[i+2])} for i in range(0, len(s), 3)]
 
 
 def compute(import_string, printing=False):
+    """
+    Computes the efficiency of each building in the import_string based on its power influence and proximity to other buildings.
+
+    Args:
+        import_string (list): A list of dictionaries containing information about each building.
+        printing (bool, optional): Whether to print the intermediate steps of the computation. Defaults to False.
+
+    Returns:
+        list: A list of dictionaries containing the name and efficiency of each building.
+    """
     IGNORE_LIST = ['POWER_STATION', 'HYDROGEN_MATTER_SILO', 'ENGINEERING_WORKSHOP',
                    'NEXUS', 'SILICON_MATTER_SILO', 'QUANTUM_FABRICANT', 'CARBON_MATTER_SILO']
     IGNORE_LIST_2 = ['HYDROGEN_MATTER_SILO', 'ENGINEERING_WORKSHOP',

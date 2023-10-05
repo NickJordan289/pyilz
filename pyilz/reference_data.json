@@ -182,12 +182,11 @@
       "action": "EXTRACT_SOLON",
       "output": "solon"
     },
-    "HYPERION_LATHE": {
+    "HYPERION_EXTRACTOR": {
       "w": 2,
-      "h": 3,
+      "h": 2,
       "img": "images/hyperion-icon.png",
-      "action": "CONVERT_SOLON_TO_HYPERION",
-      "passive": "HYPERION_LATHE_AUTOMATIC",
+      "action": "EXTRACT_HYPERION",
       "output": "hyperion"
     },
     "OUTCROP": {
@@ -286,6 +285,14 @@
       "action": "CONVERT_CRYPTON_TO_SOLON",
       "passive": "ANTI-SOLON_INVERTER_AUTOMATIC",
       "output": "solon"
+    },
+    "HYPERION_LATHE": {
+      "w": 2,
+      "h": 3,
+      "img": "images/hyperion-icon.png",
+      "action": "CONVERT_SOLON_TO_HYPERION",
+      "passive": "HYPERION_LATHE_AUTOMATIC",
+      "output": "hyperion"
     },
     "QUANTUM_FABRICANT": {
       "w": 2,

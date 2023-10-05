@@ -2,6 +2,15 @@ from pyilz.get_buildings import get_building_storage
 
 
 def _get_storage_buildings(df):
+    """
+    Returns a filtered DataFrame containing only the storage buildings from the input DataFrame.
+
+    Args:
+        df (pandas.DataFrame): The input DataFrame containing the building data.
+
+    Returns:
+        pandas.DataFrame: A filtered DataFrame containing only the storage buildings.
+    """
     storage_buildings_suffix = ['SILO', 'UNIT']
     # pop off _{number} from buildingTypeString and put into column Level
     df['Level'] = df['buildingTypeString'].str.extract(
@@ -15,6 +24,16 @@ def _get_storage_buildings(df):
 
 
 def get_storage(parsed_land, tier=1):
+    """
+    Calculates the total amount of resources that can be stored in the player's storage buildings.
+
+    Args:
+        parsed_land (pandas.DataFrame): A DataFrame containing information about the player's land.
+        tier (int, optional): The tier of the storage buildings to consider. Defaults to 1.
+
+    Returns:
+        dict: A dictionary containing the total amount of each resource that can be stored.
+    """
     storage_buildings = _get_storage_buildings(parsed_land)
     storage = {
         'hydrogen': 0,
@@ -29,14 +48,3 @@ def get_storage(parsed_land, tier=1):
             row['Type'], row['Level'], tier)
         storage[resource] += amount
     return storage
-
-
-# def get_resources():
-#    return {
-#        'Hydrogen': 100000,
-#        'Silicon': 100000,
-#        'Carbon': 100000,
-#        'Crypton': 100000,
-#        'Hyperion': 100000,
-#        'Solon': 100000,
-#    }

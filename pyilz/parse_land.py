@@ -1,10 +1,17 @@
-# Import the required modules
 import pandas as pd
 import xmltodict
 
 
 def parse_land(data):
-    '''Returns a pandas dataframe of the land.'''
+    """
+    Parses the given XML data and returns a pandas dataframe of the land.
+
+    Args:
+        data (str): The XML data to parse.
+
+    Returns:
+        pandas.DataFrame: A dataframe containing the land data.
+    """
     data = xmltodict.parse(data)
     building_data = data['SaveGameData']['Buildings']['BuildingData']
     building_data = pd.DataFrame(building_data)
@@ -12,10 +19,17 @@ def parse_land(data):
 
 
 def get_buildings_and_activities(df):
-    '''Returns a tuple of paths, buildings, current activities, auto activities, and completed activities.
-
+    """
+    Returns a tuple of paths, buildings, current activities, auto activities, and completed activities.
     These are all pandas dataframes.
-    '''
+
+    Args:
+        df (pandas.DataFrame): The input dataframe containing information about buildings and activities.
+
+    Returns:
+        tuple: A tuple of pandas dataframes containing information about paths, buildings, current activities, auto activities, and completed activities.
+    """
+
     # convert position column from {'@x': '38', '@y': '17'} to '38,17'
     df['position'] = df['position'].apply(lambda x: x['@x'] + ',' + x['@y'])
     # split position column into x and y columns
