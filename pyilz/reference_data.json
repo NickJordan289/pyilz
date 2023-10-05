@@ -1,0 +1,314 @@
+{
+  "activities": {
+    "UPGRADE": {
+      "type": "UPGRADE",
+      "output": null,
+      "amount": null
+    },
+    "CONVERT_HYPERION_TO_SOLON": {
+      "type": "CONVERSION",
+      "output": "solon",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "CONVERT_HYPERION_TO_CRYPTON": {
+      "type": "CONVERSION",
+      "output": "hyperion",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "CONVERT_SOLON_TO_HYPERION": {
+      "type": "CONVERSION",
+      "output": "hyperion",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "CONVERT_SOLON_TO_CRYPTON": {
+      "type": "CONVERSION",
+      "output": "crypton",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "CONVERT_CRYPTON_TO_SOLON": {
+      "type": "CONVERSION",
+      "output": "solon",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "CONVERT_CRYPTON_TO_HYPERION": {
+      "type": "CONVERSION",
+      "output": "hyperion",
+      "amount": [3, 5, 8, 11, 13, 16],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "EXTRACT_SOLON": {
+      "type": "EXTRACT",
+      "output": "solon",
+      "amount": [1, 3, 4, 5, 7, 8],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "ANTI-SOLON_INVERTER_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "solon",
+      "amount": [1, 1, 3, 1, 3, 4],
+      "totals": [7, 13, 20, 27, 33, 67],
+      "duration_minutes": [1440, 1440, 2800, 1440, 1440, 1440]
+    },
+    "EXTRACT_HYPERION": {
+      "type": "EXTRACT",
+      "output": "hyperion",
+      "amount": [1, 3, 4, 5, 7, 8],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "HYPERION_LATHE_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "hyperion",
+      "amount": [1, 1, 3, 1, 3, 4],
+      "totals": [7, 13, 20, 27, 33, 67],
+      "duration_minutes": [1440, 1440, 2800, 1440, 1440, 1440]
+    },
+    "EXTRACT_CRYPTON": {
+      "type": "EXTRACT",
+      "output": "crypton",
+      "amount": [1, 3, 4, 5, 7, 8],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1440, 1440, 1440, 1440, 1440, 1440]
+    },
+    "L-CRYPTON_COLLIDER_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "crypton",
+      "amount": [1, 1, 3, 1, 3, 4],
+      "totals": [7, 13, 20, 27, 33, 67],
+      "duration_minutes": [1440, 1440, 2800, 1440, 1440, 1440]
+    },
+    "EXTRACT_CARBON": {
+      "type": "EXTRACT",
+      "output": "carbon",
+      "amount": [333, 2000, 6333, 18667, 45333, 160000],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180]
+    },
+    "EXTRACT_HYDROGEN": {
+      "type": "EXTRACT",
+      "output": "hydrogen",
+      "amount": [333, 2000, 6333, 18667, 45333, 160000],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180]
+    },
+    "EXTRACT_SILICON": {
+      "type": "EXTRACT",
+      "output": "silicon",
+      "amount": [333, 2000, 6333, 18667, 45333, 160000],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180]
+    },
+    "SEQUESTRIAN_PLANT_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "carbon",
+      "amount": [200, 240, 320, 373, 453, 533, 580, 713, 833],
+      "totals": [400, 2400, 4800, 7467, 18133, 64000, 139200, 428000, 800000],
+      "duration_minutes": [3, 3, 3, 3, 3, 3, 3, 3, 3]
+    },
+    "PHOTODISINTEGRATION_PLANT_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "silicon",
+      "amount": [200, 240, 320, 373, 453, 533, 580, 713, 833],
+      "totals": [400, 2400, 4800, 7467, 18133, 64000, 139200, 428000, 800000],
+      "duration_minutes": [3, 3, 3, 3, 3, 3, 3, 3, 3]
+    },
+    "CONDENSER_PLANT_AUTOMATIC": {
+      "type": "PASSIVE_EXTRACT",
+      "output": "hydrogen",
+      "amount": [200, 240, 320, 373, 453, 533, 580, 713, 833],
+      "totals": [400, 2400, 4800, 7467, 18133, 64000, 139200, 428000, 800000],
+      "duration_minutes": [3, 3, 3, 3, 3, 3, 3, 3, 3]
+    },
+    "CONVERT_TO_CARBON": {
+      "type": "CONVERSION",
+      "output": "carbon",
+      "amount": [
+        667, 4000, 12667, 37333, 90667, 186667, 69333, 2133334, 4000000
+      ],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180, 360, 900, 1440]
+    },
+    "CONVERT_TO_SILICON": {
+      "type": "CONVERSION",
+      "output": "silicon",
+      "amount": [
+        667, 4000, 12667, 37333, 90667, 186667, 69333, 2133334, 4000000
+      ],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180, 360, 900, 1440]
+    },
+    "CONVERT_TO_HYDROGEN": {
+      "type": "CONVERSION",
+      "output": "hydrogen",
+      "amount": [
+        667, 4000, 12667, 37333, 90667, 186667, 69333, 2133334, 4000000
+      ],
+      "totals": [-1, -1, -1, -1, -1, -1, -1, -1, -1],
+      "duration_minutes": [1, 5, 12, 30, 60, 180, 360, 900, 1440]
+    }
+  },
+  "buildings": {
+    "NEXUS": {
+      "w": 4,
+      "h": 6
+    },
+    "SINGULARITY_SCANNER": {
+      "w": 4,
+      "h": 2
+    },
+    "CRYPTON_GATE": {
+      "w": 2,
+      "h": 2,
+      "img": "images/crypton-icon.png",
+      "action": "EXTRACT_CRYPTON",
+      "output": "crypton"
+    },
+    "SOLON_DREDGE": {
+      "w": 2,
+      "h": 2,
+      "img": "images/solon-icon.png",
+      "action": "EXTRACT_SOLON",
+      "output": "solon"
+    },
+    "HYPERION_EXTRACTOR": {
+      "w": 2,
+      "h": 2,
+      "img": "images/hyperion-icon.png",
+      "action": "EXTRACT_HYPERION",
+      "output": "hyperion"
+    },
+    "OUTCROP": {
+      "w": 2,
+      "h": 2,
+      "img": "images/carbon-icon.png"
+    },
+    "SEDIMENT_EXCAVATOR": {
+      "w": 2,
+      "h": 2,
+      "img": "images/carbon-icon.png",
+      "action": "EXTRACT_CARBON",
+      "output": "carbon"
+    },
+    "SEQUESTRIAN_PLANT": {
+      "w": 3,
+      "h": 3,
+      "img": "images/carbon-icon.png",
+      "action": "CONVERT_TO_CARBON",
+      "passive": "SEQUESTRIAN_PLANT_AUTOMATIC",
+      "output": "carbon"
+    },
+    "ENGINEERING_WORKSHOP": {
+      "w": 3,
+      "h": 3
+    },
+    "MINE": {
+      "w": 2,
+      "h": 2,
+      "img": "images/silicon-icon.png",
+      "action": "EXTRACT_SILICON",
+      "output": "silicon"
+    },
+    "SILICON_MOUND": {
+      "w": 2,
+      "h": 2,
+      "img": "images/silicon-icon.png"
+    },
+    "PHOTODISINTEGRATION_PLANT": {
+      "w": 3,
+      "h": 3,
+      "img": "images/silicon-icon.png",
+      "action": "CONVERT_TO_SILICON",
+      "passive": "PHOTODISINTEGRATION_PLANT_AUTOMATIC",
+      "output": "silicon"
+    },
+    "CONDENSER_PLANT": {
+      "w": 3,
+      "h": 3,
+      "img": "images/hydrogen-icon.png",
+      "action": "CONVERT_TO_HYDROGEN",
+      "passive": "CONDENSER_PLANT_AUTOMATIC",
+      "output": "hydrogen"
+    },
+    "POWER_STATION": {
+      "w": 2,
+      "h": 2,
+      "img": "images/power-icon.png"
+    },
+    "HYDROGEN_MATTER_SILO": {
+      "w": 2,
+      "h": 2
+    },
+    "CARBON_MATTER_SILO": {
+      "w": 2,
+      "h": 2
+    },
+    "SILICON_MATTER_SILO": {
+      "w": 2,
+      "h": 2
+    },
+    "SOLON_CONTAINMENT_UNIT": {
+      "w": 3,
+      "h": 3
+    },
+    "HYPERION_CONTAINMENT_UNIT": {
+      "w": 3,
+      "h": 3
+    },
+    "CRYPTON_CONTAINMENT_UNIT": {
+      "w": 3,
+      "h": 3
+    },
+    "L-CRYPTON_COLLIDER": {
+      "w": 3,
+      "h": 2,
+      "img": "images/crypton-icon.png",
+      "action": "CONVERT_SOLON_TO_CRYPTON",
+      "passive": "L-CRYPTON_COLLIDER_AUTOMATIC",
+      "output": "crypton"
+    },
+    "ANTI-SOLON_INVERTER": {
+      "w": 2,
+      "h": 3,
+      "img": "images/solon-icon.png",
+      "action": "CONVERT_CRYPTON_TO_SOLON",
+      "passive": "ANTI-SOLON_INVERTER_AUTOMATIC",
+      "output": "solon"
+    },
+    "HYPERION_LATHE": {
+      "w": 2,
+      "h": 3,
+      "img": "images/hyperion-icon.png",
+      "action": "CONVERT_SOLON_TO_HYPERION",
+      "passive": "HYPERION_LATHE_AUTOMATIC",
+      "output": "hyperion"
+    },
+    "QUANTUM_FABRICANT": {
+      "w": 2,
+      "h": 3
+    },
+    "LAKE": {
+      "w": 2,
+      "h": 2,
+      "img": "images/hydrogen-icon.png"
+    },
+    "HYDROGEN_PUMP": {
+      "w": 2,
+      "h": 2,
+      "img": "images/hydrogen-icon.png",
+      "action": "EXTRACT_HYDROGEN",
+      "output": "hydrogen"
+    }
+  }
+}

@@ -3,7 +3,18 @@ import os
 
 
 def refresh_token(ref_token=None):
-    '''Returns a new API_KEY. If the refresh token is not provided, it will be retrieved from the environment.'''
+    """
+    Returns a new ID token using the provided refresh token or the refresh token from the environment.
+
+    Args:
+        ref_token (str, optional): The refresh token to use. Defaults to None.
+
+    Raises:
+        Exception: If no refresh token is found.
+
+    Returns:
+        str: The new ID token.
+    """
     REFRESH_TOKEN = os.getenv(
         'REFRESH_TOKEN') if ref_token is None else ref_token
     if REFRESH_TOKEN is None:
@@ -28,9 +39,9 @@ def refresh_token(ref_token=None):
             f'Failed to refresh token. {response.status_code} {response.text}')
 
     authentication_result = response.json()['AuthenticationResult']
-    #access_token = authentication_result['AccessToken']
-    #expires_in = authentication_result['ExpiresIn']
+    # access_token = authentication_result['AccessToken']
+    # expires_in = authentication_result['ExpiresIn']
     id_token = authentication_result['IdToken']
-    #token_type = authentication_result['TokenType']
+    # token_type = authentication_result['TokenType']
 
     return id_token
