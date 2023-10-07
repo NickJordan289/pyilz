@@ -1,13 +1,11 @@
 from pyilz.get_game_state import get_game_state
 from pyilz.parse_land import parse_land
 from pyilz.get_plots import get_plot_metadata
-import dotenv
 import json
+import importlib.resources
 
-dotenv.load_dotenv()
-
-reference_data = json.load(open('pyilz/reference_data.json', 'r'))
-
+with importlib.resources.open_text("pyilz", "reference_data.json") as file:
+    reference_data = json.load(file)
 
 def nft_to_iz(x, y):
     """
@@ -75,4 +73,6 @@ def metadata_to_array(gamestate):
 
 
 if __name__ == '__main__':
+    import dotenv
+    dotenv.load_dotenv()
     print(metadata_to_array(get_game_state()['data'][1]['data']))
