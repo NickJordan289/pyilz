@@ -35,6 +35,7 @@ def get_timers(ca, aa, completed, init=False):
         for i, row in ca.iterrows():
             end_time = row['currentActivity.EndTime'].replace(
                 tzinfo=pytz.utc)
+            end_unix = end_time.timestamp()
             cur_time = pd.Timestamp.now(tz='utc')
             diff_minutes = (end_time - cur_time).total_seconds() / 60
 
@@ -54,11 +55,13 @@ def get_timers(ca, aa, completed, init=False):
                                                'type': row['currentActivity.Type'],
                                                'minutes': diff_minutes,
                                                'notified': notified,
-                                               'percentage': percentage}
+                                               'percentage': percentage,
+                                               'end': end_unix}
 
     if aa is not None:
         for i, row in aa.iterrows():
             end_time = row['autoActivity.EndTime'].replace(tzinfo=pytz.utc)
+            end_unix = end_time.timestamp()
             cur_time = pd.Timestamp.now(tz='utc')
             diff_minutes = (end_time - cur_time).total_seconds() / 60
 
@@ -78,12 +81,14 @@ def get_timers(ca, aa, completed, init=False):
                                             'type': row['autoActivity.Type'],
                                             'minutes': diff_minutes,
                                             'notified': notified,
-                                            'percentage': percentage}
+                                            'percentage': percentage,
+                                            'end': end_unix}
 
     if completed is not None:
         for i, row in completed.iterrows():
             end_time = row['completedActivity.EndTime'].replace(
                 tzinfo=pytz.utc)
+            end_unix = end_time.timestamp()
             cur_time = pd.Timestamp.now(tz='utc')
             diff_minutes = (end_time - cur_time).total_seconds() / 60
 
@@ -103,7 +108,8 @@ def get_timers(ca, aa, completed, init=False):
                                                'type': row['completedActivity.Type'],
                                                'minutes': diff_minutes,
                                                'notified': notified,
-                                               'percentage': percentage}
+                                               'percentage': percentage,
+                                               'end': end_unix}
 
     # sort by minutes
     timers = {k: v for k, v in sorted(
