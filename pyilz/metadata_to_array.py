@@ -7,6 +7,7 @@ import importlib.resources
 with importlib.resources.open_text("pyilz", "reference_data.json") as file:
     reference_data = json.load(file)
 
+
 def nft_to_iz(x, y):
     """
     Converts NFT coordinates to Iz dimensions.
@@ -70,6 +71,24 @@ def metadata_to_array(gamestate):
         output += f"[\"{v['buildingTypeString']}\",{y},{x}],"
     output = f'[{output[:-1]}]'
     return output
+
+
+def import_string_to_array(string):
+    """
+    Converts a string representation of an array of building types and their coordinates
+    into a list of dictionaries, where each dictionary represents a building type and its coordinates.
+
+    Args:
+    string (str): A string representation of an array of building types and their coordinates.
+                  The string should be in the format '[buildingTypeString1, X1, Y1, buildingTypeString2, X2, Y2, ...]'
+
+    Returns:
+    list: A list of dictionaries, where each dictionary represents a building type and its coordinates.
+          Each dictionary has the keys 'buildingTypeString', 'X', and 'Y'.
+    """
+    s = string.replace('[', '').replace(']', '').replace(
+        '"', '').replace(' ', '').split(',')
+    return [{'buildingTypeString': s[i], 'X':int(s[i+1]), 'Y':int(s[i+2])} for i in range(0, len(s), 3)]
 
 
 if __name__ == '__main__':

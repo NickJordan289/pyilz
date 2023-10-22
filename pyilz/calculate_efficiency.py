@@ -1,5 +1,6 @@
 import math
-from get_buildings import get_building_dimensions, get_building_starting_efficiency, get_building_radius
+from pyilz.get_buildings import get_building_dimensions, get_building_starting_efficiency, get_building_radius
+from pyilz.metadata_to_array import import_string_to_array
 
 
 def calculate_efficiency(building_a_pos, building_a_wxh, building_b_pos, building_b_wxh, base_efficiency=80, power=20, radius=7, debuff=False):
@@ -204,24 +205,6 @@ def get_power_influence(this, other):
     if not inf:
         inf = influence_values.get((this['buildingTypeString'][:-2], '*'), 0)
     return inf
-
-
-def import_string_to_array(string):
-    """
-    Converts a string representation of an array of building types and their coordinates
-    into a list of dictionaries, where each dictionary represents a building type and its coordinates.
-
-    Args:
-    string (str): A string representation of an array of building types and their coordinates.
-                  The string should be in the format '[buildingTypeString1, X1, Y1, buildingTypeString2, X2, Y2, ...]'
-
-    Returns:
-    list: A list of dictionaries, where each dictionary represents a building type and its coordinates.
-          Each dictionary has the keys 'buildingTypeString', 'X', and 'Y'.
-    """
-    s = string.replace('[', '').replace(']', '').replace(
-        '"', '').replace(' ', '').split(',')
-    return [{'buildingTypeString': s[i], 'X':int(s[i+1]), 'Y':int(s[i+2])} for i in range(0, len(s), 3)]
 
 
 def compute(import_string, printing=False):
