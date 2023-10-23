@@ -43,6 +43,7 @@ def get_timers(ca, aa, completed, init=False):
             # and currentActivity.EndTime
             start_time = row['currentActivity.StartTime'].replace(
                 tzinfo=pytz.utc)
+            start_unix = start_time.timestamp()
             total_time = (end_time - start_time).total_seconds() / 60
             elapsed_time = (cur_time - start_time).total_seconds() / 60
             percentage = elapsed_time / total_time * 100
@@ -56,7 +57,8 @@ def get_timers(ca, aa, completed, init=False):
                                                'minutes': diff_minutes,
                                                'notified': notified,
                                                'percentage': percentage,
-                                               'end': end_unix}
+                                               'end': end_unix,
+                                               'start': start_unix}
 
     if aa is not None:
         for i, row in aa.iterrows():
@@ -69,6 +71,7 @@ def get_timers(ca, aa, completed, init=False):
             # and currentActivity.EndTime
             start_time = row['autoActivity.StartTime'].replace(
                 tzinfo=pytz.utc)
+            start_unix = start_time.timestamp()
             total_time = (end_time - start_time).total_seconds() / 60
             elapsed_time = (cur_time - start_time).total_seconds() / 60
             percentage = elapsed_time / total_time * 100
@@ -82,7 +85,8 @@ def get_timers(ca, aa, completed, init=False):
                                             'minutes': diff_minutes,
                                             'notified': notified,
                                             'percentage': percentage,
-                                            'end': end_unix}
+                                            'end': end_unix,
+                                            'start': start_unix}
 
     if completed is not None:
         for i, row in completed.iterrows():
@@ -96,6 +100,7 @@ def get_timers(ca, aa, completed, init=False):
             # and currentActivity.EndTime
             start_time = row['completedActivity.StartTime'].replace(
                 tzinfo=pytz.utc)
+            start_unix = start_time.timestamp()
             total_time = (end_time - start_time).total_seconds() / 60
             elapsed_time = (cur_time - start_time).total_seconds() / 60
             percentage = elapsed_time / total_time * 100
@@ -109,7 +114,8 @@ def get_timers(ca, aa, completed, init=False):
                                                'minutes': diff_minutes,
                                                'notified': notified,
                                                'percentage': percentage,
-                                               'end': end_unix}
+                                               'end': end_unix,
+                                               'start': start_unix}
 
     # sort by minutes
     timers = {k: v for k, v in sorted(
