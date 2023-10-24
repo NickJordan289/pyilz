@@ -108,9 +108,23 @@ def get_timers(ca, aa, completed, init=False):
             notified = False
             if init and diff_minutes <= 0:
                 notified = True
+
+            # Correct type for completed buildings
+            completed_type = row['completedActivity.Type']
+
+            if 'build' in row['completedActivity.SpriteName']:
+                completed_type = 'UPGRADE'
+            elif 'scan' in row['completedActivity.SpriteName']:
+                completed_type = 'SCAN'
+            elif 'illuvials' in row['completedActivity.SpriteName']:
+                completed_type = 'RESEARCH'
+            # if no resources have been generated then it is an extract
+            elif row['fractionalGeneratedResources'] == '0':
+                completed_type = 'EXTRACT'
+
             timers[f'{row["uid"]}-current'] = {'uid': row['uid'],
                                                'name': row['buildingTypeString'],
-                                               'type': row['completedActivity.Type'],
+                                               'type': completed_type,
                                                'minutes': diff_minutes,
                                                'notified': notified,
                                                'percentage': percentage,
