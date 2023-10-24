@@ -24,7 +24,7 @@ try:
         for item in c.query("SELECT * FROM Win32_OperatingSystem"):
             s += item.SerialNumber
         return hashlib.sha1(s.encode('utf-8')).hexdigest()
-except ImportError:
+except:
     def get_device_id():
         return "default_device_id"
 
