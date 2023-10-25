@@ -29,6 +29,26 @@ def nft_to_iz(x, y):
     return x, y
 
 
+def timer_to_iz(x, y, w, h):
+    """
+    Converts timer coordinates to Iz dimensions.
+
+    Args:
+        x (int): The x-coordinate of the building.
+        y (int): The y-coordinate of the building.
+        w (int): The width of the building.
+        h (int): The height of the building.
+
+    Returns:
+        tuple: A tuple containing the x and y coordinates in Iz dimensions. Corrected for the width and height of the building.
+    """
+
+    y, x = nft_to_iz(x, y)
+    x = x-(w-2)
+    y = y-(h-2)
+    return x, y
+
+
 def get_building_reference_data(building_name):
     """
     Returns the width, height, and image of a building from the reference data.

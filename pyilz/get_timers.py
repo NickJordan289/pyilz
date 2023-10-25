@@ -1,6 +1,8 @@
 import pandas as pd
 import pytz
 import pyilz.parse_land as parse_land
+from pyilz.metadata_to_array import timer_to_iz
+from pyilz.get_buildings import get_building_dimensions
 
 
 def get_timers_from_state(gamestate):
@@ -51,6 +53,10 @@ def get_timers(ca, aa, completed, init=False):
             notified = False
             if init and diff_minutes <= 0:
                 notified = True
+
+            w, h = get_building_dimensions(row['buildingTypeString'][:-2])
+            x, y = timer_to_iz(row['x'], row['y'], w, h)
+
             timers[f'{row["uid"]}-current'] = {'uid': row['uid'],
                                                'name': row['buildingTypeString'],
                                                'type': row['currentActivity.Type'],
@@ -58,7 +64,9 @@ def get_timers(ca, aa, completed, init=False):
                                                'notified': notified,
                                                'percentage': percentage,
                                                'end': end_unix,
-                                               'start': start_unix}
+                                               'start': start_unix,
+                                               'x': x,
+                                               'y': y}
 
     if aa is not None:
         for i, row in aa.iterrows():
@@ -79,6 +87,10 @@ def get_timers(ca, aa, completed, init=False):
             notified = False
             if init and diff_minutes <= 0:
                 notified = True
+
+            w, h = get_building_dimensions(row['buildingTypeString'][:-2])
+            x, y = timer_to_iz(row['x'], row['y'], w, h)
+
             timers[f'{row["uid"]}-auto'] = {'uid': row['uid'],
                                             'name': row['buildingTypeString'],
                                             'type': row['autoActivity.Type'],
@@ -86,7 +98,9 @@ def get_timers(ca, aa, completed, init=False):
                                             'notified': notified,
                                             'percentage': percentage,
                                             'end': end_unix,
-                                            'start': start_unix}
+                                            'start': start_unix,
+                                            'x': x,
+                                            'y': y}
 
     if completed is not None:
         for i, row in completed.iterrows():
@@ -122,6 +136,9 @@ def get_timers(ca, aa, completed, init=False):
             elif row['fractionalGeneratedResources'] == '0':
                 completed_type = 'EXTRACT'
 
+            w, h = get_building_dimensions(row['buildingTypeString'][:-2])
+            x, y = timer_to_iz(row['x'], row['y'], w, h)
+
             timers[f'{row["uid"]}-current'] = {'uid': row['uid'],
                                                'name': row['buildingTypeString'],
                                                'type': completed_type,
@@ -129,7 +146,9 @@ def get_timers(ca, aa, completed, init=False):
                                                'notified': notified,
                                                'percentage': percentage,
                                                'end': end_unix,
-                                               'start': start_unix}
+                                               'start': start_unix,
+                                               'x': x,
+                                               'y': y}
 
     # sort by minutes
     timers = {k: v for k, v in sorted(
