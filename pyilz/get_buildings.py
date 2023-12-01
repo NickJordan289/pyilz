@@ -1,7 +1,6 @@
 import json
 import math
 import importlib.resources
-import json
 with importlib.resources.open_text("pyilz", "buildings.json") as file:
     buildings = json.load(file)['buildings']
 

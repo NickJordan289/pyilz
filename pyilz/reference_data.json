@@ -1,4 +1,11 @@
 {
+  "biodata": {
+    "AXOLOTL_1": "Atlas",
+    "TREE_KANGAROO_1": "Tiru",
+    "TURTLE_1": "Archie",
+    "SNAIL_1": "Tatopee",
+    "DODO_1": "Kukka"
+  },
   "activities": {
     "UPGRADE": {
       "type": "UPGRADE",

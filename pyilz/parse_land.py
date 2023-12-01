@@ -1,6 +1,6 @@
 import pandas as pd
 import xmltodict
-
+from pyilz.get_blueprints import _clean_biodata, _clean_blueprint_collection
 
 def parse_land(data):
     """
@@ -142,3 +142,41 @@ def get_buildings_and_activities(df):
     buildings = buildings.drop(columns=['buildingTypeString'])
 
     return paths, buildings, ca, aa, completed
+
+
+def parse_research_data(data):
+    data = xmltodict.parse(data)
+    research_data = data['SaveGameData']['ResearchData']
+
+    blueprint_collection = _clean_blueprint_collection(
+        research_data['blueprintCollection']['item'])
+
+    affinity_data = research_data['affinityData']
+
+    pending_research_requests = research_data['pendingResearchRequests']
+    persistent_research_counter = research_data['persistentResearchCounter']
+    return blueprint_collection, affinity_data, pending_research_requests, persistent_research_counter
+
+
+def parse_scanning_data(data):
+    data = xmltodict.parse(data)
+    scanning_data = data['SaveGameData']['ScanningData']
+
+    biodata = _clean_biodata(scanning_data['Biodata']['item'])
+
+    pending_scan_requests = scanning_data['PendingScanRequests']
+    biodata_scan_counter = scanning_data['BiodataScanCounter']
+    pity_chance_counter = scanning_data['PityChanceCounter']
+    return biodata, pending_scan_requests, biodata_scan_counter, pity_chance_counter
+
+
+if __name__ == '__main__':
+    from pyilz.get_game_state import get_game_state
+    plots = get_game_state()
+    plot = plots['data'][1]['data']
+    blueprint_collection, affinity_data, pending_research_requests, persistent_research_counter = parse_research_data(
+        plot)
+    biodata, pending_scan_requests, biodata_scan_counter, pity_chance_counter = parse_scanning_data(
+        plot)
+    import pdb
+    pdb.set_trace()
