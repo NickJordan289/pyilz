@@ -2,6 +2,7 @@ import pandas as pd
 import xmltodict
 from pyilz.get_blueprints import _clean_biodata, _clean_blueprint_collection
 
+
 def parse_land(data):
     """
     Parses the given XML data and returns a pandas dataframe of the land.
@@ -148,9 +149,14 @@ def parse_research_data(data):
     data = xmltodict.parse(data)
     research_data = data['SaveGameData']['ResearchData']
 
-    blueprint_collection = _clean_blueprint_collection(
-        research_data['blueprintCollection']['item'])
-
+    if research_data['blueprintCollection'] is None:
+        blueprint_collection = []
+    else:
+        try:
+            blueprint_collection = _clean_blueprint_collection(
+                research_data['blueprintCollection']['item'])
+        except:
+            blueprint_collection = []
     affinity_data = research_data['affinityData']
 
     pending_research_requests = research_data['pendingResearchRequests']
@@ -162,7 +168,13 @@ def parse_scanning_data(data):
     data = xmltodict.parse(data)
     scanning_data = data['SaveGameData']['ScanningData']
 
-    biodata = _clean_biodata(scanning_data['Biodata']['item'])
+    if scanning_data['Biodata'] is None:
+        biodata = []
+    else:
+        try:
+            biodata = _clean_biodata(scanning_data['Biodata']['item'])
+        except:
+            biodata = []
 
     pending_scan_requests = scanning_data['PendingScanRequests']
     biodata_scan_counter = scanning_data['BiodataScanCounter']
