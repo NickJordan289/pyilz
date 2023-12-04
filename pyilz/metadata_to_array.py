@@ -67,7 +67,7 @@ def get_building_reference_data(building_name):
             img = building['img']
         return building['w'], building['h'], img
     else:
-        print(building_name, 'not in reference data')
+        # print(building_name, 'not in reference data')
         return 2, 2, None
 
 
@@ -108,7 +108,7 @@ def import_string_to_array(string):
     """
     s = string.replace('[', '').replace(']', '').replace(
         '"', '').replace(' ', '').split(',')
-    return [{'buildingTypeString': s[i], 'X':int(s[i+1]), 'Y':int(s[i+2])} for i in range(0, len(s), 3)]
+    return [{'buildingTypeString': s[i], 'X': int(s[i+1]), 'Y': int(s[i+2])} for i in range(0, len(s), 3)]
 
 
 if __name__ == '__main__':

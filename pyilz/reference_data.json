@@ -316,6 +316,42 @@
       "img": "images/hydrogen-icon.png",
       "action": "EXTRACT_HYDROGEN",
       "output": "hydrogen"
+    },
+    "MARKETPLACE": {
+      "w": 3,
+      "h": 3
+    },
+    "ZERO_POINT_TRANSDUCER": {
+      "w": 2,
+      "h": 2
+    },
+    "MATERIALS_LAB": {
+      "w": 2,
+      "h": 2
+    },
+    "DATA_BANK": {
+      "w": 2,
+      "h": 2
+    },
+    "HOLOGRAPHIC_STATUE": {
+      "w": 2,
+      "h": 2
+    },
+    "CRYPTON_RIFT": {
+      "w": 2,
+      "h": 2
+    },
+    "SOLON_TRENCH": {
+      "w": 2,
+      "h": 2
+    },
+    "HYPERION_RESERVOIR": {
+      "w": 2,
+      "h": 2
+    },
+    "CRYSTAL_DEPOSIT": {
+      "w": 2,
+      "h": 2
     }
   }
 }
